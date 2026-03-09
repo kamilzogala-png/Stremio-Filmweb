@@ -1,6 +1,6 @@
 {
   "username": "7owca7",
-  "updatedAt": "2026-03-09T20:15:45.281Z",
+  "updatedAt": "2026-03-09T20:21:37.492Z",
   "catalogs": {
     "movie": [
       {
@@ -33,7 +33,7 @@
         "poster": "https://live.metahub.space/poster/small/tt32093575/img",
         "posterShape": "poster",
         "background": "https://live.metahub.space/background/medium/tt32093575/img",
-        "description": "Twenty-six years after outrunning a suspiciously familiar masked killer, the Core Four are back in the killer's crosshairs and no horror movie IP is safe.",
+        "description": "The sixth installment in the franchise. Plot TBA.",
         "releaseInfo": "2026",
         "year": 2026,
         "website": "https://www.filmweb.pl/film/Straszny+film-10084281",
@@ -65,7 +65,7 @@
           "Drama",
           "Comedy"
         ],
-        "imdbRating": "7.2",
+        "imdbRating": "7.0",
         "runtime": "110 min"
       },
       {
@@ -4127,23 +4127,17 @@
         "id": "tt30852970",
         "type": "movie",
         "name": "Kochanka, stalkerka, zabójczyni",
-        "poster": "https://images.metahub.space/poster/small/tt30852970/img",
+        "poster": "https://fwcdn.pl/fpo/82/42/10048242/8113372_1.10.webp",
         "posterShape": "poster",
-        "background": "https://images.metahub.space/background/medium/tt30852970/img",
-        "description": "In this twisting documentary, a mechanic tries online dating for the first time and meets a woman who takes romantic obsession to a deadly extreme.",
+        "background": "https://fwcdn.pl/fpo/82/42/10048242/8113372_1.10.webp",
+        "description": "Lover, Stalker, Killer � 2024 � Added 2024-02-12",
         "releaseInfo": "2024",
         "year": 2024,
         "website": "https://www.filmweb.pl/film/Kochanka%2C+stalkerka%2C+zab%C3%B3jczyni-10048242",
         "filmwebId": "10048242",
         "originalName": "Lover, Stalker, Killer",
         "addedAt": 1707747007235,
-        "addedAtISO": "2024-02-12T14:10:07.235Z",
-        "genres": [
-          "Documentary",
-          "Crime"
-        ],
-        "imdbRating": "7.0",
-        "runtime": "90 min"
+        "addedAtISO": "2024-02-12T14:10:07.235Z"
       },
       {
         "id": "tt7693316",
