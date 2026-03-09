@@ -4,6 +4,7 @@ const nameToImdb = require('name-to-imdb');
 
 const BASE_URL = 'https://www.filmweb.pl';
 const API_BASE_URL = `${BASE_URL}/api/v1`;
+const CINEMETA_URL = 'https://v3-cinemeta.strem.io/meta';
 const OUTPUT_PATH = path.join(__dirname, '..', 'data', 'watchlist.json');
 const username = process.env.FILMWEB_USERNAME || '7owca7';
 const CONCURRENCY = 8;
@@ -11,6 +12,13 @@ const CONCURRENCY = 8;
 const API_TYPE_BY_STREMIO_TYPE = {
   movie: 'film',
   series: 'serial'
+};
+
+const MANUAL_IMDB_OVERRIDES = {
+  movie: {
+    '762774': 'tt5478534'
+  },
+  series: {}
 };
 
 async function main() {
@@ -29,14 +37,8 @@ async function main() {
     updatedAt: new Date().toISOString(),
     catalogs,
     stats: {
-      movie: {
-        scraped: rawCatalogs.movie.length,
-        matched: catalogs.movie.filter((item) => String(item.id || '').startsWith('tt')).length
-      },
-      series: {
-        scraped: rawCatalogs.series.length,
-        matched: catalogs.series.filter((item) => String(item.id || '').startsWith('tt')).length
-      }
+      movie: buildStats(rawCatalogs.movie, catalogs.movie),
+      series: buildStats(rawCatalogs.series, catalogs.series)
     }
   };
 
@@ -44,6 +46,13 @@ async function main() {
   console.log(`Saved Filmweb watchlist for ${username} to ${OUTPUT_PATH}`);
   console.log(`Movies fetched: ${rawCatalogs.movie.length}, matched IMDb: ${payload.stats.movie.matched}`);
   console.log(`Series fetched: ${rawCatalogs.series.length}, matched IMDb: ${payload.stats.series.matched}`);
+}
+
+function buildStats(rawItems, enrichedItems) {
+  return {
+    scraped: rawItems.length,
+    matched: enrichedItems.filter((item) => String(item.id || '').startsWith('tt')).length
+  };
 }
 
 async function fetchWatchlistCatalog(type) {
@@ -74,7 +83,7 @@ function buildCatalogItem(info, type) {
     poster,
     posterShape: type === 'series' ? 'regular' : 'poster',
     background: poster,
-    description: buildDescription(info),
+    description: buildFilmwebDescription(info),
     releaseInfo,
     year: info.year || undefined,
     website: `${BASE_URL}/${websiteType}/${encodeURIComponent(info.title).replace(/%20/g, '+')}-${info.id}`,
@@ -87,17 +96,22 @@ async function enrichCatalog(items, type) {
   const enriched = [];
 
   for (const item of items) {
-    const imdbId = await resolveImdbId(item, type);
-    enriched.push({
-      ...item,
-      id: imdbId || item.id
-    });
+    enriched.push(await enrichItem(item, type));
   }
 
   return enriched;
 }
 
-async function resolveImdbId(item, type) {
+async function enrichItem(item, type) {
+  const overrideId = MANUAL_IMDB_OVERRIDES[type]?.[item.filmwebId];
+  if (overrideId) {
+    const overrideMeta = await fetchCinemetaMeta(type, overrideId);
+    if (overrideMeta) {
+      return mergeCinemetaData(item, overrideId, overrideMeta);
+    }
+    return { ...item, id: overrideId };
+  }
+
   const candidates = [item.originalName, item.name]
     .filter(Boolean)
     .map((value) => value.trim())
@@ -105,12 +119,21 @@ async function resolveImdbId(item, type) {
 
   for (const candidate of candidates) {
     const imdbId = await lookupImdbId({ name: candidate, type, year: item.year });
-    if (imdbId) {
-      return imdbId;
+    if (!imdbId) {
+      continue;
+    }
+
+    const meta = await fetchCinemetaMeta(type, imdbId);
+    if (meta && isYearCompatible(item, meta)) {
+      return mergeCinemetaData(item, imdbId, meta);
+    }
+
+    if (isYearCompatible(item, { releaseInfo: item.releaseInfo })) {
+      return { ...item, id: imdbId };
     }
   }
 
-  return null;
+  return item;
 }
 
 function lookupImdbId(query) {
@@ -134,10 +157,47 @@ async function fetchJson(url) {
   });
 
   if (!response.ok) {
-    throw new Error(`Filmweb request failed (${response.status}) for ${url}`);
+    throw new Error(`Request failed (${response.status}) for ${url}`);
   }
 
   return response.json();
+}
+
+async function fetchCinemetaMeta(type, imdbId) {
+  try {
+    const response = await fetch(`${CINEMETA_URL}/${type}/${imdbId}.json`);
+    if (!response.ok) {
+      return null;
+    }
+
+    const payload = await response.json();
+    return payload?.meta || null;
+  } catch (error) {
+    return null;
+  }
+}
+
+function isYearCompatible(item, meta) {
+  const metaYear = extractYear(meta.releaseInfo);
+  if (item.year && metaYear && Math.abs(item.year - metaYear) > 1) {
+    return false;
+  }
+
+  return true;
+}
+
+function mergeCinemetaData(item, imdbId, meta) {
+  return {
+    ...item,
+    id: imdbId,
+    poster: meta.poster || item.poster,
+    background: meta.background || item.background || meta.poster || item.poster,
+    description: meta.description || item.description,
+    releaseInfo: meta.releaseInfo || item.releaseInfo,
+    genres: meta.genres || undefined,
+    imdbRating: meta.imdbRating || undefined,
+    runtime: meta.runtime || undefined
+  };
 }
 
 function normalizePosterPath(posterPath) {
@@ -148,7 +208,7 @@ function normalizePosterPath(posterPath) {
   return `https://fwcdn.pl/fpo${posterPath.replace('.$.jpg', '.10.webp')}`;
 }
 
-function buildDescription(info) {
+function buildFilmwebDescription(info) {
   const parts = [];
   if (info.originalTitle && info.originalTitle !== info.title) {
     parts.push(info.originalTitle);
@@ -157,6 +217,11 @@ function buildDescription(info) {
     parts.push(String(info.year));
   }
   return parts.join(' • ');
+}
+
+function extractYear(value) {
+  const match = String(value || '').match(/(19|20)\d{2}/);
+  return match ? Number(match[0]) : null;
 }
 
 async function mapWithConcurrency(items, concurrency, iteratee) {
