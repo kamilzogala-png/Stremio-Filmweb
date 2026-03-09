@@ -5,7 +5,7 @@ const profile = getStoredProfile();
 
 const manifest = {
   id: 'com.fgame.filmweb.watchlist.synced',
-  version: '0.4.0',
+  version: '0.4.1',
   name: 'Filmweb Watchlist Sync',
   description: `Shows the synced public Filmweb watchlist for ${profile.username || 'a Filmweb user'}.`,
   resources: ['catalog', 'meta'],
