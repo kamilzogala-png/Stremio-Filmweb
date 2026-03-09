@@ -40,26 +40,38 @@ builder.defineCatalogHandler(async (args) => {
   const username = ((args.config || {}).username || '').trim();
 
   if (!username) {
-    throw new Error('Filmweb profile name is required.');
+    console.error('Missing Filmweb username in config');
+    return { metas: [] };
   }
 
   if (args.id !== `filmweb-watchlist-${args.type}`) {
     return { metas: [] };
   }
 
-  const metas = await getWatchlistCatalog({
-    username,
-    type: args.type
-  });
+  try {
+    const metas = await getWatchlistCatalog({
+      username,
+      type: args.type
+    });
 
-  return { metas };
+    return { metas };
+  } catch (error) {
+    console.error('Catalog error', {
+      username,
+      type: args.type,
+      message: error && error.message,
+      stack: error && error.stack
+    });
+    return { metas: [] };
+  }
 });
 
 builder.defineMetaHandler(async (args) => {
   const username = ((args.config || {}).username || '').trim();
 
   if (!username) {
-    throw new Error('Filmweb profile name is required.');
+    console.error('Missing Filmweb username in meta config');
+    return { meta: null };
   }
 
   const [prefix, encodedUsername, itemType, itemKey] = String(args.id || '').split(':');
@@ -68,14 +80,25 @@ builder.defineMetaHandler(async (args) => {
     return { meta: null };
   }
 
-  const metas = await getWatchlistCatalog({
-    username,
-    type: args.type
-  });
+  try {
+    const metas = await getWatchlistCatalog({
+      username,
+      type: args.type
+    });
 
-  const meta = metas.find((entry) => entry.id === args.id) || null;
+    const meta = metas.find((entry) => entry.id === args.id) || null;
 
-  return { meta };
+    return { meta };
+  } catch (error) {
+    console.error('Meta error', {
+      username,
+      type: args.type,
+      id: args.id,
+      message: error && error.message,
+      stack: error && error.stack
+    });
+    return { meta: null };
+  }
 });
 
 serveHTTP(builder.getInterface(), {
