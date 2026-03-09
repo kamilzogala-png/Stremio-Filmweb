@@ -1,0 +1,696 @@
+{
+  "username": "7owca7",
+  "updatedAt": "2026-03-09T19:04:51.644Z",
+  "catalogs": {
+    "movie": [
+      {
+        "id": "filmweb:7owca7:movie:film-2025",
+        "type": "movie",
+        "name": "Bez wyjścia",
+        "poster": "https://fwcdn.pl/fpo/87/16/10058716/8227585.10.webp",
+        "posterShape": "poster",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/87/16/10058716/8227585.10.webp",
+        "website": "https://www.filmweb.pl/film/Bez+wyj%C5%9Bcia-2025-10058716"
+      },
+      {
+        "id": "filmweb:7owca7:movie:film-2026",
+        "type": "movie",
+        "name": "Straszny film",
+        "poster": "https://fwcdn.pl/fpo/42/81/10084281/8232407.10.webp",
+        "posterShape": "poster",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/42/81/10084281/8232407.10.webp",
+        "website": "https://www.filmweb.pl/film/Straszny+film-2026-10084281"
+      },
+      {
+        "id": "filmweb:7owca7:movie:film-2008",
+        "type": "movie",
+        "name": "Jumper",
+        "poster": "https://fwcdn.pl/fpo/29/87/272987/7179584_2.10.webp",
+        "posterShape": "poster",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/29/87/272987/7179584_2.10.webp",
+        "website": "https://www.filmweb.pl/film/Jumper-2008-272987"
+      },
+      {
+        "id": "filmweb:7owca7:movie:film-1995",
+        "type": "movie",
+        "name": "Młodzi gniewni",
+        "poster": "https://fwcdn.pl/fpo/79/61/7961/8023964_1.10.webp",
+        "posterShape": "poster",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/79/61/7961/8023964_1.10.webp",
+        "website": "https://www.filmweb.pl/film/M%C5%82odzi+gniewni-1995-7961"
+      },
+      {
+        "id": "filmweb:7owca7:movie:film-2027",
+        "type": "movie",
+        "name": "The Batman Part II",
+        "posterShape": "poster",
+        "description": "The Batman Part II",
+        "website": "https://www.filmweb.pl/film/The+Batman+Part+II-2027-10045797"
+      },
+      {
+        "id": "filmweb:7owca7:movie:film-2013",
+        "type": "movie",
+        "name": "6 kroków",
+        "poster": "https://fwcdn.pl/fpo/76/64/697664/7584451_2.10.webp",
+        "posterShape": "poster",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/76/64/697664/7584451_2.10.webp",
+        "website": "https://www.filmweb.pl/film/6+krok%C3%B3w-2013-697664"
+      },
+      {
+        "id": "filmweb:7owca7:movie:film-2017",
+        "type": "movie",
+        "name": "Pilgrimage",
+        "poster": "https://fwcdn.pl/fpo/01/03/730103/7812913_1.10.webp",
+        "posterShape": "poster",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/01/03/730103/7812913_1.10.webp",
+        "website": "https://www.filmweb.pl/film/Pilgrimage-2017-730103"
+      },
+      {
+        "id": "filmweb:7owca7:movie:film-2003",
+        "type": "movie",
+        "name": "Rekrut",
+        "poster": "https://fwcdn.pl/fpo/33/34/33334/6900541_1.10.webp",
+        "posterShape": "poster",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/33/34/33334/6900541_1.10.webp",
+        "website": "https://www.filmweb.pl/film/Rekrut-2003-33334"
+      },
+      {
+        "id": "filmweb:7owca7:movie:film-1993",
+        "type": "movie",
+        "name": "Życie Carlita",
+        "poster": "https://fwcdn.pl/fpo/10/94/1094/7022344_1.10.webp",
+        "posterShape": "poster",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/10/94/1094/7022344_1.10.webp",
+        "website": "https://www.filmweb.pl/film/%C5%BBycie+Carlita-1993-1094"
+      },
+      {
+        "id": "filmweb:7owca7:movie:film-2015",
+        "type": "movie",
+        "name": "Sicario",
+        "poster": "https://fwcdn.pl/fpo/31/03/713103/7701350_2.10.webp",
+        "posterShape": "poster",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/31/03/713103/7701350_2.10.webp",
+        "website": "https://www.filmweb.pl/film/Sicario-2015-713103"
+      },
+      {
+        "id": "filmweb:7owca7:movie:film-2007",
+        "type": "movie",
+        "name": "Aż poleje się krew",
+        "poster": "https://fwcdn.pl/fpo/91/66/239166/7185094_2.10.webp",
+        "posterShape": "poster",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/91/66/239166/7185094_2.10.webp",
+        "website": "https://www.filmweb.pl/film/A%C5%BC+poleje+si%C4%99+krew-2007-239166"
+      },
+      {
+        "id": "filmweb:7owca7:movie:film-2023",
+        "type": "movie",
+        "name": "Recepta na przekręt",
+        "poster": "https://fwcdn.pl/fpo/64/96/10036496/8095187_2.10.webp",
+        "posterShape": "poster",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/64/96/10036496/8095187_2.10.webp",
+        "website": "https://www.filmweb.pl/film/Recepta+na+przekr%C4%99t-2023-10036496"
+      },
+      {
+        "id": "filmweb:7owca7:movie:film-2002",
+        "type": "movie",
+        "name": "Płatne w całości",
+        "poster": "https://fwcdn.pl/fpo/58/04/35804/7568730_1.10.webp",
+        "posterShape": "poster",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/58/04/35804/7568730_1.10.webp",
+        "website": "https://www.filmweb.pl/film/P%C5%82atne+w+ca%C5%82o%C5%9Bci-2002-35804"
+      },
+      {
+        "id": "filmweb:7owca7:movie:film-2011",
+        "type": "movie",
+        "name": "Moneyball",
+        "poster": "https://fwcdn.pl/fpo/08/38/490838/7415109_1.10.webp",
+        "posterShape": "poster",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/08/38/490838/7415109_1.10.webp",
+        "website": "https://www.filmweb.pl/film/Moneyball-2011-490838"
+      },
+      {
+        "id": "filmweb:7owca7:movie:film-2012",
+        "type": "movie",
+        "name": "Drugie oblicze",
+        "poster": "https://fwcdn.pl/fpo/43/52/614352/7546646_1.10.webp",
+        "posterShape": "poster",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/43/52/614352/7546646_1.10.webp",
+        "website": "https://www.filmweb.pl/film/Drugie+oblicze-2012-614352"
+      },
+      {
+        "id": "filmweb:7owca7:movie:film-2019",
+        "type": "movie",
+        "name": "Krwawa zemsta",
+        "poster": "https://fwcdn.pl/fpo/67/91/826791/7880027_1.10.webp",
+        "posterShape": "poster",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/67/91/826791/7880027_1.10.webp",
+        "website": "https://www.filmweb.pl/film/Krwawa+zemsta-2019-826791"
+      },
+      {
+        "id": "filmweb:7owca7:movie:film-2001",
+        "type": "movie",
+        "name": "Dzień próby",
+        "poster": "https://fwcdn.pl/fpo/16/86/31686/7536874_1.10.webp",
+        "posterShape": "poster",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/16/86/31686/7536874_1.10.webp",
+        "website": "https://www.filmweb.pl/film/Dzie%C5%84+pr%C3%B3by-2001-31686"
+      },
+      {
+        "id": "filmweb:7owca7:movie:film-2021",
+        "type": "movie",
+        "name": "Mortal Kombat",
+        "poster": "https://fwcdn.pl/fpo/78/05/107805/7948708_2.10.webp",
+        "posterShape": "poster",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/78/05/107805/7948708_2.10.webp",
+        "website": "https://www.filmweb.pl/film/Mortal+Kombat-2021-107805"
+      },
+      {
+        "id": "filmweb:7owca7:movie:film-1997",
+        "type": "movie",
+        "name": "Adwokat diabła",
+        "poster": "https://fwcdn.pl/fpo/00/02/2/6956729_1.10.webp",
+        "posterShape": "poster",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/00/02/2/6956729_1.10.webp",
+        "website": "https://www.filmweb.pl/film/Adwokat+diab%C5%82a-1997-2"
+      },
+      {
+        "id": "filmweb:7owca7:movie:film-1940",
+        "type": "movie",
+        "name": "Fantazja",
+        "poster": "https://fwcdn.pl/fpo/63/16/36316/7363254_2.10.webp",
+        "posterShape": "poster",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/63/16/36316/7363254_2.10.webp",
+        "website": "https://www.filmweb.pl/film/Fantazja-1940-36316"
+      },
+      {
+        "id": "filmweb:7owca7:movie:film-2022",
+        "type": "movie",
+        "name": "Najemnik",
+        "poster": "https://fwcdn.pl/fpo/07/92/10000792/8021784_2.10.webp",
+        "posterShape": "poster",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/07/92/10000792/8021784_2.10.webp",
+        "website": "https://www.filmweb.pl/film/Najemnik-2022-10000792"
+      },
+      {
+        "id": "filmweb:7owca7:movie:film-2024",
+        "type": "movie",
+        "name": "Y2K",
+        "poster": "https://fwcdn.pl/fpo/96/16/10049616/8140498.10.webp",
+        "posterShape": "poster",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/96/16/10049616/8140498.10.webp",
+        "website": "https://www.filmweb.pl/film/Y2K-2024-10049616"
+      },
+      {
+        "id": "filmweb:7owca7:movie:film-2010",
+        "type": "movie",
+        "name": "Łatwa dziewczyna",
+        "poster": "https://fwcdn.pl/fpo/97/74/519774/7341406_1.10.webp",
+        "posterShape": "poster",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/97/74/519774/7341406_1.10.webp",
+        "website": "https://www.filmweb.pl/film/%C5%81atwa+dziewczyna-2010-519774"
+      },
+      {
+        "id": "filmweb:7owca7:movie:film-2004",
+        "type": "movie",
+        "name": "EuroTrip",
+        "poster": "https://fwcdn.pl/fpo/81/22/108122/7695048_1.10.webp",
+        "posterShape": "poster",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/81/22/108122/7695048_1.10.webp",
+        "website": "https://www.filmweb.pl/film/EuroTrip-2004-108122"
+      },
+      {
+        "id": "filmweb:7owca7:movie:film-2028",
+        "type": "movie",
+        "name": "Fast Forever",
+        "posterShape": "poster",
+        "description": "Fast Forever",
+        "website": "https://www.filmweb.pl/film/Fast+Forever-2028-10035157"
+      },
+      {
+        "id": "filmweb:7owca7:movie:film-1989",
+        "type": "movie",
+        "name": "Indiana Jones i ostatnia krucjata",
+        "poster": "https://fwcdn.pl/fpo/12/13/1213/6900207_1.10.webp",
+        "posterShape": "poster",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/12/13/1213/6900207_1.10.webp",
+        "website": "https://www.filmweb.pl/film/Indiana+Jones+i+ostatnia+krucjata-1989-1213"
+      },
+      {
+        "id": "filmweb:7owca7:movie:film-2014",
+        "type": "movie",
+        "name": "Grand Budapest Hotel",
+        "poster": "https://fwcdn.pl/fpo/18/17/661817/7591501_1.10.webp",
+        "posterShape": "poster",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/18/17/661817/7591501_1.10.webp",
+        "website": "https://www.filmweb.pl/film/Grand+Budapest+Hotel-2014-661817"
+      },
+      {
+        "id": "filmweb:7owca7:movie:film-1999",
+        "type": "movie",
+        "name": "Zielona mila",
+        "poster": "https://fwcdn.pl/fpo/08/62/862/7517878_1.10.webp",
+        "posterShape": "poster",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/08/62/862/7517878_1.10.webp",
+        "website": "https://www.filmweb.pl/film/Zielona+mila-1999-862"
+      },
+      {
+        "id": "filmweb:7owca7:movie:film-1965",
+        "type": "movie",
+        "name": "Za kilka dolarów więcej",
+        "poster": "https://fwcdn.pl/fpo/73/90/37390/7517915_1.10.webp",
+        "posterShape": "poster",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/73/90/37390/7517915_1.10.webp",
+        "website": "https://www.filmweb.pl/film/Za+kilka+dolar%C3%B3w+wi%C4%99cej-1965-37390"
+      },
+      {
+        "id": "filmweb:7owca7:movie:film-1987",
+        "type": "movie",
+        "name": "Full Metal Jacket",
+        "poster": "https://fwcdn.pl/fpo/86/25/8625/7183752_1.10.webp",
+        "posterShape": "poster",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/86/25/8625/7183752_1.10.webp",
+        "website": "https://www.filmweb.pl/film/Full+Metal+Jacket-1987-8625"
+      },
+      {
+        "id": "filmweb:7owca7:movie:film-2006",
+        "type": "movie",
+        "name": "W pogoni za szczęściem",
+        "poster": "https://fwcdn.pl/fpo/00/46/240046/7131963_1.10.webp",
+        "posterShape": "poster",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/00/46/240046/7131963_1.10.webp",
+        "website": "https://www.filmweb.pl/film/W+pogoni+za+szcz%C4%99%C5%9Bciem-2006-240046"
+      },
+      {
+        "id": "filmweb:7owca7:movie:film-1966",
+        "type": "movie",
+        "name": "Dobry, zły i brzydki",
+        "poster": "https://fwcdn.pl/fpo/51/03/5103/7530235_1.10.webp",
+        "posterShape": "poster",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/51/03/5103/7530235_1.10.webp",
+        "website": "https://www.filmweb.pl/film/Dobry%2C+z%C5%82y+i+brzydki-1966-5103"
+      },
+      {
+        "id": "filmweb:7owca7:movie:film-1998",
+        "type": "movie",
+        "name": "Szeregowiec Ryan",
+        "poster": "https://fwcdn.pl/fpo/01/79/179/7710998_1.10.webp",
+        "posterShape": "poster",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/01/79/179/7710998_1.10.webp",
+        "website": "https://www.filmweb.pl/film/Szeregowiec+Ryan-1998-179"
+      },
+      {
+        "id": "filmweb:7owca7:movie:film-1991",
+        "type": "movie",
+        "name": "Milczenie owiec",
+        "poster": "https://fwcdn.pl/fpo/10/47/1047/8022081_1.10.webp",
+        "posterShape": "poster",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/10/47/1047/8022081_1.10.webp",
+        "website": "https://www.filmweb.pl/film/Milczenie+owiec-1991-1047"
+      },
+      {
+        "id": "filmweb:7owca7:movie:film-2009",
+        "type": "movie",
+        "name": "Bracia",
+        "poster": "https://fwcdn.pl/fpo/99/73/459973/7569264_2.10.webp",
+        "posterShape": "poster",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/99/73/459973/7569264_2.10.webp",
+        "website": "https://www.filmweb.pl/film/Bracia-2009-459973"
+      },
+      {
+        "id": "filmweb:7owca7:movie:film-2005",
+        "type": "movie",
+        "name": "Ukryte",
+        "poster": "https://fwcdn.pl/fpo/85/88/108588/7121680_2.10.webp",
+        "posterShape": "poster",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/85/88/108588/7121680_2.10.webp",
+        "website": "https://www.filmweb.pl/film/Ukryte-2005-108588"
+      },
+      {
+        "id": "filmweb:7owca7:movie:film-2020",
+        "type": "movie",
+        "name": "Tenet",
+        "poster": "https://fwcdn.pl/fpo/16/53/831653/7926046_2.10.webp",
+        "posterShape": "poster",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/16/53/831653/7926046_2.10.webp",
+        "website": "https://www.filmweb.pl/film/Tenet-2020-831653"
+      },
+      {
+        "id": "filmweb:7owca7:movie:film-1979",
+        "type": "movie",
+        "name": "Czas Apokalipsy",
+        "poster": "https://fwcdn.pl/fpo/10/92/1092/7680496_1.10.webp",
+        "posterShape": "poster",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/10/92/1092/7680496_1.10.webp",
+        "website": "https://www.filmweb.pl/film/Czas+Apokalipsy-1979-1092"
+      },
+      {
+        "id": "filmweb:7owca7:movie:film-1996",
+        "type": "movie",
+        "name": "Dzień Niepodległości",
+        "poster": "https://fwcdn.pl/fpo/52/89/5289/7988050_1.10.webp",
+        "posterShape": "poster",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/52/89/5289/7988050_1.10.webp",
+        "website": "https://www.filmweb.pl/film/Dzie%C5%84+Niepodleg%C5%82o%C5%9Bci-1996-5289"
+      },
+      {
+        "id": "filmweb:7owca7:movie:film-1988",
+        "type": "movie",
+        "name": "Sok z żuka",
+        "poster": "https://fwcdn.pl/fpo/96/41/9641/8136320.10.webp",
+        "posterShape": "poster",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/96/41/9641/8136320.10.webp",
+        "website": "https://www.filmweb.pl/film/Sok+z+%C5%BCuka-1988-9641"
+      },
+      {
+        "id": "filmweb:7owca7:movie:film-1968",
+        "type": "movie",
+        "name": "2001: Odyseja kosmiczna",
+        "poster": "https://fwcdn.pl/fpo/14/58/1458/8218035.10.webp",
+        "posterShape": "poster",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/14/58/1458/8218035.10.webp",
+        "website": "https://www.filmweb.pl/film/2001%3A+Odyseja+kosmiczna-1968-1458"
+      },
+      {
+        "id": "filmweb:7owca7:movie:film-2000",
+        "type": "movie",
+        "name": "Dinozaur",
+        "poster": "https://fwcdn.pl/fpo/13/29/1329/7807245_1.10.webp",
+        "posterShape": "poster",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/13/29/1329/7807245_1.10.webp",
+        "website": "https://www.filmweb.pl/film/Dinozaur-2000-1329"
+      },
+      {
+        "id": "filmweb:7owca7:movie:film-1985",
+        "type": "movie",
+        "name": "Idź i patrz",
+        "poster": "https://fwcdn.pl/fpo/51/85/35185/7624068_1.10.webp",
+        "posterShape": "poster",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/51/85/35185/7624068_1.10.webp",
+        "website": "https://www.filmweb.pl/film/Id%C5%BA+i+patrz-1985-35185"
+      },
+      {
+        "id": "filmweb:7owca7:movie:film-1994",
+        "type": "movie",
+        "name": "Szopy w natarciu",
+        "poster": "https://fwcdn.pl/fpo/17/08/111708/7178351_2.10.webp",
+        "posterShape": "poster",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/17/08/111708/7178351_2.10.webp",
+        "website": "https://www.filmweb.pl/film/Szopy+w+natarciu-1994-111708"
+      },
+      {
+        "id": "filmweb:7owca7:movie:film-1984",
+        "type": "movie",
+        "name": "Dawno temu w Ameryce",
+        "poster": "https://fwcdn.pl/fpo/10/38/1038/8204860.10.webp",
+        "posterShape": "poster",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/10/38/1038/8204860.10.webp",
+        "website": "https://www.filmweb.pl/film/Dawno+temu+w+Ameryce-1984-1038"
+      },
+      {
+        "id": "filmweb:7owca7:movie:film-2018",
+        "type": "movie",
+        "name": "Dwunastu odważnych",
+        "poster": "https://fwcdn.pl/fpo/30/27/783027/7840130_2.10.webp",
+        "posterShape": "poster",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/30/27/783027/7840130_2.10.webp",
+        "website": "https://www.filmweb.pl/film/Dwunastu+odwa%C5%BCnych-2018-783027"
+      },
+      {
+        "id": "filmweb:7owca7:movie:film-1980",
+        "type": "movie",
+        "name": "Wściekły Byk",
+        "poster": "https://fwcdn.pl/fpo/10/44/1044/8218731.10.webp",
+        "posterShape": "poster",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/10/44/1044/8218731.10.webp",
+        "website": "https://www.filmweb.pl/film/W%C5%9Bciek%C5%82y+Byk-1980-1044"
+      },
+      {
+        "id": "filmweb:7owca7:movie:film-2016",
+        "type": "movie",
+        "name": "La La Land",
+        "poster": "https://fwcdn.pl/fpo/88/19/718819/7774367_1.10.webp",
+        "posterShape": "poster",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/88/19/718819/7774367_1.10.webp",
+        "website": "https://www.filmweb.pl/film/La+La+Land-2016-718819"
+      },
+      {
+        "id": "filmweb:7owca7:movie:film-1983",
+        "type": "movie",
+        "name": "Człowiek z blizną",
+        "poster": "https://fwcdn.pl/fpo/48/33/4833/6935904_1.10.webp",
+        "posterShape": "poster",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/48/33/4833/6935904_1.10.webp",
+        "website": "https://www.filmweb.pl/film/Cz%C5%82owiek+z+blizn%C4%85-1983-4833"
+      }
+    ],
+    "series": [
+      {
+        "id": "filmweb:7owca7:series:serial-2016",
+        "type": "series",
+        "name": "22.11.63",
+        "poster": "https://fwcdn.pl/fpo/41/33/644133/7733706_1.10.webp",
+        "posterShape": "regular",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/41/33/644133/7733706_1.10.webp",
+        "website": "https://www.filmweb.pl/serial/22.11.63-2016-644133"
+      },
+      {
+        "id": "filmweb:7owca7:series:serial-2017",
+        "type": "series",
+        "name": "Snowfall",
+        "poster": "https://fwcdn.pl/fpo/85/50/788550/8056776_1.10.webp",
+        "posterShape": "regular",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/85/50/788550/8056776_1.10.webp",
+        "website": "https://www.filmweb.pl/serial/Snowfall-2017-788550"
+      },
+      {
+        "id": "filmweb:7owca7:series:serial-2026",
+        "type": "series",
+        "name": "Memory of a Killer",
+        "poster": "https://fwcdn.pl/fpo/31/67/10113167/8224963.10.webp",
+        "posterShape": "regular",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/31/67/10113167/8224963.10.webp",
+        "website": "https://www.filmweb.pl/serial/Memory+of+a+Killer-2026-10113167"
+      },
+      {
+        "id": "filmweb:7owca7:series:serial-2024",
+        "type": "series",
+        "name": "Kiedy ślub?",
+        "poster": "https://fwcdn.pl/fpo/45/93/10034593/8162054.10.webp",
+        "posterShape": "regular",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/45/93/10034593/8162054.10.webp",
+        "website": "https://www.filmweb.pl/serial/Kiedy+%C5%9Blub-2024-10034593"
+      },
+      {
+        "id": "filmweb:7owca7:series:serial-2011",
+        "type": "series",
+        "name": "Homeland",
+        "poster": "https://fwcdn.pl/fpo/53/58/595358/7718988_1.10.webp",
+        "posterShape": "regular",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/53/58/595358/7718988_1.10.webp",
+        "website": "https://www.filmweb.pl/serial/Homeland-2011-595358"
+      },
+      {
+        "id": "filmweb:7owca7:series:serial-2014",
+        "type": "series",
+        "name": "Skorpion",
+        "poster": "https://fwcdn.pl/fpo/06/60/710660/7741950_1.10.webp",
+        "posterShape": "regular",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/06/60/710660/7741950_1.10.webp",
+        "website": "https://www.filmweb.pl/serial/Skorpion-2014-710660"
+      },
+      {
+        "id": "filmweb:7owca7:series:serial-2019",
+        "type": "series",
+        "name": "Vinland Saga",
+        "poster": "https://fwcdn.pl/fpo/14/01/831401/7892041_1.10.webp",
+        "posterShape": "regular",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/14/01/831401/7892041_1.10.webp",
+        "website": "https://www.filmweb.pl/serial/Vinland+Saga-2019-831401"
+      },
+      {
+        "id": "filmweb:7owca7:series:serial-2025",
+        "type": "series",
+        "name": "Scheda",
+        "poster": "https://fwcdn.pl/fpo/51/93/10065193/8187374.10.webp",
+        "posterShape": "regular",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/51/93/10065193/8187374.10.webp",
+        "website": "https://www.filmweb.pl/serial/Scheda-2025-10065193"
+      },
+      {
+        "id": "filmweb:7owca7:series:serial-2021",
+        "type": "series",
+        "name": "Stacja Jedenasta",
+        "poster": "https://fwcdn.pl/fpo/35/82/843582/7986508_1.10.webp",
+        "posterShape": "regular",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/35/82/843582/7986508_1.10.webp",
+        "website": "https://www.filmweb.pl/serial/Stacja+Jedenasta-2021-843582"
+      },
+      {
+        "id": "filmweb:7owca7:series:serial-2018",
+        "type": "series",
+        "name": "Mr Inbetween",
+        "poster": "https://fwcdn.pl/fpo/09/80/810980/7857522_1.10.webp",
+        "posterShape": "regular",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/09/80/810980/7857522_1.10.webp",
+        "website": "https://www.filmweb.pl/serial/Mr+Inbetween-2018-810980"
+      },
+      {
+        "id": "filmweb:7owca7:series:serial-1990",
+        "type": "series",
+        "name": "Cyber City Oedo 808",
+        "poster": "https://fwcdn.pl/fpo/47/27/164727/7232275_1.10.webp",
+        "posterShape": "regular",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/47/27/164727/7232275_1.10.webp",
+        "website": "https://www.filmweb.pl/serial/Cyber+City+Oedo+808-1990-164727"
+      },
+      {
+        "id": "filmweb:7owca7:series:serial-2020",
+        "type": "series",
+        "name": "Ted Lasso",
+        "poster": "https://fwcdn.pl/fpo/47/51/854751/7967519_1.10.webp",
+        "posterShape": "regular",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/47/51/854751/7967519_1.10.webp",
+        "website": "https://www.filmweb.pl/serial/Ted+Lasso-2020-854751"
+      },
+      {
+        "id": "filmweb:7owca7:series:serial-2001",
+        "type": "series",
+        "name": "Kompania braci",
+        "poster": "https://fwcdn.pl/fpo/55/84/35584/7402986_1.10.webp",
+        "posterShape": "regular",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/55/84/35584/7402986_1.10.webp",
+        "website": "https://www.filmweb.pl/serial/Kompania+braci-2001-35584"
+      },
+      {
+        "id": "filmweb:7owca7:series:serial-2010",
+        "type": "series",
+        "name": "Zakazane imperium",
+        "poster": "https://fwcdn.pl/fpo/71/94/427194/7689230_2.10.webp",
+        "posterShape": "regular",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/71/94/427194/7689230_2.10.webp",
+        "website": "https://www.filmweb.pl/serial/Zakazane+imperium-2010-427194"
+      },
+      {
+        "id": "filmweb:7owca7:series:serial-1999",
+        "type": "series",
+        "name": "Rodzina Soprano",
+        "poster": "https://fwcdn.pl/fpo/54/05/35405/8145261.10.webp",
+        "posterShape": "regular",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/54/05/35405/8145261.10.webp",
+        "website": "https://www.filmweb.pl/serial/Rodzina+Soprano-1999-35405"
+      },
+      {
+        "id": "filmweb:7owca7:series:serial-2022",
+        "type": "series",
+        "name": "Ród smoka",
+        "poster": "https://fwcdn.pl/fpo/25/83/842583/8145260.10.webp",
+        "posterShape": "regular",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/25/83/842583/8145260.10.webp",
+        "website": "https://www.filmweb.pl/serial/R%C3%B3d+smoka-2022-842583"
+      },
+      {
+        "id": "filmweb:7owca7:series:serial-2023",
+        "type": "series",
+        "name": "Scavengers Reign",
+        "poster": "https://fwcdn.pl/fpo/93/37/10029337/8094572_1.10.webp",
+        "posterShape": "regular",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/93/37/10029337/8094572_1.10.webp",
+        "website": "https://www.filmweb.pl/serial/Scavengers+Reign-2023-10029337"
+      },
+      {
+        "id": "filmweb:7owca7:series:serial-2008",
+        "type": "series",
+        "name": "Breaking Bad",
+        "poster": "https://fwcdn.pl/fpo/06/68/430668/7730445_2.10.webp",
+        "posterShape": "regular",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/06/68/430668/7730445_2.10.webp",
+        "website": "https://www.filmweb.pl/serial/Breaking+Bad-2008-430668"
+      },
+      {
+        "id": "filmweb:7owca7:series:serial-2002",
+        "type": "series",
+        "name": "Prawo ulicy",
+        "poster": "https://fwcdn.pl/fpo/77/21/87721/7282667_1.10.webp",
+        "posterShape": "regular",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/77/21/87721/7282667_1.10.webp",
+        "website": "https://www.filmweb.pl/serial/Prawo+ulicy-2002-87721"
+      },
+      {
+        "id": "filmweb:7owca7:series:serial-2000",
+        "type": "series",
+        "name": "X-Men: Ewolucja",
+        "poster": "https://fwcdn.pl/fpo/50/58/95058/7968671_1.10.webp",
+        "posterShape": "regular",
+        "description": "",
+        "background": "https://fwcdn.pl/fpo/50/58/95058/7968671_1.10.webp",
+        "website": "https://www.filmweb.pl/serial/X-Men%3A+Ewolucja-2000-95058"
+      }
+    ]
+  }
+}

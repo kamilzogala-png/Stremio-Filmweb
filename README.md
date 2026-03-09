@@ -1,81 +1,53 @@
 # Filmweb Watchlist Stremio Addon
 
-This project is a Stremio addon built with the official [`stremio-addon-sdk`](https://github.com/Stremio/stremio-addon-sdk). It reads a public Filmweb profile watchlist and exposes it as two Stremio catalogs:
+This version is built for one Filmweb profile and syncs that profile automatically with GitHub Actions. The hosted addon server only reads `data/watchlist.json`, so it does not need live scraping on the server.
 
-- movies
-- series
+## How it works
 
-The user enters a Filmweb profile name on the addon configuration page inside Stremio.
+- GitHub Actions opens the public Filmweb watchlist pages for `7owca7`.
+- The workflow saves movie and series catalogs into `data/watchlist.json`.
+- The hosted addon serves that stored JSON to Stremio.
 
-## What this version does
+## Files
 
-- Uses `manifest.config` so the user can enter a Filmweb profile name.
-- Requires configuration before install.
-- Opens the public Filmweb watchlist page in a headless browser and extracts rendered cards.
-- Splits results into movie and series catalogs.
-- Works with a normal Node server.
-
-## Project structure
-
-- `server.js` sets up the Stremio manifest and handlers.
-- `src/filmweb.js` opens Filmweb and reads the rendered `wantToSee` pages.
-- `Dockerfile` packages Node, system Chrome dependencies, and the addon for BeamUp.
-- `render.yaml` is left in the repo from the Render attempt.
+- `server.js` serves stored Stremio catalogs.
+- `src/store.js` reads the synced JSON file.
+- `scripts/sync-watchlist.js` scrapes Filmweb and updates `data/watchlist.json`.
+- `.github/workflows/sync-watchlist.yml` runs the sync every 6 hours and on manual trigger.
 
 ## Local run
 
-1. Install Node.js 18 or newer.
-2. Install dependencies:
-
 ```bash
 npm install
-```
-
-3. Start the addon:
-
-```bash
 npm start
 ```
 
-4. Install in Stremio with a configured manifest URL, for example:
+Manifest URL:
 
 ```text
-http://127.0.0.1:7000/%7B%22username%22%3A%227owca7%22%7D/manifest.json
+http://127.0.0.1:7000/manifest.json
 ```
 
-## BeamUp hosting
+## GitHub Actions sync
 
-BeamUp is supported by the Stremio SDK docs. Because this addon needs Chrome for Puppeteer, use the included `Dockerfile` instead of a plain Node buildpack.
+1. Push this repo to GitHub.
+2. Open the repo on GitHub.
+3. Open `Actions`.
+4. Enable workflows if GitHub asks.
+5. Run `Sync Filmweb Watchlist` once manually.
+6. Wait for it to finish.
+7. Check that `data/watchlist.json` now contains movies and series.
 
-1. Install the CLI:
+After that, the workflow will run every 6 hours.
 
-```bash
-npm install -g beamup-cli
-```
+## Hosting
 
-2. In the project folder, run:
+Use any simple Node host for the addon server, because the server no longer needs Chrome. Render, Railway, Fly.io, BeamUp, or another plain Node host should be much easier now.
 
-```bash
-beamup
-```
+## Stremio install
 
-3. On first setup, enter:
-
-- host: `a.baby-beamup.club`
-- GitHub username: your GitHub username
-
-4. When BeamUp asks for an app name, use one that contains `docker`, for example:
+After the server is deployed, install with:
 
 ```text
-stremio-filmweb-docker
+https://YOUR-HOST/manifest.json
 ```
-
-5. After deploy, install the configured manifest URL in Stremio, for example:
-
-```text
-https://YOUR-BEAMUP-URL/%7B%22username%22%3A%227owca7%22%7D/manifest.json
-```
-
-## Important limitation
-
-Filmweb does not provide a documented public watchlist API for this use case, so this addon reads the rendered profile page in a headless browser. That means it may need updates if Filmweb changes its frontend.

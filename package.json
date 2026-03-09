@@ -1,11 +1,11 @@
 {
   "name": "filmweb-stremio-addon",
-  "version": "0.1.0",
-  "description": "Stremio addon that exposes a public Filmweb watchlist as catalogs.",
+  "version": "0.2.0",
+  "description": "Stremio addon that exposes a synced Filmweb watchlist as catalogs.",
   "main": "server.js",
   "scripts": {
-    "postinstall": "npx puppeteer browsers install chrome",
-    "start": "node server.js"
+    "start": "node server.js",
+    "sync:watchlist": "node scripts/sync-watchlist.js"
   },
   "engines": {
     "node": ">=18"
