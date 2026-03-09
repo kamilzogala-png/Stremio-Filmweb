@@ -1,6 +1,6 @@
 {
   "name": "filmweb-stremio-addon",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Stremio addon that exposes a synced Filmweb watchlist as catalogs.",
   "main": "server.js",
   "scripts": {
@@ -11,6 +11,7 @@
     "node": ">=18"
   },
   "dependencies": {
+    "name-to-imdb": "^3.0.4",
     "puppeteer": "^24.5.0",
     "stremio-addon-sdk": "^1.6.10"
   }

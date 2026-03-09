@@ -1,183 +1,178 @@
 const fs = require('fs');
 const path = require('path');
-const puppeteer = require('puppeteer');
+const nameToImdb = require('name-to-imdb');
 
 const BASE_URL = 'https://www.filmweb.pl';
-const PAGE_TIMEOUT_MS = 45000;
+const API_BASE_URL = `${BASE_URL}/api/v1`;
 const OUTPUT_PATH = path.join(__dirname, '..', 'data', 'watchlist.json');
 const username = process.env.FILMWEB_USERNAME || '7owca7';
+const CONCURRENCY = 8;
 
-const HASH_BY_TYPE = {
+const API_TYPE_BY_STREMIO_TYPE = {
   movie: 'film',
   series: 'serial'
 };
 
 async function main() {
+  const rawCatalogs = {
+    movie: await fetchWatchlistCatalog('movie'),
+    series: await fetchWatchlistCatalog('series')
+  };
+
   const catalogs = {
-    movie: await scrapeRenderedWatchlist({ username, type: 'movie', entityName: HASH_BY_TYPE.movie }),
-    series: await scrapeRenderedWatchlist({ username, type: 'series', entityName: HASH_BY_TYPE.series })
+    movie: await enrichCatalog(rawCatalogs.movie, 'movie'),
+    series: await enrichCatalog(rawCatalogs.series, 'series')
   };
 
   const payload = {
     username,
     updatedAt: new Date().toISOString(),
-    catalogs
+    catalogs,
+    stats: {
+      movie: {
+        scraped: rawCatalogs.movie.length,
+        matched: catalogs.movie.filter((item) => String(item.id || '').startsWith('tt')).length
+      },
+      series: {
+        scraped: rawCatalogs.series.length,
+        matched: catalogs.series.filter((item) => String(item.id || '').startsWith('tt')).length
+      }
+    }
   };
 
   fs.writeFileSync(OUTPUT_PATH, JSON.stringify(payload, null, 2) + '\n');
   console.log(`Saved Filmweb watchlist for ${username} to ${OUTPUT_PATH}`);
-  console.log(`Movies: ${catalogs.movie.length}, series: ${catalogs.series.length}`);
+  console.log(`Movies fetched: ${rawCatalogs.movie.length}, matched IMDb: ${payload.stats.movie.matched}`);
+  console.log(`Series fetched: ${rawCatalogs.series.length}, matched IMDb: ${payload.stats.series.matched}`);
 }
 
-async function scrapeRenderedWatchlist({ username, type, entityName }) {
-  const browser = await puppeteer.launch({
-    headless: true,
-    args: ['--no-sandbox', '--disable-setuid-sandbox']
+async function fetchWatchlistCatalog(type) {
+  const apiType = API_TYPE_BY_STREMIO_TYPE[type];
+  const entries = await fetchJson(`${API_BASE_URL}/user/${encodeURIComponent(username)}/want2see/${apiType}`);
+
+  const details = await mapWithConcurrency(entries, CONCURRENCY, async (entry) => {
+    const info = await fetchJson(`${API_BASE_URL}/title/${entry.entity}/info`);
+    return buildCatalogItem(info, type);
   });
 
-  try {
-    const page = await browser.newPage();
-    await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124 Safari/537.36');
-    await page.setViewport({ width: 1440, height: 2200 });
+  return details.filter(Boolean);
+}
 
-    const url = `${BASE_URL}/user/${encodeURIComponent(username)}#/wantToSee/${entityName}`;
-    await page.goto(url, {
-      waitUntil: 'domcontentloaded',
-      timeout: PAGE_TIMEOUT_MS
-    });
-
-    await waitForWatchlist(page, entityName);
-    await expandWatchlist(page, entityName);
-
-    const items = await page.evaluate((expectedEntityName, encodedUsername) => {
-      const hrefNeedle = expectedEntityName === 'film' ? '/film/' : '/serial/';
-      const cards = [];
-      const seen = new Set();
-
-      const root = document.querySelector('#app') || document.body;
-      const anchors = Array.from(root.querySelectorAll(`a[href*="${hrefNeedle}"]`));
-
-      const textOf = (node) => (node?.textContent || '').replace(/\s+/g, ' ').trim();
-      const cleanTitle = (value) =>
-        (value || '')
-          .replace(/\(\d{4}\)/g, '')
-          .replace(/\s{2,}/g, ' ')
-          .trim();
-
-      const extractId = (href) => {
-        const match = String(href || '').match(/-(\d{3,})\b/) || String(href || '').match(/\b(\d{3,})\b/);
-        return match ? match[1] : null;
-      };
-
-      for (const anchor of anchors) {
-        const href = anchor.getAttribute('href') || '';
-        const id = extractId(href);
-        if (!id || seen.has(id)) {
-          continue;
-        }
-
-        const container = anchor.closest('article, li, [class*="preview"], [class*="poster"], [class*="card"], [class*="item"], [class*="tile"]') || anchor.parentElement;
-        const image = container?.querySelector('img') || anchor.querySelector('img');
-        const titleCandidate = cleanTitle(
-          anchor.getAttribute('title') ||
-          image?.getAttribute('alt') ||
-          textOf(container?.querySelector('h2, h3, h4, strong')) ||
-          textOf(anchor) ||
-          textOf(container)
-        );
-
-        if (!titleCandidate || titleCandidate.length < 2) {
-          continue;
-        }
-
-        const blob = textOf(container);
-        const yearMatch = blob.match(/\b(19|20)\d{2}\b/);
-        const poster = image?.getAttribute('src') || image?.getAttribute('data-src') || image?.getAttribute('srcset')?.split(' ')[0] || null;
-        const itemType = expectedEntityName === 'film' ? 'movie' : 'series';
-        const key = `${expectedEntityName}-${id}`;
-
-        cards.push({
-          id: `filmweb:${encodedUsername}:${itemType}:${key}`,
-          type: itemType,
-          name: titleCandidate,
-          poster: normalizeUrl(poster),
-          posterShape: itemType === 'series' ? 'regular' : 'poster',
-          description: buildDescription(yearMatch ? Number(yearMatch[0]) : undefined, blob),
-          background: normalizeUrl(poster),
-          releaseInfo: yearMatch ? String(yearMatch[0]) : undefined,
-          website: normalizeUrl(href)
-        });
-        seen.add(id);
-      }
-
-      return cards;
-
-      function buildDescription(year, description) {
-        const parts = [];
-        if (year) parts.push(String(year));
-        if (description) parts.push(description);
-        return parts.join(' • ');
-      }
-
-      function normalizeUrl(value) {
-        if (!value) return undefined;
-        if (value.startsWith('http://') || value.startsWith('https://')) return value;
-        if (value.startsWith('//')) return `https:${value}`;
-        if (value.startsWith('/')) return `${location.origin}${value}`;
-        return `${location.origin}/${value}`;
-      }
-    }, entityName, encodeURIComponent(username));
-
-    if (!items.length) {
-      throw new Error(`Could not find any ${entityName} watchlist items for Filmweb user "${username}".`);
-    }
-
-    return items.filter((item) => item.type === type);
-  } finally {
-    await browser.close();
+function buildCatalogItem(info, type) {
+  if (!info?.id || !info?.title) {
+    return null;
   }
+
+  const poster = normalizePosterPath(info.posterPath);
+  const releaseInfo = info.year ? String(info.year) : undefined;
+  const websiteType = type === 'movie' ? 'film' : 'serial';
+
+  return {
+    id: `filmweb:${username}:${type}:${info.id}`,
+    type,
+    name: info.title,
+    poster,
+    posterShape: type === 'series' ? 'regular' : 'poster',
+    background: poster,
+    description: buildDescription(info),
+    releaseInfo,
+    year: info.year || undefined,
+    website: `${BASE_URL}/${websiteType}/${encodeURIComponent(info.title).replace(/%20/g, '+')}-${info.id}`,
+    filmwebId: String(info.id),
+    originalName: info.originalTitle || undefined
+  };
 }
 
-async function waitForWatchlist(page, entityName) {
-  const hrefNeedle = entityName === 'film' ? '/film/' : '/serial/';
+async function enrichCatalog(items, type) {
+  const enriched = [];
 
-  await page.waitForFunction(
-    (needle) => {
-      const root = document.querySelector('#app') || document.body;
-      return root.querySelectorAll(`a[href*="${needle}"]`).length > 0;
-    },
-    { timeout: PAGE_TIMEOUT_MS },
-    hrefNeedle
-  );
-}
-
-async function expandWatchlist(page, entityName) {
-  const hrefNeedle = entityName === 'film' ? '/film/' : '/serial/';
-  let previousCount = -1;
-  let stablePasses = 0;
-
-  for (let i = 0; i < 8 && stablePasses < 2; i += 1) {
-    const count = await page.evaluate((needle) => {
-      const root = document.querySelector('#app') || document.body;
-      return root.querySelectorAll(`a[href*="${needle}"]`).length;
-    }, hrefNeedle);
-
-    if (count === previousCount) {
-      stablePasses += 1;
-    } else {
-      stablePasses = 0;
-      previousCount = count;
-    }
-
-    await page.evaluate(() => {
-      window.scrollBy(0, window.innerHeight * 2);
+  for (const item of items) {
+    const imdbId = await resolveImdbId(item, type);
+    enriched.push({
+      ...item,
+      id: imdbId || item.id
     });
-    await delay(1200);
   }
+
+  return enriched;
 }
 
-function delay(ms) {
-  return new Promise((resolve) => setTimeout(resolve, ms));
+async function resolveImdbId(item, type) {
+  const candidates = [item.originalName, item.name]
+    .filter(Boolean)
+    .map((value) => value.trim())
+    .filter((value, index, array) => array.indexOf(value) === index);
+
+  for (const candidate of candidates) {
+    const imdbId = await lookupImdbId({ name: candidate, type, year: item.year });
+    if (imdbId) {
+      return imdbId;
+    }
+  }
+
+  return null;
+}
+
+function lookupImdbId(query) {
+  return new Promise((resolve) => {
+    nameToImdb(query, (error, imdbId) => {
+      if (error) {
+        resolve(null);
+        return;
+      }
+
+      resolve(imdbId || null);
+    });
+  });
+}
+
+async function fetchJson(url) {
+  const response = await fetch(url, {
+    headers: {
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124 Safari/537.36'
+    }
+  });
+
+  if (!response.ok) {
+    throw new Error(`Filmweb request failed (${response.status}) for ${url}`);
+  }
+
+  return response.json();
+}
+
+function normalizePosterPath(posterPath) {
+  if (!posterPath) {
+    return undefined;
+  }
+
+  return `https://fwcdn.pl/fpo${posterPath.replace('.$.jpg', '.10.webp')}`;
+}
+
+function buildDescription(info) {
+  const parts = [];
+  if (info.originalTitle && info.originalTitle !== info.title) {
+    parts.push(info.originalTitle);
+  }
+  if (info.year) {
+    parts.push(String(info.year));
+  }
+  return parts.join(' • ');
+}
+
+async function mapWithConcurrency(items, concurrency, iteratee) {
+  const results = new Array(items.length);
+  let currentIndex = 0;
+
+  const workers = Array.from({ length: Math.min(concurrency, items.length) }, async () => {
+    while (currentIndex < items.length) {
+      const index = currentIndex;
+      currentIndex += 1;
+      results[index] = await iteratee(items[index], index);
+    }
+  });
+
+  await Promise.all(workers);
+  return results;
 }
 
 main().catch((error) => {
