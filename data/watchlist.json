@@ -1,6 +1,6 @@
 {
   "username": "7owca7",
-  "updatedAt": "2026-03-09T20:21:37.492Z",
+  "updatedAt": "2026-03-09T20:52:39.487Z",
   "catalogs": {
     "movie": [
       {
@@ -132,7 +132,7 @@
           "Romance",
           "Comedy"
         ],
-        "imdbRating": "7.6",
+        "imdbRating": "7.5",
         "runtime": "100 min"
       },
       {
@@ -4127,17 +4127,23 @@
         "id": "tt30852970",
         "type": "movie",
         "name": "Kochanka, stalkerka, zabójczyni",
-        "poster": "https://fwcdn.pl/fpo/82/42/10048242/8113372_1.10.webp",
+        "poster": "https://images.metahub.space/poster/small/tt30852970/img",
         "posterShape": "poster",
-        "background": "https://fwcdn.pl/fpo/82/42/10048242/8113372_1.10.webp",
-        "description": "Lover, Stalker, Killer � 2024 � Added 2024-02-12",
+        "background": "https://images.metahub.space/background/medium/tt30852970/img",
+        "description": "In this twisting documentary, a mechanic tries online dating for the first time and meets a woman who takes romantic obsession to a deadly extreme.",
         "releaseInfo": "2024",
         "year": 2024,
         "website": "https://www.filmweb.pl/film/Kochanka%2C+stalkerka%2C+zab%C3%B3jczyni-10048242",
         "filmwebId": "10048242",
         "originalName": "Lover, Stalker, Killer",
         "addedAt": 1707747007235,
-        "addedAtISO": "2024-02-12T14:10:07.235Z"
+        "addedAtISO": "2024-02-12T14:10:07.235Z",
+        "genres": [
+          "Documentary",
+          "Crime"
+        ],
+        "imdbRating": "7.0",
+        "runtime": "90 min"
       },
       {
         "id": "tt7693316",
