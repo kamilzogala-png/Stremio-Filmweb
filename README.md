@@ -13,13 +13,14 @@ The user enters a Filmweb profile name on the addon configuration page inside St
 - Requires configuration before install.
 - Opens the public Filmweb watchlist page in a headless browser and extracts rendered cards.
 - Splits results into movie and series catalogs.
-- Works with a normal Node server, which makes free hosting on Render straightforward.
+- Works with a normal Node server.
 
 ## Project structure
 
 - `server.js` sets up the Stremio manifest and handlers.
 - `src/filmweb.js` opens Filmweb and reads the rendered `wantToSee` pages.
-- `render.yaml` lets you deploy the addon as a free Render web service.
+- `Dockerfile` packages Node, system Chrome dependencies, and the addon for BeamUp.
+- `render.yaml` is left in the repo from the Render attempt.
 
 ## Local run
 
@@ -36,52 +37,45 @@ npm install
 npm start
 ```
 
-4. Open:
+4. Install in Stremio with a configured manifest URL, for example:
 
 ```text
-http://127.0.0.1:7000/configure
+http://127.0.0.1:7000/%7B%22username%22%3A%227owca7%22%7D/manifest.json
 ```
 
-5. Enter a Filmweb profile name and install the addon into Stremio.
+## BeamUp hosting
 
-## Free hosting on Render
+BeamUp is supported by the Stremio SDK docs. Because this addon needs Chrome for Puppeteer, use the included `Dockerfile` instead of a plain Node buildpack.
 
-Render still documents a free web service tier as of March 9, 2026, and it provides HTTPS automatically, which Stremio needs for remote addon URLs.
+1. Install the CLI:
 
-1. Push this repo to GitHub.
-2. Create a new Render Web Service from the repo.
-3. Let Render detect `render.yaml`, or set these manually:
-
-```text
-Build Command: npm install
-Start Command: npm start
+```bash
+npm install -g beamup-cli
 ```
 
-4. After deploy, open:
+2. In the project folder, run:
 
-```text
-https://your-service-name.onrender.com/configure
+```bash
+beamup
 ```
 
-5. Enter the Filmweb profile name and install the addon.
+3. On first setup, enter:
 
-The manifest URL will be:
+- host: `a.baby-beamup.club`
+- GitHub username: your GitHub username
+
+4. When BeamUp asks for an app name, use one that contains `docker`, for example:
 
 ```text
-https://your-service-name.onrender.com/manifest.json
+stremio-filmweb-docker
+```
+
+5. After deploy, install the configured manifest URL in Stremio, for example:
+
+```text
+https://YOUR-BEAMUP-URL/%7B%22username%22%3A%227owca7%22%7D/manifest.json
 ```
 
 ## Important limitation
 
-Filmweb does not provide a documented public watchlist API for this use case, so this addon reads the rendered profile page in a headless browser. That is more resilient than guessing hidden APIs, but it still may need updates if Filmweb changes its frontend.
-
-If the watchlist is not loading:
-
-- make sure the Filmweb profile is public
-- confirm the profile name is correct
-- check server logs for scrape errors
-- confirm Chromium can start in the hosting environment
-
-## Next improvement I recommend
-
-The best next step is to enrich the scraped items with stable external IDs such as IMDb or TMDB IDs. That would make the catalog integrate better with other Stremio addons that rely on common IDs for streams and metadata.
+Filmweb does not provide a documented public watchlist API for this use case, so this addon reads the rendered profile page in a headless browser. That means it may need updates if Filmweb changes its frontend.
