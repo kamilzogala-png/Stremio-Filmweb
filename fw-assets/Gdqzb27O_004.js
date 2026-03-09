@@ -1,0 +1,3 @@
+(() => {
+const r=Date.now();class s{static#t="retargetingKeywords";static async saveKeyword(t,e){const a=this.#e(this.#a());return a.set(t,e),this.#r(a)}static getKeywords(){const t=this.#e(this.#a());return Array.from(t.keys())}static#e(t){return new Map(Array.from(t.entries()).filter(([,e])=>e>r))}static#a(){const t=JSON.parse(localStorage.getItem(this.#t)||"[]");return new Map(t)}static async#r(t){await window.rodo.validateStoragePurpose(this.#t)&&localStorage.setItem(this.#t,JSON.stringify(Array.from(t.entries())))}}window.globals.module.AdsRetargetingModule=s;
+})();

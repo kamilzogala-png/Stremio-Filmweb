@@ -1,0 +1,3 @@
+(() => {
+class o{static STORAGE_KEY="recently_viewed_items";static MAX_ITEMS=12;static async addItem(t){const e=this.getItems()||[],s=e.findIndex(i=>i.id===t.id);s!==-1&&e.splice(s,1),e.unshift(t),e.length>this.MAX_ITEMS&&e.pop(),await window.globals.module.StorageModule.setStorage(this.STORAGE_KEY,e)}static async removeItem(t){const s=this.getItems().filter(i=>i.id!==t);await window.globals.module.StorageModule.setStorage(this.STORAGE_KEY,s)}static getItems(){return window.globals.module.StorageModule.getStorage(this.STORAGE_KEY)||[]}static clearItems(){return window.globals.module.StorageModule.removeStorage(this.STORAGE_KEY),[]}}window.globals.module.RecentlyViewedModule=o;
+})();
