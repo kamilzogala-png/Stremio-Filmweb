@@ -16,14 +16,32 @@ function getStoredProfile() {
   };
 }
 
-function getStoredCatalog(type) {
+function getStoredCatalog(type, id = `filmweb-watchlist-${type}`) {
   const store = readStore();
-  return Array.isArray(store.catalogs?.[type]) ? store.catalogs[type] : [];
+  const items = Array.isArray(store.catalogs?.[type]) ? store.catalogs[type] : [];
+
+  switch (id) {
+    case `filmweb-watchlist-${type}`:
+      return items.slice().sort(sortByAddedAtDesc);
+    case `filmweb-premieres-${type}`:
+      return items.filter(isPremiereItem).sort(sortByAddedAtDesc);
+    default:
+      return [];
+  }
 }
 
 function getStoredMeta(type, id) {
-  const metas = getStoredCatalog(type);
+  const metas = getStoredCatalog(type, `filmweb-watchlist-${type}`);
   return metas.find((item) => item.id === id) || null;
+}
+
+function isPremiereItem(item) {
+  const currentYear = new Date().getFullYear();
+  return Number(item?.year || 0) >= currentYear || !String(item?.id || '').startsWith('tt');
+}
+
+function sortByAddedAtDesc(left, right) {
+  return Number(right?.addedAt || 0) - Number(left?.addedAt || 0);
 }
 
 module.exports = {

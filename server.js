@@ -5,7 +5,7 @@ const profile = getStoredProfile();
 
 const manifest = {
   id: 'com.fgame.filmweb.watchlist.synced',
-  version: '0.3.0',
+  version: '0.4.0',
   name: 'Filmweb Watchlist Sync',
   description: `Shows the synced public Filmweb watchlist for ${profile.username || 'a Filmweb user'}.`,
   resources: ['catalog', 'meta'],
@@ -21,6 +21,16 @@ const manifest = {
       type: 'series',
       id: 'filmweb-watchlist-series',
       name: 'Filmweb Watchlist Series'
+    },
+    {
+      type: 'movie',
+      id: 'filmweb-premieres-movie',
+      name: 'Filmweb Premiere Watchlist Movies'
+    },
+    {
+      type: 'series',
+      id: 'filmweb-premieres-series',
+      name: 'Filmweb Premiere Watchlist Series'
     }
   ]
 };
@@ -28,12 +38,8 @@ const manifest = {
 const builder = new addonBuilder(manifest);
 
 builder.defineCatalogHandler(async (args) => {
-  if (args.id !== `filmweb-watchlist-${args.type}`) {
-    return { metas: [] };
-  }
-
   return {
-    metas: getStoredCatalog(args.type)
+    metas: getStoredCatalog(args.type, args.id)
   };
 });
 

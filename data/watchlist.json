@@ -1,6 +1,6 @@
 {
   "username": "7owca7",
-  "updatedAt": "2026-03-09T20:06:13.738Z",
+  "updatedAt": "2026-03-09T20:15:45.281Z",
   "catalogs": {
     "movie": [
       {
@@ -16,6 +16,8 @@
         "website": "https://www.filmweb.pl/film/Bez+wyj%C5%9Bcia-10058716",
         "filmwebId": "10058716",
         "originalName": "Eojjeolsuga eobsda",
+        "addedAt": 1772798749932,
+        "addedAtISO": "2026-03-06T12:05:49.932Z",
         "genres": [
           "Comedy",
           "Crime",
@@ -31,12 +33,14 @@
         "poster": "https://live.metahub.space/poster/small/tt32093575/img",
         "posterShape": "poster",
         "background": "https://live.metahub.space/background/medium/tt32093575/img",
-        "description": "The sixth installment in the franchise. Plot TBA.",
+        "description": "Twenty-six years after outrunning a suspiciously familiar masked killer, the Core Four are back in the killer's crosshairs and no horror movie IP is safe.",
         "releaseInfo": "2026",
         "year": 2026,
         "website": "https://www.filmweb.pl/film/Straszny+film-10084281",
         "filmwebId": "10084281",
         "originalName": "Scary Movie",
+        "addedAt": 1772517632233,
+        "addedAtISO": "2026-03-03T06:00:32.233Z",
         "genres": [
           "Comedy",
           "Horror"
@@ -55,11 +59,13 @@
         "website": "https://www.filmweb.pl/film/Ministranci-10063927",
         "filmwebId": "10063927",
         "originalName": "Ministranci",
+        "addedAt": 1772092699570,
+        "addedAtISO": "2026-02-26T07:58:19.570Z",
         "genres": [
           "Drama",
           "Comedy"
         ],
-        "imdbRating": "7.0",
+        "imdbRating": "7.2",
         "runtime": "110 min"
       },
       {
@@ -75,6 +81,8 @@
         "website": "https://www.filmweb.pl/film/Jumper-272987",
         "filmwebId": "272987",
         "originalName": "Jumper",
+        "addedAt": 1771416667548,
+        "addedAtISO": "2026-02-18T12:11:07.548Z",
         "genres": [
           "Action",
           "Adventure",
@@ -96,6 +104,8 @@
         "website": "https://www.filmweb.pl/film/M%C5%82odzi+gniewni-7961",
         "filmwebId": "7961",
         "originalName": "Dangerous Minds",
+        "addedAt": 1771011775117,
+        "addedAtISO": "2026-02-13T19:42:55.117Z",
         "genres": [
           "Biography",
           "Drama"
@@ -116,11 +126,13 @@
         "website": "https://www.filmweb.pl/film/Solo+Mio-10107507",
         "filmwebId": "10107507",
         "originalName": "Solo Mio",
+        "addedAt": 1770297861877,
+        "addedAtISO": "2026-02-05T13:24:21.877Z",
         "genres": [
           "Romance",
           "Comedy"
         ],
-        "imdbRating": "7.5",
+        "imdbRating": "7.6",
         "runtime": "100 min"
       },
       {
@@ -136,6 +148,8 @@
         "website": "https://www.filmweb.pl/film/The+Batman+Part+II-10045797",
         "filmwebId": "10045797",
         "originalName": "The Batman Part II",
+        "addedAt": 1769894544205,
+        "addedAtISO": "2026-01-31T21:22:24.205Z",
         "genres": [
           "Mystery",
           "Drama",
@@ -155,6 +169,8 @@
         "website": "https://www.filmweb.pl/film/6+krok%C3%B3w-697664",
         "filmwebId": "697664",
         "originalName": "6 kroków",
+        "addedAt": 1768569653938,
+        "addedAtISO": "2026-01-16T13:20:53.938Z",
         "genres": [
           "Documentary",
           "Biography",
@@ -176,6 +192,8 @@
         "website": "https://www.filmweb.pl/film/Pilgrimage-730103",
         "filmwebId": "730103",
         "originalName": "Pilgrimage",
+        "addedAt": 1768484444760,
+        "addedAtISO": "2026-01-15T13:40:44.760Z",
         "genres": [
           "Action",
           "Drama",
@@ -197,6 +215,8 @@
         "website": "https://www.filmweb.pl/film/Vaiana-10033767",
         "filmwebId": "10033767",
         "originalName": "Moana",
+        "addedAt": 1767857757804,
+        "addedAtISO": "2026-01-08T07:35:57.804Z",
         "genres": [
           "Action",
           "Adventure",
@@ -216,6 +236,8 @@
         "website": "https://www.filmweb.pl/film/Krzyk+7-10050486",
         "filmwebId": "10050486",
         "originalName": "Scream 7",
+        "addedAt": 1767857711898,
+        "addedAtISO": "2026-01-08T07:35:11.898Z",
         "genres": [
           "Horror",
           "Mystery"
@@ -230,12 +252,14 @@
         "poster": "https://fwcdn.pl/fpo/68/62/10046862/8233517.10.webp",
         "posterShape": "poster",
         "background": "https://fwcdn.pl/fpo/68/62/10046862/8233517.10.webp",
-        "description": "How to Make a Killing � 2026",
+        "description": "How to Make a Killing � 2026 � Added 2026-01-01",
         "releaseInfo": "2026",
         "year": 2026,
         "website": "https://www.filmweb.pl/film/Przepis+na+morderstwo-10046862",
         "filmwebId": "10046862",
-        "originalName": "How to Make a Killing"
+        "originalName": "How to Make a Killing",
+        "addedAt": 1767298114284,
+        "addedAtISO": "2026-01-01T20:08:34.284Z"
       },
       {
         "id": "tt29344903",
@@ -250,6 +274,8 @@
         "website": "https://www.filmweb.pl/film/Brzydka+siostra-10068153",
         "filmwebId": "10068153",
         "originalName": "Den stygge stesøsteren",
+        "addedAt": 1765902559736,
+        "addedAtISO": "2025-12-16T16:29:19.736Z",
         "genres": [
           "Comedy",
           "Drama",
@@ -271,6 +297,8 @@
         "website": "https://www.filmweb.pl/film/Rekrut-33334",
         "filmwebId": "33334",
         "originalName": "The Recruit",
+        "addedAt": 1765902474869,
+        "addedAtISO": "2025-12-16T16:27:54.869Z",
         "genres": [
           "Action",
           "Thriller"
@@ -291,6 +319,8 @@
         "website": "https://www.filmweb.pl/film/%C5%BBycie+Carlita-1094",
         "filmwebId": "1094",
         "originalName": "Carlito's Way",
+        "addedAt": 1762259799061,
+        "addedAtISO": "2025-11-04T12:36:39.061Z",
         "genres": [
           "Crime",
           "Drama",
@@ -312,6 +342,8 @@
         "website": "https://www.filmweb.pl/film/Sicario-713103",
         "filmwebId": "713103",
         "originalName": "Sicario",
+        "addedAt": 1761052334256,
+        "addedAtISO": "2025-10-21T13:12:14.256Z",
         "genres": [
           "Action",
           "Crime",
@@ -333,6 +365,8 @@
         "website": "https://www.filmweb.pl/film/A%C5%BC+poleje+si%C4%99+krew-239166",
         "filmwebId": "239166",
         "originalName": "There Will Be Blood",
+        "addedAt": 1758977783443,
+        "addedAtISO": "2025-09-27T12:56:23.443Z",
         "genres": [
           "Drama"
         ],
@@ -352,6 +386,8 @@
         "website": "https://www.filmweb.pl/film/Motor+City-10090258",
         "filmwebId": "10090258",
         "originalName": "Motor City",
+        "addedAt": 1756705210557,
+        "addedAtISO": "2025-09-01T05:40:10.557Z",
         "genres": [
           "Action",
           "Crime",
@@ -372,6 +408,8 @@
         "website": "https://www.filmweb.pl/film/Together-10071441",
         "filmwebId": "10071441",
         "originalName": "Together",
+        "addedAt": 1756290264043,
+        "addedAtISO": "2025-08-27T10:24:24.043Z",
         "genres": [
           "Horror",
           "Romance"
@@ -392,6 +430,8 @@
         "website": "https://www.filmweb.pl/film/Mission%3A+Impossible+-+The+Final+Reckoning-832339",
         "filmwebId": "832339",
         "originalName": "Mission: Impossible - The Final Reckoning",
+        "addedAt": 1756290260286,
+        "addedAtISO": "2025-08-27T10:24:20.286Z",
         "genres": [
           "Action",
           "Adventure",
@@ -413,6 +453,8 @@
         "website": "https://www.filmweb.pl/film/K-popowe+%C5%82owczynie+demon%C3%B3w-10080273",
         "filmwebId": "10080273",
         "originalName": "KPop Demon Hunters",
+        "addedAt": 1756290257442,
+        "addedAtISO": "2025-08-27T10:24:17.442Z",
         "genres": [
           "Animation",
           "Action",
@@ -434,6 +476,8 @@
         "website": "https://www.filmweb.pl/film/Bling+Ring-648190",
         "filmwebId": "648190",
         "originalName": "The Bling Ring",
+        "addedAt": 1756096808538,
+        "addedAtISO": "2025-08-25T04:40:08.538Z",
         "genres": [
           "Biography",
           "Crime",
@@ -455,6 +499,8 @@
         "website": "https://www.filmweb.pl/film/Recepta+na+przekr%C4%99t-10036496",
         "filmwebId": "10036496",
         "originalName": "Pain Hustlers",
+        "addedAt": 1754164355674,
+        "addedAtISO": "2025-08-02T19:52:35.674Z",
         "genres": [
           "Crime",
           "Drama"
@@ -475,6 +521,8 @@
         "website": "https://www.filmweb.pl/film/Nie+wszystko+z%C5%82oto%2C+co+si%C4%99+%C5%9Bwieci-360916",
         "filmwebId": "360916",
         "originalName": "Fool's Gold",
+        "addedAt": 1753808292827,
+        "addedAtISO": "2025-07-29T16:58:12.827Z",
         "genres": [
           "Action",
           "Adventure",
@@ -496,6 +544,8 @@
         "website": "https://www.filmweb.pl/film/P%C5%82atne+w+ca%C5%82o%C5%9Bci-35804",
         "filmwebId": "35804",
         "originalName": "Paid in Full",
+        "addedAt": 1753624175487,
+        "addedAtISO": "2025-07-27T13:49:35.487Z",
         "genres": [
           "Action",
           "Crime",
@@ -517,6 +567,8 @@
         "website": "https://www.filmweb.pl/film/Eddington-10047992",
         "filmwebId": "10047992",
         "originalName": "Eddington",
+        "addedAt": 1753118894892,
+        "addedAtISO": "2025-07-21T17:28:14.892Z",
         "genres": [
           "Comedy",
           "Drama",
@@ -538,6 +590,8 @@
         "website": "https://www.filmweb.pl/film/Nienawistna+%C3%B3semka-714192",
         "filmwebId": "714192",
         "originalName": "The Hateful Eight",
+        "addedAt": 1751888045100,
+        "addedAtISO": "2025-07-07T11:34:05.100Z",
         "genres": [
           "Crime",
           "Drama",
@@ -559,6 +613,8 @@
         "website": "https://www.filmweb.pl/film/Moneyball-490838",
         "filmwebId": "490838",
         "originalName": "Moneyball",
+        "addedAt": 1751786974931,
+        "addedAtISO": "2025-07-06T07:29:34.931Z",
         "genres": [
           "Biography",
           "Drama",
@@ -580,6 +636,8 @@
         "website": "https://www.filmweb.pl/film/Drugie+oblicze-614352",
         "filmwebId": "614352",
         "originalName": "The Place Beyond the Pines",
+        "addedAt": 1751618433057,
+        "addedAtISO": "2025-07-04T08:40:33.057Z",
         "genres": [
           "Crime",
           "Drama",
@@ -601,6 +659,8 @@
         "website": "https://www.filmweb.pl/film/Sojusznicy-10079855",
         "filmwebId": "10079855",
         "originalName": "Heads of State",
+        "addedAt": 1750767058129,
+        "addedAtISO": "2025-06-24T12:10:58.129Z",
         "genres": [
           "Action",
           "Comedy",
@@ -622,6 +682,8 @@
         "website": "https://www.filmweb.pl/film/Krwawa+zemsta-826791",
         "filmwebId": "826791",
         "originalName": "Avengement",
+        "addedAt": 1749629781315,
+        "addedAtISO": "2025-06-11T08:16:21.315Z",
         "genres": [
           "Action",
           "Crime",
@@ -643,6 +705,8 @@
         "website": "https://www.filmweb.pl/film/Dzie%C5%84+pr%C3%B3by-31686",
         "filmwebId": "31686",
         "originalName": "Training Day",
+        "addedAt": 1749242900951,
+        "addedAtISO": "2025-06-06T20:48:20.951Z",
         "genres": [
           "Crime",
           "Drama",
@@ -664,6 +728,8 @@
         "website": "https://www.filmweb.pl/film/Mortal+Kombat-107805",
         "filmwebId": "107805",
         "originalName": "Mortal Kombat",
+        "addedAt": 1749205016667,
+        "addedAtISO": "2025-06-06T10:16:56.667Z",
         "genres": [
           "Action",
           "Adventure",
@@ -685,6 +751,8 @@
         "website": "https://www.filmweb.pl/film/Adwokat+diab%C5%82a-2",
         "filmwebId": "2",
         "originalName": "The Devil's Advocate",
+        "addedAt": 1748851775526,
+        "addedAtISO": "2025-06-02T08:09:35.526Z",
         "genres": [
           "Drama",
           "Fantasy",
@@ -706,6 +774,8 @@
         "website": "https://www.filmweb.pl/film/Lilo+%26+Stitch-10031574",
         "filmwebId": "10031574",
         "originalName": "Lilo & Stitch",
+        "addedAt": 1746372145402,
+        "addedAtISO": "2025-05-04T15:22:25.402Z",
         "genres": [
           "Action",
           "Adventure",
@@ -727,6 +797,8 @@
         "website": "https://www.filmweb.pl/film/Hurry+Up+Tomorrow-10068848",
         "filmwebId": "10068848",
         "originalName": "Hurry Up Tomorrow",
+        "addedAt": 1746372141776,
+        "addedAtISO": "2025-05-04T15:22:21.776Z",
         "genres": [
           "Thriller"
         ],
@@ -746,6 +818,8 @@
         "website": "https://www.filmweb.pl/film/Giganci+ze+stali-180280",
         "filmwebId": "180280",
         "originalName": "Real Steel",
+        "addedAt": 1745587717287,
+        "addedAtISO": "2025-04-25T13:28:37.287Z",
         "genres": [
           "Action",
           "Drama",
@@ -767,6 +841,8 @@
         "website": "https://www.filmweb.pl/film/Jestem+nim-10053249",
         "filmwebId": "10053249",
         "originalName": "Him",
+        "addedAt": 1745230477923,
+        "addedAtISO": "2025-04-21T10:14:37.923Z",
         "genres": [
           "Horror",
           "Sport"
@@ -787,6 +863,8 @@
         "website": "https://www.filmweb.pl/film/Fantazja-36316",
         "filmwebId": "36316",
         "originalName": "Fantasia",
+        "addedAt": 1744608056376,
+        "addedAtISO": "2025-04-14T05:20:56.376Z",
         "genres": [
           "Animation",
           "Family",
@@ -808,6 +886,8 @@
         "website": "https://www.filmweb.pl/film/Najemnik-10000792",
         "filmwebId": "10000792",
         "originalName": "The Contractor",
+        "addedAt": 1744209044586,
+        "addedAtISO": "2025-04-09T14:30:44.586Z",
         "genres": [
           "Action",
           "Drama",
@@ -829,6 +909,8 @@
         "website": "https://www.filmweb.pl/film/Spadkobiercy-537189",
         "filmwebId": "537189",
         "originalName": "The Descendants",
+        "addedAt": 1743580657884,
+        "addedAtISO": "2025-04-02T07:57:37.884Z",
         "genres": [
           "Comedy",
           "Drama"
@@ -849,6 +931,8 @@
         "website": "https://www.filmweb.pl/film/Y2K-10049616",
         "filmwebId": "10049616",
         "originalName": "Y2K",
+        "addedAt": 1742381165631,
+        "addedAtISO": "2025-03-19T10:46:05.631Z",
         "genres": [
           "Comedy",
           "Horror",
@@ -870,6 +954,8 @@
         "website": "https://www.filmweb.pl/film/American+Gangster-130130",
         "filmwebId": "130130",
         "originalName": "American Gangster",
+        "addedAt": 1741764786689,
+        "addedAtISO": "2025-03-12T07:33:06.689Z",
         "genres": [
           "Biography",
           "Crime",
@@ -891,6 +977,8 @@
         "website": "https://www.filmweb.pl/film/12+ma%C5%82p-1210",
         "filmwebId": "1210",
         "originalName": "Twelve Monkeys",
+        "addedAt": 1741207751899,
+        "addedAtISO": "2025-03-05T20:49:11.899Z",
         "genres": [
           "Mystery",
           "Sci-Fi",
@@ -912,6 +1000,8 @@
         "website": "https://www.filmweb.pl/film/K-PAX-31831",
         "filmwebId": "31831",
         "originalName": "K-PAX",
+        "addedAt": 1741207687785,
+        "addedAtISO": "2025-03-05T20:48:07.785Z",
         "genres": [
           "Drama",
           "Mystery",
@@ -933,6 +1023,8 @@
         "website": "https://www.filmweb.pl/film/Chaos-869777",
         "filmwebId": "869777",
         "originalName": "Havoc",
+        "addedAt": 1740727699817,
+        "addedAtISO": "2025-02-28T07:28:19.817Z",
         "genres": [
           "Action",
           "Crime",
@@ -954,6 +1046,8 @@
         "website": "https://www.filmweb.pl/film/Zabicie+%C5%9Bwi%C4%99tego+jelenia-776169",
         "filmwebId": "776169",
         "originalName": "The Killing of a Sacred Deer",
+        "addedAt": 1740346379978,
+        "addedAtISO": "2025-02-23T21:32:59.978Z",
         "genres": [
           "Drama",
           "Horror",
@@ -975,6 +1069,8 @@
         "website": "https://www.filmweb.pl/film/Lot-627908",
         "filmwebId": "627908",
         "originalName": "Flight",
+        "addedAt": 1740037298011,
+        "addedAtISO": "2025-02-20T07:41:38.011Z",
         "genres": [
           "Drama",
           "Thriller"
@@ -995,6 +1091,8 @@
         "website": "https://www.filmweb.pl/film/Odyseja-10068387",
         "filmwebId": "10068387",
         "originalName": "The Odyssey",
+        "addedAt": 1739873244179,
+        "addedAtISO": "2025-02-18T10:07:24.179Z",
         "genres": []
       },
       {
@@ -1010,6 +1108,8 @@
         "website": "https://www.filmweb.pl/film/%C5%81atwa+dziewczyna-519774",
         "filmwebId": "519774",
         "originalName": "Easy A",
+        "addedAt": 1738699553545,
+        "addedAtISO": "2025-02-04T20:05:53.545Z",
         "genres": [
           "Comedy",
           "Drama",
@@ -1031,6 +1131,8 @@
         "website": "https://www.filmweb.pl/film/Potr%C3%B3jna+granica-560560",
         "filmwebId": "560560",
         "originalName": "Triple Frontier",
+        "addedAt": 1738677729122,
+        "addedAtISO": "2025-02-04T14:02:09.122Z",
         "genres": [
           "Action",
           "Adventure",
@@ -1052,6 +1154,8 @@
         "website": "https://www.filmweb.pl/film/Kolejny+pi%C4%85tek-33362",
         "filmwebId": "33362",
         "originalName": "Friday After Next",
+        "addedAt": 1738592854441,
+        "addedAtISO": "2025-02-03T14:27:34.441Z",
         "genres": [
           "Comedy",
           "Drama"
@@ -1072,6 +1176,8 @@
         "website": "https://www.filmweb.pl/film/EuroTrip-108122",
         "filmwebId": "108122",
         "originalName": "EuroTrip",
+        "addedAt": 1738590955974,
+        "addedAtISO": "2025-02-03T13:55:55.974Z",
         "genres": [
           "Comedy"
         ],
@@ -1091,6 +1197,8 @@
         "website": "https://www.filmweb.pl/film/Jestem+legend%C4%85-217801",
         "filmwebId": "217801",
         "originalName": "I Am Legend",
+        "addedAt": 1738580833634,
+        "addedAtISO": "2025-02-03T11:07:13.634Z",
         "genres": [
           "Drama",
           "Horror",
@@ -1112,6 +1220,8 @@
         "website": "https://www.filmweb.pl/film/Flow-10052360",
         "filmwebId": "10052360",
         "originalName": "Straume",
+        "addedAt": 1737986149916,
+        "addedAtISO": "2025-01-27T13:55:49.916Z",
         "genres": [
           "Animation",
           "Adventure",
@@ -1133,6 +1243,8 @@
         "website": "https://www.filmweb.pl/film/Margaret-262162",
         "filmwebId": "262162",
         "originalName": "Margaret",
+        "addedAt": 1736236489778,
+        "addedAtISO": "2025-01-07T07:54:49.778Z",
         "genres": [
           "Drama",
           "Mystery"
@@ -1153,6 +1265,8 @@
         "website": "https://www.filmweb.pl/film/Dotyk+%C5%9Bmierci-10053095",
         "filmwebId": "10053095",
         "originalName": "Boneyard",
+        "addedAt": 1735831613597,
+        "addedAtISO": "2025-01-02T15:26:53.597Z",
         "genres": [
           "Action",
           "Crime",
@@ -1174,6 +1288,8 @@
         "website": "https://www.filmweb.pl/film/To+nie+jest+kraj+dla+starych+ludzi-259289",
         "filmwebId": "259289",
         "originalName": "No Country for Old Men",
+        "addedAt": 1735809636427,
+        "addedAtISO": "2025-01-02T09:20:36.427Z",
         "genres": [
           "Crime",
           "Drama",
@@ -1195,6 +1311,8 @@
         "website": "https://www.filmweb.pl/film/Love+Me-10045527",
         "filmwebId": "10045527",
         "originalName": "Love Me",
+        "addedAt": 1735729728819,
+        "addedAtISO": "2025-01-01T11:08:48.819Z",
         "genres": [
           "Drama",
           "Romance",
@@ -1216,6 +1334,8 @@
         "website": "https://www.filmweb.pl/film/Niewiarygodny+Burt+Wonderstone-323196",
         "filmwebId": "323196",
         "originalName": "The Incredible Burt Wonderstone",
+        "addedAt": 1734625640588,
+        "addedAtISO": "2024-12-19T16:27:20.588Z",
         "genres": [
           "Comedy"
         ],
@@ -1235,6 +1355,8 @@
         "website": "https://www.filmweb.pl/film/Rodzice+chrzestni+z+Tokio-107897",
         "filmwebId": "107897",
         "originalName": "Tokyo Godfathers",
+        "addedAt": 1734411691216,
+        "addedAtISO": "2024-12-17T05:01:31.216Z",
         "genres": [
           "Animation",
           "Adventure",
@@ -1256,6 +1378,8 @@
         "website": "https://www.filmweb.pl/film/Purpurowe+serca-10012589",
         "filmwebId": "10012589",
         "originalName": "Purple Hearts",
+        "addedAt": 1734291622952,
+        "addedAtISO": "2024-12-15T19:40:22.952Z",
         "genres": [
           "Drama",
           "Music",
@@ -1277,6 +1401,8 @@
         "website": "https://www.filmweb.pl/film/28+lat+p%C3%B3%C5%BAniej-126239",
         "filmwebId": "126239",
         "originalName": "28 Years Later",
+        "addedAt": 1733823577494,
+        "addedAtISO": "2024-12-10T09:39:37.494Z",
         "genres": [
           "Horror",
           "Sci-Fi",
@@ -1298,6 +1424,8 @@
         "website": "https://www.filmweb.pl/film/1992-876608",
         "filmwebId": "876608",
         "originalName": "1992",
+        "addedAt": 1733391396375,
+        "addedAtISO": "2024-12-05T09:36:36.375Z",
         "genres": [
           "Action",
           "Drama",
@@ -1310,13 +1438,17 @@
         "id": "tt5478534",
         "type": "movie",
         "name": "San Andreas 2",
+        "poster": "https://images.metahub.space/poster/small/tt5478534/img",
         "posterShape": "poster",
-        "description": "2026",
+        "background": "https://images.metahub.space/background/medium/tt5478534/img",
+        "description": "2026 � Added 2024-12-03",
         "releaseInfo": "2026",
         "year": 2026,
         "website": "https://www.filmweb.pl/film/San+Andreas+2-762774",
         "filmwebId": "762774",
-        "originalName": "San Andreas 2"
+        "originalName": "San Andreas 2",
+        "addedAt": 1733257793503,
+        "addedAtISO": "2024-12-03T20:29:53.503Z"
       },
       {
         "id": "tt27550022",
@@ -1331,6 +1463,8 @@
         "website": "https://www.filmweb.pl/film/Fast+Forever-10035157",
         "filmwebId": "10035157",
         "originalName": "Fast Forever",
+        "addedAt": 1733257791200,
+        "addedAtISO": "2024-12-03T20:29:51.200Z",
         "genres": [
           "Action",
           "Adventure",
@@ -1350,6 +1484,8 @@
         "website": "https://www.filmweb.pl/film/Wr%C3%B3g+numer+jeden-632382",
         "filmwebId": "632382",
         "originalName": "Zero Dark Thirty",
+        "addedAt": 1732778111203,
+        "addedAtISO": "2024-11-28T07:15:11.203Z",
         "genres": [
           "Drama",
           "History",
@@ -1371,6 +1507,8 @@
         "website": "https://www.filmweb.pl/film/Strefa-10061685",
         "filmwebId": "10061685",
         "originalName": "Elevation",
+        "addedAt": 1731920184358,
+        "addedAtISO": "2024-11-18T08:56:24.358Z",
         "genres": [
           "Action",
           "Horror",
@@ -1392,6 +1530,8 @@
         "website": "https://www.filmweb.pl/film/To%C5%BCsamo%C5%9B%C4%87+Bourne'a-31497",
         "filmwebId": "31497",
         "originalName": "The Bourne Identity",
+        "addedAt": 1731837558553,
+        "addedAtISO": "2024-11-17T09:59:18.553Z",
         "genres": [
           "Action",
           "Mystery",
@@ -1413,6 +1553,8 @@
         "website": "https://www.filmweb.pl/film/Ultimatum+Bourne'a-188513",
         "filmwebId": "188513",
         "originalName": "The Bourne Ultimatum",
+        "addedAt": 1731837500520,
+        "addedAtISO": "2024-11-17T09:58:20.520Z",
         "genres": [
           "Action",
           "Mystery",
@@ -1434,6 +1576,8 @@
         "website": "https://www.filmweb.pl/film/Indiana+Jones+i+ostatnia+krucjata-1213",
         "filmwebId": "1213",
         "originalName": "Indiana Jones and the Last Crusade",
+        "addedAt": 1731837453670,
+        "addedAtISO": "2024-11-17T09:57:33.670Z",
         "genres": [
           "Action",
           "Adventure",
@@ -1455,6 +1599,8 @@
         "website": "https://www.filmweb.pl/film/Grand+Budapest+Hotel-661817",
         "filmwebId": "661817",
         "originalName": "The Grand Budapest Hotel",
+        "addedAt": 1731837377525,
+        "addedAtISO": "2024-11-17T09:56:17.525Z",
         "genres": [
           "Comedy",
           "Drama"
@@ -1475,6 +1621,8 @@
         "website": "https://www.filmweb.pl/film/Zielona+mila-862",
         "filmwebId": "862",
         "originalName": "The Green Mile",
+        "addedAt": 1731837178872,
+        "addedAtISO": "2024-11-17T09:52:58.872Z",
         "genres": [
           "Crime",
           "Drama",
@@ -1496,6 +1644,8 @@
         "website": "https://www.filmweb.pl/film/Helikopter+w+ogniu-31419",
         "filmwebId": "31419",
         "originalName": "Black Hawk Down",
+        "addedAt": 1731837077554,
+        "addedAtISO": "2024-11-17T09:51:17.554Z",
         "genres": [
           "Action",
           "Drama",
@@ -1517,6 +1667,8 @@
         "website": "https://www.filmweb.pl/film/Za+kilka+dolar%C3%B3w+wi%C4%99cej-37390",
         "filmwebId": "37390",
         "originalName": "Per qualche dollaro in più",
+        "addedAt": 1731837066085,
+        "addedAtISO": "2024-11-17T09:51:06.085Z",
         "genres": [
           "Drama",
           "Western"
@@ -1537,6 +1689,8 @@
         "website": "https://www.filmweb.pl/film/Ch%C5%82opi-857962",
         "filmwebId": "857962",
         "originalName": "Chłopi",
+        "addedAt": 1731837055631,
+        "addedAtISO": "2024-11-17T09:50:55.631Z",
         "genres": [
           "Animation",
           "Drama",
@@ -1558,6 +1712,8 @@
         "website": "https://www.filmweb.pl/film/Full+Metal+Jacket-8625",
         "filmwebId": "8625",
         "originalName": "Full Metal Jacket",
+        "addedAt": 1731836979186,
+        "addedAtISO": "2024-11-17T09:49:39.186Z",
         "genres": [
           "Drama",
           "War"
@@ -1578,6 +1734,8 @@
         "website": "https://www.filmweb.pl/film/Spirited+Away%3A+W+krainie+Bog%C3%B3w-33288",
         "filmwebId": "33288",
         "originalName": "Sen to Chihiro no Kamikakushi",
+        "addedAt": 1731836965909,
+        "addedAtISO": "2024-11-17T09:49:25.909Z",
         "genres": [
           "Animation",
           "Adventure",
@@ -1599,6 +1757,8 @@
         "website": "https://www.filmweb.pl/film/W+pogoni+za+szcz%C4%99%C5%9Bciem-240046",
         "filmwebId": "240046",
         "originalName": "The Pursuit of Happyness",
+        "addedAt": 1731836961850,
+        "addedAtISO": "2024-11-17T09:49:21.850Z",
         "genres": [
           "Biography",
           "Drama"
@@ -1619,6 +1779,8 @@
         "website": "https://www.filmweb.pl/film/Dobry%2C+z%C5%82y+i+brzydki-5103",
         "filmwebId": "5103",
         "originalName": "Il buono, il brutto, il cattivo.",
+        "addedAt": 1731836950397,
+        "addedAtISO": "2024-11-17T09:49:10.397Z",
         "genres": [
           "Adventure",
           "Drama",
@@ -1640,6 +1802,8 @@
         "website": "https://www.filmweb.pl/film/Whiplash-698847",
         "filmwebId": "698847",
         "originalName": "Whiplash",
+        "addedAt": 1731836941727,
+        "addedAtISO": "2024-11-17T09:49:01.727Z",
         "genres": [
           "Drama",
           "Music"
@@ -1660,6 +1824,8 @@
         "website": "https://www.filmweb.pl/film/Szeregowiec+Ryan-179",
         "filmwebId": "179",
         "originalName": "Saving Private Ryan",
+        "addedAt": 1731836936196,
+        "addedAtISO": "2024-11-17T09:48:56.196Z",
         "genres": [
           "Drama",
           "War"
@@ -1680,6 +1846,8 @@
         "website": "https://www.filmweb.pl/film/Gran+Torino-476580",
         "filmwebId": "476580",
         "originalName": "Gran Torino",
+        "addedAt": 1731836928413,
+        "addedAtISO": "2024-11-17T09:48:48.413Z",
         "genres": [
           "Drama"
         ],
@@ -1699,6 +1867,8 @@
         "website": "https://www.filmweb.pl/film/Milczenie+owiec-1047",
         "filmwebId": "1047",
         "originalName": "The Silence of the Lambs",
+        "addedAt": 1731836914169,
+        "addedAtISO": "2024-11-17T09:48:34.169Z",
         "genres": [
           "Crime",
           "Drama",
@@ -1720,6 +1890,8 @@
         "website": "https://www.filmweb.pl/film/Bracia-459973",
         "filmwebId": "459973",
         "originalName": "Brothers",
+        "addedAt": 1731836888833,
+        "addedAtISO": "2024-11-17T09:48:08.833Z",
         "genres": [
           "Drama",
           "Thriller",
@@ -1741,6 +1913,8 @@
         "website": "https://www.filmweb.pl/film/Truman+Show-189",
         "filmwebId": "189",
         "originalName": "The Truman Show",
+        "addedAt": 1731836872659,
+        "addedAtISO": "2024-11-17T09:47:52.659Z",
         "genres": [
           "Comedy",
           "Drama"
@@ -1761,6 +1935,8 @@
         "website": "https://www.filmweb.pl/film/Casino+Royale-107642",
         "filmwebId": "107642",
         "originalName": "Casino Royale",
+        "addedAt": 1731836830724,
+        "addedAtISO": "2024-11-17T09:47:10.724Z",
         "genres": [
           "Action",
           "Adventure",
@@ -1782,6 +1958,8 @@
         "website": "https://www.filmweb.pl/film/Marsjanin-715533",
         "filmwebId": "715533",
         "originalName": "The Martian",
+        "addedAt": 1731836702612,
+        "addedAtISO": "2024-11-17T09:45:02.612Z",
         "genres": [
           "Adventure",
           "Drama",
@@ -1803,6 +1981,8 @@
         "website": "https://www.filmweb.pl/film/Ghost+in+the+Shell-31866",
         "filmwebId": "31866",
         "originalName": "Kōkaku Kidōtai",
+        "addedAt": 1731836591605,
+        "addedAtISO": "2024-11-17T09:43:11.605Z",
         "genres": [
           "Animation",
           "Action",
@@ -1824,6 +2004,8 @@
         "website": "https://www.filmweb.pl/film/G%C5%82odni-10032359",
         "filmwebId": "10032359",
         "originalName": "Khon Hiu Game Krahai",
+        "addedAt": 1731753705154,
+        "addedAtISO": "2024-11-16T10:41:45.154Z",
         "genres": [
           "Drama",
           "Thriller"
@@ -1844,6 +2026,8 @@
         "website": "https://www.filmweb.pl/film/Donnie+Brasco-516",
         "filmwebId": "516",
         "originalName": "Donnie Brasco",
+        "addedAt": 1731446405906,
+        "addedAtISO": "2024-11-12T21:20:05.906Z",
         "genres": [
           "Biography",
           "Crime",
@@ -1865,6 +2049,8 @@
         "website": "https://www.filmweb.pl/film/Babygirl-10044212",
         "filmwebId": "10044212",
         "originalName": "Babygirl",
+        "addedAt": 1731429414321,
+        "addedAtISO": "2024-11-12T16:36:54.321Z",
         "genres": [
           "Drama",
           "Romance",
@@ -1886,6 +2072,8 @@
         "website": "https://www.filmweb.pl/film/In+the+Heights%3A+Wzg%C3%B3rza+marze%C5%84-554950",
         "filmwebId": "554950",
         "originalName": "In the Heights",
+        "addedAt": 1731065522531,
+        "addedAtISO": "2024-11-08T11:32:02.531Z",
         "genres": [
           "Drama",
           "Musical",
@@ -1907,6 +2095,8 @@
         "website": "https://www.filmweb.pl/film/Ballerina.+Z+uniwersum+Johna+Wicka-10003598",
         "filmwebId": "10003598",
         "originalName": "Ballerina",
+        "addedAt": 1730926915062,
+        "addedAtISO": "2024-11-06T21:01:55.062Z",
         "genres": [
           "Action",
           "Thriller"
@@ -1918,13 +2108,17 @@
         "id": "tt5776468",
         "type": "movie",
         "name": "The Division",
+        "poster": "https://images.metahub.space/poster/small/tt5776468/img",
         "posterShape": "poster",
-        "description": "2027",
+        "background": "https://images.metahub.space/background/medium/tt5776468/img",
+        "description": "2027 � Added 2024-11-06",
         "releaseInfo": "2027",
         "year": 2027,
         "website": "https://www.filmweb.pl/film/The+Division-779916",
         "filmwebId": "779916",
-        "originalName": "The Division"
+        "originalName": "The Division",
+        "addedAt": 1730926884221,
+        "addedAtISO": "2024-11-06T21:01:24.221Z"
       },
       {
         "id": "tt8337290",
@@ -1939,6 +2133,8 @@
         "website": "https://www.filmweb.pl/film/Rozgrzeszenie-10061035",
         "filmwebId": "10061035",
         "originalName": "Absolution",
+        "addedAt": 1730726918038,
+        "addedAtISO": "2024-11-04T13:28:38.038Z",
         "genres": [
           "Action",
           "Crime",
@@ -1960,6 +2156,8 @@
         "website": "https://www.filmweb.pl/film/Ukryte-108588",
         "filmwebId": "108588",
         "originalName": "Caché",
+        "addedAt": 1729662474580,
+        "addedAtISO": "2024-10-23T05:47:54.580Z",
         "genres": [
           "Drama",
           "Mystery",
@@ -1981,6 +2179,8 @@
         "website": "https://www.filmweb.pl/film/G%C5%82osy-557434",
         "filmwebId": "557434",
         "originalName": "The Voices",
+        "addedAt": 1729437591108,
+        "addedAtISO": "2024-10-20T15:19:51.108Z",
         "genres": [
           "Comedy",
           "Crime",
@@ -2002,6 +2202,8 @@
         "website": "https://www.filmweb.pl/film/Zakochany+bez+pami%C4%99ci-107855",
         "filmwebId": "107855",
         "originalName": "Eternal Sunshine of the Spotless Mind",
+        "addedAt": 1728019500678,
+        "addedAtISO": "2024-10-04T05:25:00.678Z",
         "genres": [
           "Drama",
           "Romance",
@@ -2023,6 +2225,8 @@
         "website": "https://www.filmweb.pl/film/Kr%C3%B3lestwo+zwierz%C4%85t-493635",
         "filmwebId": "493635",
         "originalName": "Animal Kingdom",
+        "addedAt": 1727699717709,
+        "addedAtISO": "2024-09-30T12:35:17.709Z",
         "genres": [
           "Crime",
           "Drama",
@@ -2044,6 +2248,8 @@
         "website": "https://www.filmweb.pl/film/Tenet-831653",
         "filmwebId": "831653",
         "originalName": "Tenet",
+        "addedAt": 1727475231511,
+        "addedAtISO": "2024-09-27T22:13:51.511Z",
         "genres": [
           "Action",
           "Sci-Fi",
@@ -2065,6 +2271,8 @@
         "website": "https://www.filmweb.pl/film/Czas+Apokalipsy-1092",
         "filmwebId": "1092",
         "originalName": "Apocalypse Now",
+        "addedAt": 1727442217878,
+        "addedAtISO": "2024-09-27T13:03:37.878Z",
         "genres": [
           "Drama",
           "Mystery",
@@ -2086,6 +2294,8 @@
         "website": "https://www.filmweb.pl/film/Najpierw+strzelaj%2C+potem+zwiedzaj-397071",
         "filmwebId": "397071",
         "originalName": "In Bruges",
+        "addedAt": 1726939232965,
+        "addedAtISO": "2024-09-21T17:20:32.965Z",
         "genres": [
           "Comedy",
           "Crime",
@@ -2107,6 +2317,8 @@
         "website": "https://www.filmweb.pl/film/Dzie%C5%84+Niepodleg%C5%82o%C5%9Bci-5289",
         "filmwebId": "5289",
         "originalName": "Independence Day",
+        "addedAt": 1726556800953,
+        "addedAtISO": "2024-09-17T07:06:40.953Z",
         "genres": [
           "Action",
           "Adventure",
@@ -2128,6 +2340,8 @@
         "website": "https://www.filmweb.pl/film/Sin+City+-+Miasto+grzechu-112584",
         "filmwebId": "112584",
         "originalName": "Sin City",
+        "addedAt": 1726549478332,
+        "addedAtISO": "2024-09-17T05:04:38.332Z",
         "genres": [
           "Crime",
           "Thriller"
@@ -2148,6 +2362,8 @@
         "website": "https://www.filmweb.pl/film/Podejrzani-8727",
         "filmwebId": "8727",
         "originalName": "The Usual Suspects",
+        "addedAt": 1726423901863,
+        "addedAtISO": "2024-09-15T18:11:41.863Z",
         "genres": [
           "Crime",
           "Drama",
@@ -2169,6 +2385,8 @@
         "website": "https://www.filmweb.pl/film/Sok+z+%C5%BCuka-9641",
         "filmwebId": "9641",
         "originalName": "Beetle Juice",
+        "addedAt": 1726217500559,
+        "addedAtISO": "2024-09-13T08:51:40.559Z",
         "genres": [
           "Comedy",
           "Fantasy"
@@ -2189,6 +2407,8 @@
         "website": "https://www.filmweb.pl/film/Bokser-10017699",
         "filmwebId": "10017699",
         "originalName": "Bokser",
+        "addedAt": 1726217496762,
+        "addedAtISO": "2024-09-13T08:51:36.762Z",
         "genres": [
           "Drama",
           "Sport"
@@ -2209,6 +2429,8 @@
         "website": "https://www.filmweb.pl/film/Peaky+Blinders%3A+Nie%C5%9Bmiertelny-10050241",
         "filmwebId": "10050241",
         "originalName": "Peaky Blinders: The Immortal Man",
+        "addedAt": 1725013676891,
+        "addedAtISO": "2024-08-30T10:27:56.891Z",
         "genres": [
           "Crime",
           "Drama",
@@ -2229,6 +2451,8 @@
         "website": "https://www.filmweb.pl/film/Prawo+Bronxu-1031",
         "filmwebId": "1031",
         "originalName": "A Bronx Tale",
+        "addedAt": 1724767563290,
+        "addedAtISO": "2024-08-27T14:06:03.290Z",
         "genres": [
           "Crime",
           "Drama"
@@ -2249,6 +2473,8 @@
         "website": "https://www.filmweb.pl/film/Wszyscy+%C5%9Bwi%C4%99ci+New+Jersey-815424",
         "filmwebId": "815424",
         "originalName": "The Many Saints of Newark",
+        "addedAt": 1724603534349,
+        "addedAtISO": "2024-08-25T16:32:14.349Z",
         "genres": [
           "Crime",
           "Drama"
@@ -2269,6 +2495,8 @@
         "website": "https://www.filmweb.pl/film/Rodzaje+%C5%BCyczliwo%C5%9Bci-10041273",
         "filmwebId": "10041273",
         "originalName": "Kinds of Kindness",
+        "addedAt": 1724424010053,
+        "addedAtISO": "2024-08-23T14:40:10.053Z",
         "genres": [
           "Comedy",
           "Drama",
@@ -2290,6 +2518,8 @@
         "website": "https://www.filmweb.pl/film/Co%C5%9B+za+mn%C4%85+chodzi-714528",
         "filmwebId": "714528",
         "originalName": "It Follows",
+        "addedAt": 1724147120269,
+        "addedAtISO": "2024-08-20T09:45:20.269Z",
         "genres": [
           "Horror",
           "Mystery",
@@ -2311,6 +2541,8 @@
         "website": "https://www.filmweb.pl/film/Poprzednie+%C5%BCycie-684242",
         "filmwebId": "684242",
         "originalName": "Backtrack",
+        "addedAt": 1724133376943,
+        "addedAtISO": "2024-08-20T05:56:16.943Z",
         "genres": [
           "Horror",
           "Thriller"
@@ -2331,6 +2563,8 @@
         "website": "https://www.filmweb.pl/film/Capone-786107",
         "filmwebId": "786107",
         "originalName": "Capone",
+        "addedAt": 1724017147345,
+        "addedAtISO": "2024-08-18T21:39:07.345Z",
         "genres": [
           "Biography",
           "Crime",
@@ -2352,6 +2586,8 @@
         "website": "https://www.filmweb.pl/film/Mizantrop-10000484",
         "filmwebId": "10000484",
         "originalName": "Misanthrope",
+        "addedAt": 1724013540276,
+        "addedAtISO": "2024-08-18T20:39:00.276Z",
         "genres": [
           "Action",
           "Crime",
@@ -2373,6 +2609,8 @@
         "website": "https://www.filmweb.pl/film/Loteria!-10056094",
         "filmwebId": "10056094",
         "originalName": "Jackpot!",
+        "addedAt": 1724013526793,
+        "addedAtISO": "2024-08-18T20:38:46.793Z",
         "genres": [
           "Action",
           "Comedy"
@@ -2393,6 +2631,8 @@
         "website": "https://www.filmweb.pl/film/%C5%9Awinia-843869",
         "filmwebId": "843869",
         "originalName": "Pig",
+        "addedAt": 1723984281404,
+        "addedAtISO": "2024-08-18T12:31:21.404Z",
         "genres": [
           "Drama",
           "Mystery"
@@ -2413,6 +2653,8 @@
         "website": "https://www.filmweb.pl/film/2001%3A+Odyseja+kosmiczna-1458",
         "filmwebId": "1458",
         "originalName": "2001: A Space Odyssey",
+        "addedAt": 1723796695151,
+        "addedAtISO": "2024-08-16T08:24:55.151Z",
         "genres": [
           "Adventure",
           "Sci-Fi"
@@ -2433,6 +2675,8 @@
         "website": "https://www.filmweb.pl/film/Dinozaur-1329",
         "filmwebId": "1329",
         "originalName": "Dinosaur",
+        "addedAt": 1723752967789,
+        "addedAtISO": "2024-08-15T20:16:07.789Z",
         "genres": [
           "Animation",
           "Adventure",
@@ -2454,6 +2698,8 @@
         "website": "https://www.filmweb.pl/film/Id%C5%BA+i+patrz-35185",
         "filmwebId": "35185",
         "originalName": "Idi i smotri",
+        "addedAt": 1723454659267,
+        "addedAtISO": "2024-08-12T09:24:19.267Z",
         "genres": [
           "Drama",
           "Thriller",
@@ -2475,6 +2721,8 @@
         "website": "https://www.filmweb.pl/film/Szopy+w+natarciu-111708",
         "filmwebId": "111708",
         "originalName": "Heisei Tanuki Gassen Ponpoko",
+        "addedAt": 1723380811906,
+        "addedAtISO": "2024-08-11T12:53:31.906Z",
         "genres": [
           "Animation",
           "Comedy",
@@ -2496,6 +2744,8 @@
         "website": "https://www.filmweb.pl/film/Podw%C3%B3jna+gra-152490",
         "filmwebId": "152490",
         "originalName": "Two for the Money",
+        "addedAt": 1723151071766,
+        "addedAtISO": "2024-08-08T21:04:31.766Z",
         "genres": [
           "Crime",
           "Drama",
@@ -2517,6 +2767,8 @@
         "website": "https://www.filmweb.pl/film/Dawno+temu+w+Ameryce-1038",
         "filmwebId": "1038",
         "originalName": "Once Upon a Time in America",
+        "addedAt": 1723026525189,
+        "addedAtISO": "2024-08-07T10:28:45.189Z",
         "genres": [
           "Crime",
           "Drama"
@@ -2537,6 +2789,8 @@
         "website": "https://www.filmweb.pl/film/Wschodnie+obietnice-320377",
         "filmwebId": "320377",
         "originalName": "Eastern Promises",
+        "addedAt": 1723026500268,
+        "addedAtISO": "2024-08-07T10:28:20.268Z",
         "genres": [
           "Crime",
           "Drama",
@@ -2558,6 +2812,8 @@
         "website": "https://www.filmweb.pl/film/In+a+Violent+Nature-10046453",
         "filmwebId": "10046453",
         "originalName": "In a Violent Nature",
+        "addedAt": 1722329863719,
+        "addedAtISO": "2024-07-30T08:57:43.719Z",
         "genres": [
           "Drama",
           "Horror",
@@ -2579,6 +2835,8 @@
         "website": "https://www.filmweb.pl/film/Sztuka+pi%C4%99knego+%C5%BCycia-10056589",
         "filmwebId": "10056589",
         "originalName": "We Live in Time",
+        "addedAt": 1721158294092,
+        "addedAtISO": "2024-07-16T19:31:34.092Z",
         "genres": [
           "Drama",
           "Romance"
@@ -2599,6 +2857,8 @@
         "website": "https://www.filmweb.pl/film/Minionki+i+straszyd%C5%82a-10056836",
         "filmwebId": "10056836",
         "originalName": "Minions & Monsters",
+        "addedAt": 1720775092098,
+        "addedAtISO": "2024-07-12T09:04:52.098Z",
         "genres": [
           "Animation",
           "Family",
@@ -2620,6 +2880,8 @@
         "website": "https://www.filmweb.pl/film/Requiem+dla+snu-9136",
         "filmwebId": "9136",
         "originalName": "Requiem for a Dream",
+        "addedAt": 1720698792003,
+        "addedAtISO": "2024-07-11T11:53:12.003Z",
         "genres": [
           "Drama"
         ],
@@ -2639,6 +2901,8 @@
         "website": "https://www.filmweb.pl/film/Big+Lebowski-13",
         "filmwebId": "13",
         "originalName": "The Big Lebowski",
+        "addedAt": 1720611370156,
+        "addedAtISO": "2024-07-10T11:36:10.156Z",
         "genres": [
           "Comedy",
           "Crime"
@@ -2659,6 +2923,8 @@
         "website": "https://www.filmweb.pl/film/X-10006835",
         "filmwebId": "10006835",
         "originalName": "X",
+        "addedAt": 1720250901847,
+        "addedAtISO": "2024-07-06T07:28:21.847Z",
         "genres": [
           "Horror",
           "Mystery",
@@ -2680,6 +2946,8 @@
         "website": "https://www.filmweb.pl/film/Hellboy%3A+Wzg%C3%B3rza+nawiedzonych-10056025",
         "filmwebId": "10056025",
         "originalName": "Hellboy: The Crooked Man",
+        "addedAt": 1720122098490,
+        "addedAtISO": "2024-07-04T19:41:38.490Z",
         "genres": [
           "Action",
           "Horror",
@@ -2701,6 +2969,8 @@
         "website": "https://www.filmweb.pl/film/Zemsta+rewolwerowca-848270",
         "filmwebId": "848270",
         "originalName": "The Harder They Fall",
+        "addedAt": 1719765305093,
+        "addedAtISO": "2024-06-30T16:35:05.093Z",
         "genres": [
           "Action",
           "Drama",
@@ -2722,6 +2992,8 @@
         "website": "https://www.filmweb.pl/film/Hellboy-790359",
         "filmwebId": "790359",
         "originalName": "Hellboy",
+        "addedAt": 1719659778911,
+        "addedAtISO": "2024-06-29T11:16:18.911Z",
         "genres": [
           "Action",
           "Adventure",
@@ -2743,6 +3015,8 @@
         "website": "https://www.filmweb.pl/film/Spragnieni+%C5%BCycia-790369",
         "filmwebId": "790369",
         "originalName": "The Upside",
+        "addedAt": 1719122541764,
+        "addedAtISO": "2024-06-23T06:02:21.764Z",
         "genres": [
           "Comedy",
           "Drama"
@@ -2763,6 +3037,8 @@
         "website": "https://www.filmweb.pl/film/Zanim+odejd%C4%85+wody-530732",
         "filmwebId": "530732",
         "originalName": "Due Date",
+        "addedAt": 1718975017394,
+        "addedAtISO": "2024-06-21T13:03:37.394Z",
         "genres": [
           "Comedy",
           "Drama"
@@ -2783,6 +3059,8 @@
         "website": "https://www.filmweb.pl/film/Kiss+Kiss+Bang+Bang-140851",
         "filmwebId": "140851",
         "originalName": "Kiss Kiss Bang Bang",
+        "addedAt": 1718971054695,
+        "addedAtISO": "2024-06-21T11:57:34.695Z",
         "genres": [
           "Comedy",
           "Crime",
@@ -2804,6 +3082,8 @@
         "website": "https://www.filmweb.pl/film/Zabierz+mnie+na+Ksi%C4%99%C5%BCyc-10025120",
         "filmwebId": "10025120",
         "originalName": "Fly Me to the Moon",
+        "addedAt": 1718908117491,
+        "addedAtISO": "2024-06-20T18:28:37.491Z",
         "genres": [
           "Comedy",
           "Romance"
@@ -2823,6 +3103,8 @@
         "website": "https://www.filmweb.pl/film/Pod%C5%BCegacze-10033705",
         "filmwebId": "10033705",
         "originalName": "The Instigators",
+        "addedAt": 1718303703286,
+        "addedAtISO": "2024-06-13T18:35:03.286Z",
         "genres": [
           "Action",
           "Comedy",
@@ -2844,6 +3126,8 @@
         "website": "https://www.filmweb.pl/film/Joker%3A+Folie+%C3%A0+Deux-10014539",
         "filmwebId": "10014539",
         "originalName": "Joker: Folie à Deux",
+        "addedAt": 1718193206777,
+        "addedAtISO": "2024-06-12T11:53:26.777Z",
         "genres": [
           "Drama",
           "Musical",
@@ -2865,6 +3149,8 @@
         "website": "https://www.filmweb.pl/film/Bielmo-870411",
         "filmwebId": "870411",
         "originalName": "The Pale Blue Eye",
+        "addedAt": 1717065681479,
+        "addedAtISO": "2024-05-30T10:41:21.479Z",
         "genres": [
           "Crime",
           "Horror",
@@ -2886,6 +3172,8 @@
         "website": "https://www.filmweb.pl/film/Reminiscencja-849709",
         "filmwebId": "849709",
         "originalName": "Reminiscence",
+        "addedAt": 1717065636271,
+        "addedAtISO": "2024-05-30T10:40:36.271Z",
         "genres": [
           "Mystery",
           "Romance",
@@ -2907,6 +3195,8 @@
         "website": "https://www.filmweb.pl/film/Samotne+wilki-10045301",
         "filmwebId": "10045301",
         "originalName": "Wolfs",
+        "addedAt": 1716998618805,
+        "addedAtISO": "2024-05-29T16:03:38.805Z",
         "genres": [
           "Comedy",
           "Crime",
@@ -2928,6 +3218,8 @@
         "website": "https://www.filmweb.pl/film/The+Watchers-10035557",
         "filmwebId": "10035557",
         "originalName": "The Watchers",
+        "addedAt": 1716641029448,
+        "addedAtISO": "2024-05-25T12:43:49.448Z",
         "genres": [
           "Fantasy",
           "Horror",
@@ -2949,6 +3241,8 @@
         "website": "https://www.filmweb.pl/film/Dwunastu+odwa%C5%BCnych-783027",
         "filmwebId": "783027",
         "originalName": "12 Strong",
+        "addedAt": 1716632652070,
+        "addedAtISO": "2024-05-25T10:24:12.070Z",
         "genres": [
           "Action",
           "Drama",
@@ -2970,6 +3264,8 @@
         "website": "https://www.filmweb.pl/film/Anio%C5%82owie+s%C4%85+w%C5%9Br%C3%B3d+nas-10035501",
         "filmwebId": "10035501",
         "originalName": "Ordinary Angels",
+        "addedAt": 1716468312387,
+        "addedAtISO": "2024-05-23T12:45:12.387Z",
         "genres": [
           "Biography",
           "Drama"
@@ -2990,6 +3286,8 @@
         "website": "https://www.filmweb.pl/film/Yesterday-823960",
         "filmwebId": "823960",
         "originalName": "Yesterday",
+        "addedAt": 1716467418899,
+        "addedAtISO": "2024-05-23T12:30:18.899Z",
         "genres": [
           "Comedy",
           "Fantasy",
@@ -3011,6 +3309,8 @@
         "website": "https://www.filmweb.pl/film/Boy+Kills+World-10002783",
         "filmwebId": "10002783",
         "originalName": "Boy Kills World",
+        "addedAt": 1716454768377,
+        "addedAtISO": "2024-05-23T08:59:28.377Z",
         "genres": [
           "Action",
           "Comedy",
@@ -3032,6 +3332,8 @@
         "website": "https://www.filmweb.pl/film/Horyzont.+Rozdzia%C5%82+2-10049477",
         "filmwebId": "10049477",
         "originalName": "Horizon: An American Saga - Chapter 2",
+        "addedAt": 1716405047992,
+        "addedAtISO": "2024-05-22T19:10:47.992Z",
         "genres": [
           "Drama",
           "Western"
@@ -3052,6 +3354,8 @@
         "website": "https://www.filmweb.pl/film/Jedno+%C5%BCycie-10019294",
         "filmwebId": "10019294",
         "originalName": "One Life",
+        "addedAt": 1716368835864,
+        "addedAtISO": "2024-05-22T09:07:15.864Z",
         "genres": [
           "Biography",
           "Drama",
@@ -3073,6 +3377,8 @@
         "website": "https://www.filmweb.pl/film/Nocna+randka-498730",
         "filmwebId": "498730",
         "originalName": "Date Night",
+        "addedAt": 1715629172316,
+        "addedAtISO": "2024-05-13T19:39:32.316Z",
         "genres": [
           "Comedy",
           "Crime",
@@ -3085,13 +3391,17 @@
         "id": "tt1606752",
         "type": "movie",
         "name": "Doc Savage",
+        "poster": "https://images.metahub.space/poster/small/tt1606752/img",
         "posterShape": "poster",
+        "background": "https://images.metahub.space/background/medium/tt1606752/img",
         "description": "Doc Savage, the man of bronze, was raised from childhood by a team of scientists to become the original \"super\" hero of the 1930s. A man of great mental and physical strength, he went around the world battling larger-than-life villains.",
         "releaseInfo": "2027",
         "year": 2027,
         "website": "https://www.filmweb.pl/film/Doc+Savage-696777",
         "filmwebId": "696777",
         "originalName": "Doc Savage",
+        "addedAt": 1715092959199,
+        "addedAtISO": "2024-05-07T14:42:39.199Z",
         "genres": [
           "Adventure"
         ]
@@ -3100,13 +3410,17 @@
         "id": "tt4677890",
         "type": "movie",
         "name": "Alpha Squad Seven",
+        "poster": "https://images.metahub.space/poster/small/tt4677890/img",
         "posterShape": "poster",
+        "background": "https://images.metahub.space/background/medium/tt4677890/img",
         "description": "Plot kept under wraps. Described as an action-comedy adventure set in space.",
         "releaseInfo": "2026",
         "year": 2026,
         "website": "https://www.filmweb.pl/film/Alpha+Squad+Seven-744249",
         "filmwebId": "744249",
         "originalName": "Alpha Squad Seven",
+        "addedAt": 1715092955506,
+        "addedAtISO": "2024-05-07T14:42:35.506Z",
         "genres": [
           "Action",
           "Comedy",
@@ -3117,13 +3431,17 @@
         "id": "tt32328070",
         "type": "movie",
         "name": "Lore",
+        "poster": "https://images.metahub.space/poster/small/tt32328070/img",
         "posterShape": "poster",
+        "background": "https://images.metahub.space/background/medium/tt32328070/img",
         "description": "Aragorn's quest to capture Gollum between The Hobbit and Fellowship of the Ring, tracking him to keep the Ring's location from Sauron. The film explores Aragorn's early adventures as a ranger.",
         "releaseInfo": "2027",
         "year": 2027,
         "website": "https://www.filmweb.pl/film/Lore-667119",
         "filmwebId": "667119",
         "originalName": "Lore",
+        "addedAt": 1715092946114,
+        "addedAtISO": "2024-05-07T14:42:26.114Z",
         "genres": [
           "Action",
           "Adventure",
@@ -3144,6 +3462,8 @@
         "website": "https://www.filmweb.pl/film/Nieczysta+gra-10044637",
         "filmwebId": "10044637",
         "originalName": "Play Dirty",
+        "addedAt": 1715092906093,
+        "addedAtISO": "2024-05-07T14:41:46.093Z",
         "genres": [
           "Action",
           "Crime",
@@ -3165,6 +3485,8 @@
         "website": "https://www.filmweb.pl/film/Sekrety+jedzenia%3A+Naukowo+o+od%C5%BCywianiu-10050946",
         "filmwebId": "10050946",
         "originalName": "Hack Your Health: The Secrets of Your Gut",
+        "addedAt": 1714334014602,
+        "addedAtISO": "2024-04-28T19:53:34.602Z",
         "genres": [
           "Documentary"
         ],
@@ -3184,6 +3506,8 @@
         "website": "https://www.filmweb.pl/film/Szczeni%C4%99ca+mi%C5%82o%C5%9B%C4%87-10038874",
         "filmwebId": "10038874",
         "originalName": "Puppy Love",
+        "addedAt": 1714032899302,
+        "addedAtISO": "2024-04-25T08:14:59.302Z",
         "genres": [
           "Comedy"
         ],
@@ -3203,6 +3527,8 @@
         "website": "https://www.filmweb.pl/film/Pogromcy+duch%C3%B3w%3A+Imperium+lodu-10043538",
         "filmwebId": "10043538",
         "originalName": "Ghostbusters: Frozen Empire",
+        "addedAt": 1712816891437,
+        "addedAtISO": "2024-04-11T06:28:11.437Z",
         "genres": [
           "Adventure",
           "Comedy",
@@ -3224,6 +3550,8 @@
         "website": "https://www.filmweb.pl/film/Bez+lito%C5%9Bci+3.+Ostatni+rozdzia%C5%82-10012260",
         "filmwebId": "10012260",
         "originalName": "The Equalizer 3",
+        "addedAt": 1712653967180,
+        "addedAtISO": "2024-04-09T09:12:47.180Z",
         "genres": [
           "Action",
           "Crime",
@@ -3245,6 +3573,8 @@
         "website": "https://www.filmweb.pl/film/Dzi%C4%99cio%C5%82ek+Woody+jedzie+na+ob%C3%B3z-10050020",
         "filmwebId": "10050020",
         "originalName": "Woody Woodpecker Goes to Camp",
+        "addedAt": 1712562016724,
+        "addedAtISO": "2024-04-08T07:40:16.724Z",
         "genres": [
           "Animation",
           "Adventure",
@@ -3266,6 +3596,8 @@
         "website": "https://www.filmweb.pl/film/Omen%3A+Pocz%C4%85tek-10013258",
         "filmwebId": "10013258",
         "originalName": "The First Omen",
+        "addedAt": 1712561934210,
+        "addedAtISO": "2024-04-08T07:38:54.210Z",
         "genres": [
           "Horror"
         ],
@@ -3285,6 +3617,8 @@
         "website": "https://www.filmweb.pl/film/Tytani-1505",
         "filmwebId": "1505",
         "originalName": "Remember the Titans",
+        "addedAt": 1712561922474,
+        "addedAtISO": "2024-04-08T07:38:42.474Z",
         "genres": [
           "Biography",
           "Comedy",
@@ -3306,6 +3640,8 @@
         "website": "https://www.filmweb.pl/film/Wy%C5%9Bcig-628262",
         "filmwebId": "628262",
         "originalName": "Rush",
+        "addedAt": 1712561911129,
+        "addedAtISO": "2024-04-08T07:38:31.129Z",
         "genres": [
           "Biography",
           "Drama",
@@ -3327,6 +3663,8 @@
         "website": "https://www.filmweb.pl/film/W%C5%9Bciek%C5%82y+Byk-1044",
         "filmwebId": "1044",
         "originalName": "Raging Bull",
+        "addedAt": 1712561901067,
+        "addedAtISO": "2024-04-08T07:38:21.067Z",
         "genres": [
           "Biography",
           "Drama",
@@ -3348,6 +3686,8 @@
         "website": "https://www.filmweb.pl/film/Joe+Black-74",
         "filmwebId": "74",
         "originalName": "Meet Joe Black",
+        "addedAt": 1711360376472,
+        "addedAtISO": "2024-03-25T09:52:56.472Z",
         "genres": [
           "Drama",
           "Fantasy",
@@ -3369,6 +3709,8 @@
         "website": "https://www.filmweb.pl/film/M%C3%B3w+do+mnie!-10026657",
         "filmwebId": "10026657",
         "originalName": "Talk to Me",
+        "addedAt": 1711141884387,
+        "addedAtISO": "2024-03-22T21:11:24.387Z",
         "genres": [
           "Horror",
           "Thriller"
@@ -3389,6 +3731,8 @@
         "website": "https://www.filmweb.pl/film/Babilon-842792",
         "filmwebId": "842792",
         "originalName": "Babylon",
+        "addedAt": 1711141878206,
+        "addedAtISO": "2024-03-22T21:11:18.206Z",
         "genres": [
           "Comedy",
           "Drama"
@@ -3409,6 +3753,8 @@
         "website": "https://www.filmweb.pl/film/Wszystko+wsz%C4%99dzie+naraz-853675",
         "filmwebId": "853675",
         "originalName": "Everything Everywhere All at Once",
+        "addedAt": 1711141861703,
+        "addedAtISO": "2024-03-22T21:11:01.703Z",
         "genres": [
           "Action",
           "Adventure",
@@ -3430,6 +3776,8 @@
         "website": "https://www.filmweb.pl/film/M%C4%99%C5%BCczyzna+imieniem+Otto-10021334",
         "filmwebId": "10021334",
         "originalName": "A Man Called Otto",
+        "addedAt": 1711141854583,
+        "addedAtISO": "2024-03-22T21:10:54.583Z",
         "genres": [
           "Comedy",
           "Drama"
@@ -3450,6 +3798,8 @@
         "website": "https://www.filmweb.pl/film/Na+Zachodzie+bez+zmian-430867",
         "filmwebId": "430867",
         "originalName": "Im Westen nichts Neues",
+        "addedAt": 1711141847575,
+        "addedAtISO": "2024-03-22T21:10:47.575Z",
         "genres": [
           "Drama",
           "History",
@@ -3471,6 +3821,8 @@
         "website": "https://www.filmweb.pl/film/Breaking-876666",
         "filmwebId": "876666",
         "originalName": "Breaking",
+        "addedAt": 1710882178477,
+        "addedAtISO": "2024-03-19T21:02:58.477Z",
         "genres": [
           "Crime",
           "Drama",
@@ -3492,6 +3844,8 @@
         "website": "https://www.filmweb.pl/film/Green+Book-809630",
         "filmwebId": "809630",
         "originalName": "Green Book",
+        "addedAt": 1710582967528,
+        "addedAtISO": "2024-03-16T09:56:07.528Z",
         "genres": [
           "Biography",
           "Comedy",
@@ -3513,6 +3867,8 @@
         "website": "https://www.filmweb.pl/film/Godzilla+i+Kong%3A+Nowe+imperium-10017673",
         "filmwebId": "10017673",
         "originalName": "Godzilla x Kong: The New Empire",
+        "addedAt": 1709648119658,
+        "addedAtISO": "2024-03-05T14:15:19.658Z",
         "genres": [
           "Action",
           "Adventure",
@@ -3534,6 +3890,8 @@
         "website": "https://www.filmweb.pl/film/Orion+i+ciemno%C5%9B%C4%87-10037454",
         "filmwebId": "10037454",
         "originalName": "Orion and the Dark",
+        "addedAt": 1709326128889,
+        "addedAtISO": "2024-03-01T20:48:48.889Z",
         "genres": [
           "Animation",
           "Adventure",
@@ -3555,6 +3913,8 @@
         "website": "https://www.filmweb.pl/film/Przesilenie+zimowe-10032689",
         "filmwebId": "10032689",
         "originalName": "The Holdovers",
+        "addedAt": 1709285850609,
+        "addedAtISO": "2024-03-01T09:37:30.609Z",
         "genres": [
           "Comedy",
           "Drama"
@@ -3575,6 +3935,8 @@
         "website": "https://www.filmweb.pl/film/Park+Jurajski+III-6647",
         "filmwebId": "6647",
         "originalName": "Jurassic Park III",
+        "addedAt": 1709285770084,
+        "addedAtISO": "2024-03-01T09:36:10.084Z",
         "genres": [
           "Action",
           "Adventure",
@@ -3596,6 +3958,8 @@
         "website": "https://www.filmweb.pl/film/Zaginiony+%C5%9Awiat%3A+Jurassic+Park-719",
         "filmwebId": "719",
         "originalName": "The Lost World: Jurassic Park",
+        "addedAt": 1709285766829,
+        "addedAtISO": "2024-03-01T09:36:06.829Z",
         "genres": [
           "Action",
           "Adventure",
@@ -3617,6 +3981,8 @@
         "website": "https://www.filmweb.pl/film/Park+Jurajski-1212",
         "filmwebId": "1212",
         "originalName": "Jurassic Park",
+        "addedAt": 1709285760184,
+        "addedAtISO": "2024-03-01T09:36:00.184Z",
         "genres": [
           "Action",
           "Adventure",
@@ -3638,6 +4004,8 @@
         "website": "https://www.filmweb.pl/film/Za+wszelk%C4%85+cen%C4%99-123697",
         "filmwebId": "123697",
         "originalName": "Million Dollar Baby",
+        "addedAt": 1709147403841,
+        "addedAtISO": "2024-02-28T19:10:03.841Z",
         "genres": [
           "Drama",
           "Sport"
@@ -3658,6 +4026,8 @@
         "website": "https://www.filmweb.pl/film/Strefa+wroga-10012714",
         "filmwebId": "10012714",
         "originalName": "Land of Bad",
+        "addedAt": 1708937450665,
+        "addedAtISO": "2024-02-26T08:50:50.665Z",
         "genres": [
           "Action",
           "Thriller"
@@ -3672,12 +4042,14 @@
         "poster": "https://fwcdn.pl/fpo/27/78/492778/7968619_2.10.webp",
         "posterShape": "poster",
         "background": "https://fwcdn.pl/fpo/27/78/492778/7968619_2.10.webp",
-        "description": "Hulk vs. � 2009",
+        "description": "Hulk vs. � 2009 � Added 2024-02-24",
         "releaseInfo": "2009",
         "year": 2009,
         "website": "https://www.filmweb.pl/film/Hulk+-+Podw%C3%B3jne+starcie-492778",
         "filmwebId": "492778",
         "originalName": "Hulk vs.",
+        "addedAt": 1708809518439,
+        "addedAtISO": "2024-02-24T21:18:38.439Z",
         "genres": [
           "Sport"
         ],
@@ -3696,6 +4068,8 @@
         "website": "https://www.filmweb.pl/film/Zaginiona+dziewczyna-695409",
         "filmwebId": "695409",
         "originalName": "Gone Girl",
+        "addedAt": 1708626712234,
+        "addedAtISO": "2024-02-22T18:31:52.234Z",
         "genres": [
           "Drama",
           "Mystery",
@@ -3717,6 +4091,8 @@
         "website": "https://www.filmweb.pl/film/Por%C4%85bani-530650",
         "filmwebId": "530650",
         "originalName": "Tucker and Dale vs. Evil",
+        "addedAt": 1708287176782,
+        "addedAtISO": "2024-02-18T20:12:56.782Z",
         "genres": [
           "Comedy",
           "Horror"
@@ -3737,6 +4113,8 @@
         "website": "https://www.filmweb.pl/film/Hipnoza-10019588",
         "filmwebId": "10019588",
         "originalName": "Hypnotic",
+        "addedAt": 1708076287039,
+        "addedAtISO": "2024-02-16T09:38:07.039Z",
         "genres": [
           "Action",
           "Drama",
@@ -3758,6 +4136,8 @@
         "website": "https://www.filmweb.pl/film/Kochanka%2C+stalkerka%2C+zab%C3%B3jczyni-10048242",
         "filmwebId": "10048242",
         "originalName": "Lover, Stalker, Killer",
+        "addedAt": 1707747007235,
+        "addedAtISO": "2024-02-12T14:10:07.235Z",
         "genres": [
           "Documentary",
           "Crime"
@@ -3778,6 +4158,8 @@
         "website": "https://www.filmweb.pl/film/Towarzysze+broni-10013996",
         "filmwebId": "10013996",
         "originalName": "Devotion",
+        "addedAt": 1707677116740,
+        "addedAtISO": "2024-02-11T18:45:16.740Z",
         "genres": [
           "Action",
           "Biography",
@@ -3799,6 +4181,8 @@
         "website": "https://www.filmweb.pl/film/Furia-683180",
         "filmwebId": "683180",
         "originalName": "Fury",
+        "addedAt": 1707489871748,
+        "addedAtISO": "2024-02-09T14:44:31.748Z",
         "genres": [
           "Action",
           "Drama",
@@ -3820,6 +4204,8 @@
         "website": "https://www.filmweb.pl/film/Diuna-469476",
         "filmwebId": "469476",
         "originalName": "Dune",
+        "addedAt": 1707471271315,
+        "addedAtISO": "2024-02-09T09:34:31.315Z",
         "genres": [
           "Action",
           "Adventure",
@@ -3841,6 +4227,8 @@
         "website": "https://www.filmweb.pl/film/Hitch%3A+Najlepszy+doradca+przeci%C4%99tnego+faceta-118092",
         "filmwebId": "118092",
         "originalName": "Hitch",
+        "addedAt": 1707330907228,
+        "addedAtISO": "2024-02-07T18:35:07.228Z",
         "genres": [
           "Comedy",
           "Romance"
@@ -3861,6 +4249,8 @@
         "website": "https://www.filmweb.pl/film/Efekt+motyla-40252",
         "filmwebId": "40252",
         "originalName": "The Butterfly Effect",
+        "addedAt": 1707309047574,
+        "addedAtISO": "2024-02-07T12:30:47.574Z",
         "genres": [
           "Drama",
           "Sci-Fi",
@@ -3882,6 +4272,8 @@
         "website": "https://www.filmweb.pl/film/Hamilton-849941",
         "filmwebId": "849941",
         "originalName": "Hamilton",
+        "addedAt": 1707127671519,
+        "addedAtISO": "2024-02-05T10:07:51.519Z",
         "genres": [
           "Biography",
           "Drama",
@@ -3903,6 +4295,8 @@
         "website": "https://www.filmweb.pl/film/Wrogowie+publiczni-467091",
         "filmwebId": "467091",
         "originalName": "Public Enemies",
+        "addedAt": 1706895861077,
+        "addedAtISO": "2024-02-02T17:44:21.077Z",
         "genres": [
           "Biography",
           "Crime",
@@ -3924,6 +4318,8 @@
         "website": "https://www.filmweb.pl/film/Kasyno-1029",
         "filmwebId": "1029",
         "originalName": "Casino",
+        "addedAt": 1706895794474,
+        "addedAtISO": "2024-02-02T17:43:14.474Z",
         "genres": [
           "Crime",
           "Drama"
@@ -3944,6 +4340,8 @@
         "website": "https://www.filmweb.pl/film/Ani+s%C5%82owa+wi%C4%99cej-661927",
         "filmwebId": "661927",
         "originalName": "Enough Said",
+        "addedAt": 1706895555220,
+        "addedAtISO": "2024-02-02T17:39:15.220Z",
         "genres": [
           "Comedy",
           "Drama",
@@ -3965,6 +4363,8 @@
         "website": "https://www.filmweb.pl/film/Zabi%C4%87%2C+jak+to+%C5%82atwo+powiedzie%C4%87-652571",
         "filmwebId": "652571",
         "originalName": "Killing Them Softly",
+        "addedAt": 1706895335929,
+        "addedAtISO": "2024-02-02T17:35:35.929Z",
         "genres": [
           "Crime",
           "Drama",
@@ -3986,6 +4386,8 @@
         "website": "https://www.filmweb.pl/film/La+La+Land-718819",
         "filmwebId": "718819",
         "originalName": "La La Land",
+        "addedAt": 1706620455348,
+        "addedAtISO": "2024-01-30T13:14:15.348Z",
         "genres": [
           "Comedy",
           "Drama",
@@ -4007,6 +4409,8 @@
         "website": "https://www.filmweb.pl/film/Zjawa-586583",
         "filmwebId": "586583",
         "originalName": "The Revenant",
+        "addedAt": 1706620315621,
+        "addedAtISO": "2024-01-30T13:11:55.621Z",
         "genres": [
           "Adventure",
           "Drama",
@@ -4019,13 +4423,17 @@
         "id": "tt10671440",
         "type": "movie",
         "name": "Blade",
+        "poster": "https://images.metahub.space/poster/small/tt10671440/img",
         "posterShape": "poster",
-        "description": "2027",
+        "background": "https://images.metahub.space/background/medium/tt10671440/img",
+        "description": "2027 � Added 2024-01-30",
         "releaseInfo": "2027",
         "year": 2027,
         "website": "https://www.filmweb.pl/film/Blade-838084",
         "filmwebId": "838084",
-        "originalName": "Blade"
+        "originalName": "Blade",
+        "addedAt": 1706619874557,
+        "addedAtISO": "2024-01-30T13:04:34.557Z"
       },
       {
         "id": "tt21361444",
@@ -4040,6 +4448,8 @@
         "website": "https://www.filmweb.pl/film/Avengers%3A+Secret+Wars-10016661",
         "filmwebId": "10016661",
         "originalName": "Avengers: Secret Wars",
+        "addedAt": 1706619870555,
+        "addedAtISO": "2024-01-30T13:04:30.555Z",
         "genres": [
           "Action",
           "Adventure",
@@ -4060,6 +4470,8 @@
         "website": "https://www.filmweb.pl/film/Vice-797516",
         "filmwebId": "797516",
         "originalName": "Vice",
+        "addedAt": 1706619223091,
+        "addedAtISO": "2024-01-30T12:53:43.091Z",
         "genres": [
           "Biography",
           "Comedy",
@@ -4081,6 +4493,8 @@
         "website": "https://www.filmweb.pl/film/Gor%C4%85czka-660",
         "filmwebId": "660",
         "originalName": "Heat",
+        "addedAt": 1706520882401,
+        "addedAtISO": "2024-01-29T09:34:42.401Z",
         "genres": [
           "Action",
           "Crime",
@@ -4102,6 +4516,8 @@
         "website": "https://www.filmweb.pl/film/Zostaw+%C5%9Bwiat+za+sob%C4%85-10037850",
         "filmwebId": "10037850",
         "originalName": "Leave the World Behind",
+        "addedAt": 1706520873831,
+        "addedAtISO": "2024-01-29T09:34:33.831Z",
         "genres": [
           "Drama",
           "Mystery",
@@ -4123,6 +4539,8 @@
         "website": "https://www.filmweb.pl/film/%C5%9Anie%C5%BCne+bractwo-10039434",
         "filmwebId": "10039434",
         "originalName": "La sociedad de la nieve",
+        "addedAt": 1706520858877,
+        "addedAtISO": "2024-01-29T09:34:18.877Z",
         "genres": [
           "Adventure",
           "Biography",
@@ -4144,6 +4562,8 @@
         "website": "https://www.filmweb.pl/film/Czas+krwawego+ksi%C4%99%C5%BCyca-805204",
         "filmwebId": "805204",
         "originalName": "Killers of the Flower Moon",
+        "addedAt": 1706520856914,
+        "addedAtISO": "2024-01-29T09:34:16.914Z",
         "genres": [
           "Crime",
           "Drama",
@@ -4165,6 +4585,8 @@
         "website": "https://www.filmweb.pl/film/American+Hustle-611322",
         "filmwebId": "611322",
         "originalName": "American Hustle",
+        "addedAt": 1706465579960,
+        "addedAtISO": "2024-01-28T18:12:59.960Z",
         "genres": [
           "Crime",
           "Drama"
@@ -4185,6 +4607,8 @@
         "website": "https://www.filmweb.pl/film/Bilet+do+raju-10000615",
         "filmwebId": "10000615",
         "originalName": "Ticket to Paradise",
+        "addedAt": 1706294035136,
+        "addedAtISO": "2024-01-26T18:33:55.136Z",
         "genres": [
           "Comedy",
           "Drama",
@@ -4206,6 +4630,8 @@
         "website": "https://www.filmweb.pl/film/Patrz+jak+kr%C4%99c%C4%85-10015061",
         "filmwebId": "10015061",
         "originalName": "See How They Run",
+        "addedAt": 1706293787923,
+        "addedAtISO": "2024-01-26T18:29:47.923Z",
         "genres": [
           "Comedy",
           "Crime",
@@ -4227,6 +4653,8 @@
         "website": "https://www.filmweb.pl/film/Tw%C3%B3rca-10020414",
         "filmwebId": "10020414",
         "originalName": "The Creator",
+        "addedAt": 1706255787963,
+        "addedAtISO": "2024-01-26T07:56:27.963Z",
         "genres": [
           "Action",
           "Adventure",
@@ -4248,6 +4676,8 @@
         "website": "https://www.filmweb.pl/film/Cz%C5%82owiek+z+blizn%C4%85-4833",
         "filmwebId": "4833",
         "originalName": "Scarface",
+        "addedAt": 1706001400141,
+        "addedAtISO": "2024-01-23T09:16:40.141Z",
         "genres": [
           "Crime",
           "Drama"
@@ -4268,6 +4698,8 @@
         "website": "https://www.filmweb.pl/film/Forrest+Gump-998",
         "filmwebId": "998",
         "originalName": "Forrest Gump",
+        "addedAt": 1706001377770,
+        "addedAtISO": "2024-01-23T09:16:17.770Z",
         "genres": [
           "Drama",
           "Romance"
@@ -4288,6 +4720,8 @@
         "website": "https://www.filmweb.pl/film/Fantastyczny+Pan+Lis-156466",
         "filmwebId": "156466",
         "originalName": "Fantastic Mr. Fox",
+        "addedAt": 1706001349922,
+        "addedAtISO": "2024-01-23T09:15:49.922Z",
         "genres": [
           "Animation",
           "Adventure",
@@ -4309,6 +4743,8 @@
         "website": "https://www.filmweb.pl/film/Ostatni+bastion-31546",
         "filmwebId": "31546",
         "originalName": "The Last Castle",
+        "addedAt": 1706001307969,
+        "addedAtISO": "2024-01-23T09:15:07.969Z",
         "genres": [
           "Action",
           "Drama",
@@ -4330,6 +4766,8 @@
         "website": "https://www.filmweb.pl/film/Duchy+Inisherin-856901",
         "filmwebId": "856901",
         "originalName": "The Banshees of Inisherin",
+        "addedAt": 1705919052768,
+        "addedAtISO": "2024-01-22T10:24:12.768Z",
         "genres": [
           "Comedy",
           "Drama"
@@ -4350,6 +4788,8 @@
         "website": "https://www.filmweb.pl/film/Dream+Scenario-10034393",
         "filmwebId": "10034393",
         "originalName": "Dream Scenario",
+        "addedAt": 1705862224049,
+        "addedAtISO": "2024-01-21T18:37:04.049Z",
         "genres": [
           "Comedy",
           "Drama",
@@ -4371,6 +4811,8 @@
         "website": "https://www.filmweb.pl/film/Air-10030286",
         "filmwebId": "10030286",
         "originalName": "Air",
+        "addedAt": 1705862179343,
+        "addedAtISO": "2024-01-21T18:36:19.343Z",
         "genres": [
           "Drama",
           "Sport"
@@ -4393,6 +4835,8 @@
         "website": "https://www.filmweb.pl/serial/22.11.63-644133",
         "filmwebId": "644133",
         "originalName": "11.22.63",
+        "addedAt": 1772825270069,
+        "addedAtISO": "2026-03-06T19:27:50.069Z",
         "genres": [
           "Drama",
           "Mystery",
@@ -4414,6 +4858,8 @@
         "website": "https://www.filmweb.pl/serial/Snowfall-788550",
         "filmwebId": "788550",
         "originalName": "Snowfall",
+        "addedAt": 1772776371200,
+        "addedAtISO": "2026-03-06T05:52:51.200Z",
         "genres": [
           "Crime",
           "Drama"
@@ -4434,6 +4880,8 @@
         "website": "https://www.filmweb.pl/serial/Memory+of+a+Killer-10113167",
         "filmwebId": "10113167",
         "originalName": "Memory of a Killer",
+        "addedAt": 1771828740576,
+        "addedAtISO": "2026-02-23T06:39:00.576Z",
         "genres": [
           "Crime",
           "Drama"
@@ -4453,6 +4901,8 @@
         "website": "https://www.filmweb.pl/serial/Wonder+Man-10019018",
         "filmwebId": "10019018",
         "originalName": "Wonder Man",
+        "addedAt": 1769613502578,
+        "addedAtISO": "2026-01-28T15:18:22.578Z",
         "genres": [
           "Action",
           "Adventure",
@@ -4474,6 +4924,8 @@
         "website": "https://www.filmweb.pl/serial/Kiedy+%C5%9Blub%3F-10034593",
         "filmwebId": "10034593",
         "originalName": "Kiedy ślub?",
+        "addedAt": 1767871717519,
+        "addedAtISO": "2026-01-08T11:28:37.519Z",
         "genres": [
           "Drama",
           "Comedy"
@@ -4493,6 +4945,8 @@
         "website": "https://www.filmweb.pl/serial/Homeland-595358",
         "filmwebId": "595358",
         "originalName": "Homeland",
+        "addedAt": 1765902487274,
+        "addedAtISO": "2025-12-16T16:28:07.274Z",
         "genres": [
           "Crime",
           "Drama",
@@ -4514,6 +4968,8 @@
         "website": "https://www.filmweb.pl/serial/Skorpion-710660",
         "filmwebId": "710660",
         "originalName": "Scorpion",
+        "addedAt": 1761999676104,
+        "addedAtISO": "2025-11-01T12:21:16.104Z",
         "genres": [
           "Action",
           "Crime",
@@ -4535,6 +4991,8 @@
         "website": "https://www.filmweb.pl/serial/Vinland+Saga-831401",
         "filmwebId": "831401",
         "originalName": "Vinland Saga",
+        "addedAt": 1757251048317,
+        "addedAtISO": "2025-09-07T13:17:28.317Z",
         "genres": [
           "Animation",
           "Action",
@@ -4556,6 +5014,8 @@
         "website": "https://www.filmweb.pl/serial/Scheda-10065193",
         "filmwebId": "10065193",
         "originalName": "Scheda",
+        "addedAt": 1755776762496,
+        "addedAtISO": "2025-08-21T11:46:02.496Z",
         "genres": [
           "Mystery",
           "Drama",
@@ -4577,6 +5037,8 @@
         "website": "https://www.filmweb.pl/serial/Strefa+gangster%C3%B3w-10074840",
         "filmwebId": "10074840",
         "originalName": "MobLand",
+        "addedAt": 1743404906010,
+        "addedAtISO": "2025-03-31T07:08:26.010Z",
         "genres": [
           "Crime",
           "Drama"
@@ -4597,6 +5059,8 @@
         "website": "https://www.filmweb.pl/serial/Tysi%C4%85c+cios%C3%B3w-10059178",
         "filmwebId": "10059178",
         "originalName": "A Thousand Blows",
+        "addedAt": 1741542163907,
+        "addedAtISO": "2025-03-09T17:42:43.907Z",
         "genres": [
           "Crime",
           "Drama",
@@ -4618,6 +5082,8 @@
         "website": "https://www.filmweb.pl/serial/Chad+Powers-10059276",
         "filmwebId": "10059276",
         "originalName": "Chad Powers",
+        "addedAt": 1741029202314,
+        "addedAtISO": "2025-03-03T19:13:22.314Z",
         "genres": [
           "Comedy",
           "Sport"
@@ -4638,6 +5104,8 @@
         "website": "https://www.filmweb.pl/serial/Stacja+Jedenasta-843582",
         "filmwebId": "843582",
         "originalName": "Station Eleven",
+        "addedAt": 1740720101105,
+        "addedAtISO": "2025-02-28T05:21:41.105Z",
         "genres": [
           "Adventure",
           "Drama",
@@ -4659,6 +5127,8 @@
         "website": "https://www.filmweb.pl/serial/Mr+Inbetween-810980",
         "filmwebId": "810980",
         "originalName": "Mr Inbetween",
+        "addedAt": 1739982105369,
+        "addedAtISO": "2025-02-19T16:21:45.369Z",
         "genres": [
           "Comedy",
           "Crime",
@@ -4680,6 +5150,8 @@
         "website": "https://www.filmweb.pl/serial/Cyber+City+Oedo+808-164727",
         "filmwebId": "164727",
         "originalName": "Cyber City Oedo 808",
+        "addedAt": 1739301191169,
+        "addedAtISO": "2025-02-11T19:13:11.169Z",
         "genres": [
           "Animation",
           "Crime"
@@ -4700,6 +5172,8 @@
         "website": "https://www.filmweb.pl/serial/Ted+Lasso-854751",
         "filmwebId": "854751",
         "originalName": "Ted Lasso",
+        "addedAt": 1736799682626,
+        "addedAtISO": "2025-01-13T20:21:22.626Z",
         "genres": [
           "Comedy",
           "Drama",
@@ -4721,6 +5195,8 @@
         "website": "https://www.filmweb.pl/serial/Kompania+braci-35584",
         "filmwebId": "35584",
         "originalName": "Band of Brothers",
+        "addedAt": 1736450462511,
+        "addedAtISO": "2025-01-09T19:21:02.511Z",
         "genres": [
           "Action",
           "Drama",
@@ -4742,6 +5218,8 @@
         "website": "https://www.filmweb.pl/serial/The+Unicorn-831202",
         "filmwebId": "831202",
         "originalName": "The Unicorn",
+        "addedAt": 1736430266422,
+        "addedAtISO": "2025-01-09T13:44:26.422Z",
         "genres": [
           "Comedy",
           "Drama",
@@ -4763,6 +5241,8 @@
         "website": "https://www.filmweb.pl/serial/Szale%C5%84stwo-10061972",
         "filmwebId": "10061972",
         "originalName": "The Madness",
+        "addedAt": 1735746163890,
+        "addedAtISO": "2025-01-01T15:42:43.890Z",
         "genres": [
           "Crime",
           "Drama",
@@ -4784,6 +5264,8 @@
         "website": "https://www.filmweb.pl/serial/Mindhunter-764111",
         "filmwebId": "764111",
         "originalName": "Mindhunter",
+        "addedAt": 1734703644151,
+        "addedAtISO": "2024-12-20T14:07:24.151Z",
         "genres": [
           "Crime",
           "Drama",
@@ -4805,6 +5287,8 @@
         "website": "https://www.filmweb.pl/serial/Jak+umrze%C4%87+w+samotno%C5%9Bci-10060107",
         "filmwebId": "10060107",
         "originalName": "How to Die Alone",
+        "addedAt": 1727024710206,
+        "addedAtISO": "2024-09-22T17:05:10.206Z",
         "genres": [
           "Comedy"
         ],
@@ -4824,6 +5308,8 @@
         "website": "https://www.filmweb.pl/serial/Barry-767036",
         "filmwebId": "767036",
         "originalName": "Barry",
+        "addedAt": 1726494726291,
+        "addedAtISO": "2024-09-16T13:52:06.291Z",
         "genres": [
           "Action",
           "Comedy",
@@ -4845,6 +5331,8 @@
         "website": "https://www.filmweb.pl/serial/Koszmarne+Komando-10030483",
         "filmwebId": "10030483",
         "originalName": "Creature Commandos",
+        "addedAt": 1726212975218,
+        "addedAtISO": "2024-09-13T07:36:15.218Z",
         "genres": [
           "Animation",
           "Action",
@@ -4866,6 +5354,8 @@
         "website": "https://www.filmweb.pl/serial/Stranger+Things-750359",
         "filmwebId": "750359",
         "originalName": "Stranger Things",
+        "addedAt": 1725792770559,
+        "addedAtISO": "2024-09-08T10:52:50.559Z",
         "genres": [
           "Drama",
           "Fantasy",
@@ -4887,6 +5377,8 @@
         "website": "https://www.filmweb.pl/serial/Fargo-688850",
         "filmwebId": "688850",
         "originalName": "Fargo",
+        "addedAt": 1725445834368,
+        "addedAtISO": "2024-09-04T10:30:34.368Z",
         "genres": [
           "Crime",
           "Drama",
@@ -4908,6 +5400,8 @@
         "website": "https://www.filmweb.pl/serial/Kaos-810065",
         "filmwebId": "810065",
         "originalName": "Kaos",
+        "addedAt": 1725103028309,
+        "addedAtISO": "2024-08-31T11:17:08.309Z",
         "genres": [
           "Comedy",
           "Drama",
@@ -4929,6 +5423,8 @@
         "website": "https://www.filmweb.pl/serial/Zakazane+imperium-427194",
         "filmwebId": "427194",
         "originalName": "Boardwalk Empire",
+        "addedAt": 1724741463668,
+        "addedAtISO": "2024-08-27T06:51:03.668Z",
         "genres": [
           "Crime",
           "Drama"
@@ -4949,6 +5445,8 @@
         "website": "https://www.filmweb.pl/serial/Zbrodnie+po+s%C4%85siedzku-876029",
         "filmwebId": "876029",
         "originalName": "Only Murders in the Building",
+        "addedAt": 1724678384216,
+        "addedAtISO": "2024-08-26T13:19:44.216Z",
         "genres": [
           "Comedy",
           "Crime",
@@ -4970,6 +5468,8 @@
         "website": "https://www.filmweb.pl/serial/Rodzina+Soprano-35405",
         "filmwebId": "35405",
         "originalName": "The Sopranos",
+        "addedAt": 1724603489578,
+        "addedAtISO": "2024-08-25T16:31:29.578Z",
         "genres": [
           "Crime",
           "Drama"
@@ -4990,6 +5490,8 @@
         "website": "https://www.filmweb.pl/serial/Ukryty+poziom-10059154",
         "filmwebId": "10059154",
         "originalName": "Secret Level",
+        "addedAt": 1724229723686,
+        "addedAtISO": "2024-08-21T08:42:03.686Z",
         "genres": [
           "Animation",
           "Action",
@@ -5011,6 +5513,8 @@
         "website": "https://www.filmweb.pl/serial/Tabu-708201",
         "filmwebId": "708201",
         "originalName": "Taboo",
+        "addedAt": 1724017163628,
+        "addedAtISO": "2024-08-18T21:39:23.628Z",
         "genres": [
           "Drama",
           "Mystery",
@@ -5032,6 +5536,8 @@
         "website": "https://www.filmweb.pl/serial/R%C3%B3d+smoka-842583",
         "filmwebId": "842583",
         "originalName": "House of the Dragon",
+        "addedAt": 1722623264076,
+        "addedAtISO": "2024-08-02T18:27:44.076Z",
         "genres": [
           "Action",
           "Adventure",
@@ -5053,6 +5559,8 @@
         "website": "https://www.filmweb.pl/serial/Those+About+to+Die-10032999",
         "filmwebId": "10032999",
         "originalName": "Those About to Die",
+        "addedAt": 1721487101090,
+        "addedAtISO": "2024-07-20T14:51:41.090Z",
         "genres": [
           "Action",
           "Drama"
@@ -5073,6 +5581,8 @@
         "website": "https://www.filmweb.pl/serial/Uznany+za+niewinnego-10007870",
         "filmwebId": "10007870",
         "originalName": "Presumed Innocent",
+        "addedAt": 1721046238158,
+        "addedAtISO": "2024-07-15T12:23:58.158Z",
         "genres": [
           "Crime",
           "Drama",
@@ -5094,6 +5604,8 @@
         "website": "https://www.filmweb.pl/serial/Scavengers+Reign-10029337",
         "filmwebId": "10029337",
         "originalName": "Scavengers Reign",
+        "addedAt": 1720080726585,
+        "addedAtISO": "2024-07-04T08:12:06.585Z",
         "genres": [
           "Animation",
           "Adventure",
@@ -5115,6 +5627,8 @@
         "website": "https://www.filmweb.pl/serial/Prosta+sprawa-10039211",
         "filmwebId": "10039211",
         "originalName": "Prosta sprawa",
+        "addedAt": 1720021162894,
+        "addedAtISO": "2024-07-03T15:39:22.894Z",
         "genres": [
           "Action & Adventure",
           "Crime"
@@ -5134,6 +5648,8 @@
         "website": "https://www.filmweb.pl/serial/W+powietrzu-10013349",
         "filmwebId": "10013349",
         "originalName": "Hijack",
+        "addedAt": 1719765274866,
+        "addedAtISO": "2024-06-30T16:34:34.866Z",
         "genres": [
           "Drama",
           "Thriller"
@@ -5154,6 +5670,8 @@
         "website": "https://www.filmweb.pl/serial/My+mieli%C5%9Bmy+szcz%C4%99%C5%9Bcie-10012666",
         "filmwebId": "10012666",
         "originalName": "We Were the Lucky Ones",
+        "addedAt": 1719681989989,
+        "addedAtISO": "2024-06-29T17:26:29.989Z",
         "genres": [
           "Drama",
           "History",
@@ -5175,6 +5693,8 @@
         "website": "https://www.filmweb.pl/serial/Obcy%3A+Ziemia-866838",
         "filmwebId": "866838",
         "originalName": "Alien: Earth",
+        "addedAt": 1717759053535,
+        "addedAtISO": "2024-06-07T11:17:33.535Z",
         "genres": [
           "Horror",
           "Sci-Fi",
@@ -5196,6 +5716,8 @@
         "website": "https://www.filmweb.pl/serial/Sugar-10014619",
         "filmwebId": "10014619",
         "originalName": "Sugar",
+        "addedAt": 1716747761154,
+        "addedAtISO": "2024-05-26T18:22:41.154Z",
         "genres": [
           "Crime",
           "Drama",
@@ -5217,6 +5739,8 @@
         "website": "https://www.filmweb.pl/serial/Eksploduj%C4%85ce+kotki-10012015",
         "filmwebId": "10012015",
         "originalName": "Exploding Kittens",
+        "addedAt": 1715332532921,
+        "addedAtISO": "2024-05-10T09:15:32.921Z",
         "genres": [
           "Animation",
           "Comedy"
@@ -5237,6 +5761,8 @@
         "website": "https://www.filmweb.pl/serial/Breaking+Bad-430668",
         "filmwebId": "430668",
         "originalName": "Breaking Bad",
+        "addedAt": 1713355066775,
+        "addedAtISO": "2024-04-17T11:57:46.775Z",
         "genres": [
           "Crime",
           "Drama",
@@ -5258,6 +5784,8 @@
         "website": "https://www.filmweb.pl/serial/Prawo+ulicy-87721",
         "filmwebId": "87721",
         "originalName": "The Wire",
+        "addedAt": 1712410592803,
+        "addedAtISO": "2024-04-06T13:36:32.803Z",
         "genres": [
           "Crime",
           "Drama",
@@ -5279,6 +5807,8 @@
         "website": "https://www.filmweb.pl/serial/Pingwin-10010262",
         "filmwebId": "10010262",
         "originalName": "The Penguin",
+        "addedAt": 1711141827401,
+        "addedAtISO": "2024-03-22T21:10:27.401Z",
         "genres": [
           "Crime",
           "Drama"
@@ -5299,6 +5829,8 @@
         "website": "https://www.filmweb.pl/serial/Yellowstone-799265",
         "filmwebId": "799265",
         "originalName": "Yellowstone",
+        "addedAt": 1711099487892,
+        "addedAtISO": "2024-03-22T09:24:47.892Z",
         "genres": [
           "Drama",
           "Western"
@@ -5319,6 +5851,8 @@
         "website": "https://www.filmweb.pl/serial/Fallout-867454",
         "filmwebId": "867454",
         "originalName": "Fallout",
+        "addedAt": 1709825793613,
+        "addedAtISO": "2024-03-07T15:36:33.613Z",
         "genres": [
           "Action",
           "Adventure",
@@ -5340,6 +5874,8 @@
         "website": "https://www.filmweb.pl/serial/D%C5%82uga+droga+do+domu-796026",
         "filmwebId": "796026",
         "originalName": "The Long Road Home",
+        "addedAt": 1709650336823,
+        "addedAtISO": "2024-03-05T14:52:16.823Z",
         "genres": [
           "Action",
           "Biography",
@@ -5361,6 +5897,8 @@
         "website": "https://www.filmweb.pl/serial/X-Men%3A+Ewolucja-95058",
         "filmwebId": "95058",
         "originalName": "X-Men: Evolution",
+        "addedAt": 1708772111739,
+        "addedAtISO": "2024-02-24T10:55:11.739Z",
         "genres": [
           "Animation",
           "Action",
@@ -5382,6 +5920,8 @@
         "website": "https://www.filmweb.pl/serial/Daredevil%3A+Odrodzenie-10016659",
         "filmwebId": "10016659",
         "originalName": "Daredevil: Born Again",
+        "addedAt": 1708079315216,
+        "addedAtISO": "2024-02-16T10:28:35.216Z",
         "genres": [
           "Action",
           "Crime",
@@ -5403,6 +5943,8 @@
         "website": "https://www.filmweb.pl/serial/Ironheart-866828",
         "filmwebId": "866828",
         "originalName": "Ironheart",
+        "addedAt": 1708079312515,
+        "addedAtISO": "2024-02-16T10:28:32.515Z",
         "genres": [
           "Action",
           "Adventure",
@@ -5424,6 +5966,8 @@
         "website": "https://www.filmweb.pl/serial/Pluto-10031408",
         "filmwebId": "10031408",
         "originalName": "Pluto",
+        "addedAt": 1707207352663,
+        "addedAtISO": "2024-02-06T08:15:52.663Z",
         "genres": [
           "Animation",
           "Action",
@@ -5445,6 +5989,8 @@
         "website": "https://www.filmweb.pl/serial/Rozdzielenie-878161",
         "filmwebId": "878161",
         "originalName": "Severance",
+        "addedAt": 1706639358695,
+        "addedAtISO": "2024-01-30T18:29:18.695Z",
         "genres": [
           "Drama",
           "Mystery",
@@ -5466,6 +6012,8 @@
         "website": "https://www.filmweb.pl/serial/Marvel+Zombi-10016630",
         "filmwebId": "10016630",
         "originalName": "Marvel Zombies",
+        "addedAt": 1706619887209,
+        "addedAtISO": "2024-01-30T13:04:47.209Z",
         "genres": [
           "Animation",
           "Action",
@@ -5487,6 +6035,8 @@
         "website": "https://www.filmweb.pl/serial/Spider-Man%3A+przyjazny+paj%C4%85k+z+s%C4%85siedztwa-10004391",
         "filmwebId": "10004391",
         "originalName": "Your Friendly Neighborhood Spider-Man",
+        "addedAt": 1706619883659,
+        "addedAtISO": "2024-01-30T13:04:43.659Z",
         "genres": [
           "Animation",
           "Action",
@@ -5508,6 +6058,8 @@
         "website": "https://www.filmweb.pl/serial/To+zawsze+Agatha-10004354",
         "filmwebId": "10004354",
         "originalName": "Agatha All Along",
+        "addedAt": 1706619879398,
+        "addedAtISO": "2024-01-30T13:04:39.398Z",
         "genres": [
           "Action",
           "Adventure",
@@ -5523,12 +6075,14 @@
         "poster": "https://fwcdn.pl/fpo/68/27/866827/8014971_1.10.webp",
         "posterShape": "regular",
         "background": "https://fwcdn.pl/fpo/68/27/866827/8014971_1.10.webp",
-        "description": "2026",
+        "description": "2026 � Added 2024-01-30",
         "releaseInfo": "2026",
         "year": 2026,
         "website": "https://www.filmweb.pl/serial/Armor+Wars-866827",
         "filmwebId": "866827",
-        "originalName": "Armor Wars"
+        "originalName": "Armor Wars",
+        "addedAt": 1706619867950,
+        "addedAtISO": "2024-01-30T13:04:27.950Z"
       },
       {
         "id": "tt7660850",
@@ -5543,6 +6097,8 @@
         "website": "https://www.filmweb.pl/serial/Sukcesja-779456",
         "filmwebId": "779456",
         "originalName": "Succession",
+        "addedAt": 1706520910099,
+        "addedAtISO": "2024-01-29T09:35:10.099Z",
         "genres": [
           "Comedy",
           "Drama"
@@ -5563,6 +6119,8 @@
         "website": "https://www.filmweb.pl/serial/Westworld-232988",
         "filmwebId": "232988",
         "originalName": "Westworld",
+        "addedAt": 1706520766871,
+        "addedAtISO": "2024-01-29T09:32:46.871Z",
         "genres": [
           "Drama",
           "Mystery",
@@ -5584,6 +6142,8 @@
         "website": "https://www.filmweb.pl/serial/W+t%C5%82umie-872817",
         "filmwebId": "872817",
         "originalName": "The Crowded Room",
+        "addedAt": 1706346056683,
+        "addedAtISO": "2024-01-27T09:00:56.683Z",
         "genres": [
           "Biography",
           "Crime",
@@ -5605,6 +6165,8 @@
         "website": "https://www.filmweb.pl/serial/After+Life-824412",
         "filmwebId": "824412",
         "originalName": "After Life",
+        "addedAt": 1706293653352,
+        "addedAtISO": "2024-01-26T18:27:33.352Z",
         "genres": [
           "Comedy",
           "Drama"
