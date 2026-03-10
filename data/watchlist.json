@@ -1,8 +1,53 @@
 {
   "username": "7owca7",
-  "updatedAt": "2026-03-10T02:51:42.899Z",
+  "updatedAt": "2026-03-10T04:53:13.001Z",
   "catalogs": {
     "movie": [
+      {
+        "id": "tt0133093",
+        "type": "movie",
+        "name": "Matrix",
+        "poster": "https://images.metahub.space/poster/small/tt0133093/img",
+        "posterShape": "poster",
+        "background": "https://images.metahub.space/background/medium/tt0133093/img",
+        "description": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.",
+        "releaseInfo": "1999",
+        "year": 1999,
+        "website": "https://www.filmweb.pl/film/Matrix-628",
+        "filmwebId": "628",
+        "originalName": "The Matrix",
+        "addedAt": 1773086197280,
+        "addedAtISO": "2026-03-09T19:56:37.280Z",
+        "genres": [
+          "Action",
+          "Sci-Fi"
+        ],
+        "imdbRating": "8.7",
+        "runtime": "136 min"
+      },
+      {
+        "id": "tt0499549",
+        "type": "movie",
+        "name": "Avatar",
+        "poster": "https://images.metahub.space/poster/small/tt0499549/img",
+        "posterShape": "poster",
+        "background": "https://images.metahub.space/background/medium/tt0499549/img",
+        "description": "A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
+        "releaseInfo": "2009",
+        "year": 2009,
+        "website": "https://www.filmweb.pl/film/Avatar-299113",
+        "filmwebId": "299113",
+        "originalName": "Avatar",
+        "addedAt": 1773086193752,
+        "addedAtISO": "2026-03-09T19:56:33.752Z",
+        "genres": [
+          "Action",
+          "Adventure",
+          "Fantasy"
+        ],
+        "imdbRating": "7.9",
+        "runtime": "162 min"
+      },
       {
         "id": "tt1527793",
         "type": "movie",
@@ -33,7 +78,7 @@
         "poster": "https://live.metahub.space/poster/small/tt32093575/img",
         "posterShape": "poster",
         "background": "https://live.metahub.space/background/medium/tt32093575/img",
-        "description": "The sixth installment in the franchise. Plot TBA.",
+        "description": "Twenty-six years after outrunning a suspiciously familiar masked killer, the Core Four are back in the killer's crosshairs and no horror movie IP is safe.",
         "releaseInfo": "2026",
         "year": 2026,
         "website": "https://www.filmweb.pl/film/Straszny+film-10084281",
@@ -65,31 +110,8 @@
           "Drama",
           "Comedy"
         ],
-        "imdbRating": "7.1",
+        "imdbRating": "7.2",
         "runtime": "110 min"
-      },
-      {
-        "id": "tt0489099",
-        "type": "movie",
-        "name": "Jumper",
-        "poster": "https://images.metahub.space/poster/small/tt0489099/img",
-        "posterShape": "poster",
-        "background": "https://images.metahub.space/background/medium/tt0489099/img",
-        "description": "A young man with teleportation abilities suddenly finds himself in the middle of an ancient war between those like him and their sworn annihilators.",
-        "releaseInfo": "2008",
-        "year": 2008,
-        "website": "https://www.filmweb.pl/film/Jumper-272987",
-        "filmwebId": "272987",
-        "originalName": "Jumper",
-        "addedAt": 1771416667548,
-        "addedAtISO": "2026-02-18T12:11:07.548Z",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Sci-Fi"
-        ],
-        "imdbRating": "6.1",
-        "runtime": "88 min"
       },
       {
         "id": "tt0112792",
@@ -132,7 +154,7 @@
           "Romance",
           "Comedy"
         ],
-        "imdbRating": "7.5",
+        "imdbRating": "7.6",
         "runtime": "100 min"
       },
       {
@@ -3297,29 +3319,6 @@
         "runtime": "116 min"
       },
       {
-        "id": "tt13923084",
-        "type": "movie",
-        "name": "Boy Kills World",
-        "poster": "https://images.metahub.space/poster/small/tt13923084/img",
-        "posterShape": "poster",
-        "background": "https://images.metahub.space/background/medium/tt13923084/img",
-        "description": "A fever dream action film that follows Boy, a deaf person with a vibrant imagination. When his family is murdered, he is trained by a mysterious shaman to repress his childish imagination and become an instrument of death.",
-        "releaseInfo": "2023",
-        "year": 2023,
-        "website": "https://www.filmweb.pl/film/Boy+Kills+World-10002783",
-        "filmwebId": "10002783",
-        "originalName": "Boy Kills World",
-        "addedAt": 1716454768377,
-        "addedAtISO": "2024-05-23T08:59:28.377Z",
-        "genres": [
-          "Action",
-          "Comedy",
-          "Crime"
-        ],
-        "imdbRating": "6.4",
-        "runtime": "110 min"
-      },
-      {
         "id": "tt27665778",
         "type": "movie",
         "name": "Horyzont. Rozdział 2",
@@ -3494,50 +3493,6 @@
         "runtime": "80 min"
       },
       {
-        "id": "tt28182736",
-        "type": "movie",
-        "name": "Szczenięca miłość",
-        "poster": "https://images.metahub.space/poster/small/tt28182736/img",
-        "posterShape": "poster",
-        "background": "https://images.metahub.space/background/medium/tt28182736/img",
-        "description": "After a disastrous first date, Nicole and Max vow to lose each other's numbers until their dogs find a love match. Hilariously mismatched Nicole and Max are forced to become responsible co-parents, but end up finding love themselves.",
-        "releaseInfo": "2023",
-        "year": 2023,
-        "website": "https://www.filmweb.pl/film/Szczeni%C4%99ca+mi%C5%82o%C5%9B%C4%87-10038874",
-        "filmwebId": "10038874",
-        "originalName": "Puppy Love",
-        "addedAt": 1714032899302,
-        "addedAtISO": "2024-04-25T08:14:59.302Z",
-        "genres": [
-          "Comedy"
-        ],
-        "imdbRating": "6.3",
-        "runtime": "106 min"
-      },
-      {
-        "id": "tt21235248",
-        "type": "movie",
-        "name": "Pogromcy duchów: Imperium lodu",
-        "poster": "https://images.metahub.space/poster/small/tt21235248/img",
-        "posterShape": "poster",
-        "background": "https://images.metahub.space/background/medium/tt21235248/img",
-        "description": "When the discovery of an ancient artifact unleashes an evil force, Ghostbusters new and old must join forces to protect their home and save the world from a second ice age.",
-        "releaseInfo": "2024",
-        "year": 2024,
-        "website": "https://www.filmweb.pl/film/Pogromcy+duch%C3%B3w%3A+Imperium+lodu-10043538",
-        "filmwebId": "10043538",
-        "originalName": "Ghostbusters: Frozen Empire",
-        "addedAt": 1712816891437,
-        "addedAtISO": "2024-04-11T06:28:11.437Z",
-        "genres": [
-          "Adventure",
-          "Comedy",
-          "Fantasy"
-        ],
-        "imdbRating": "6.1",
-        "runtime": "115 min"
-      },
-      {
         "id": "tt17024450",
         "type": "movie",
         "name": "Bez litości 3. Ostatni rozdział",
@@ -3561,50 +3516,6 @@
         "runtime": "109 min"
       },
       {
-        "id": "tt20221690",
-        "type": "movie",
-        "name": "Dzięciołek Woody jedzie na obóz",
-        "poster": "https://images.metahub.space/poster/small/tt20221690/img",
-        "posterShape": "poster",
-        "background": "https://images.metahub.space/background/medium/tt20221690/img",
-        "description": "Woody Woodpecker must find a new home after being kicked out of the forest. At Camp Woo Hoo, he thinks he's found a forever home, but there's an inspector on the loose who wants to shut down the camp.",
-        "releaseInfo": "2024",
-        "year": 2024,
-        "website": "https://www.filmweb.pl/film/Dzi%C4%99cio%C5%82ek+Woody+jedzie+na+ob%C3%B3z-10050020",
-        "filmwebId": "10050020",
-        "originalName": "Woody Woodpecker Goes to Camp",
-        "addedAt": 1712562016724,
-        "addedAtISO": "2024-04-08T07:40:16.724Z",
-        "genres": [
-          "Animation",
-          "Adventure",
-          "Comedy"
-        ],
-        "imdbRating": "4.5",
-        "runtime": "101 min"
-      },
-      {
-        "id": "tt5672290",
-        "type": "movie",
-        "name": "Omen: Początek",
-        "poster": "https://images.metahub.space/poster/small/tt5672290/img",
-        "posterShape": "poster",
-        "background": "https://images.metahub.space/background/medium/tt5672290/img",
-        "description": "A young American woman is sent to Rome to begin a life of service to the church, but encounters a darkness that causes her to question her faith and uncovers a terrifying conspiracy that hopes to bring about the birth of evil inca...",
-        "releaseInfo": "2024",
-        "year": 2024,
-        "website": "https://www.filmweb.pl/film/Omen%3A+Pocz%C4%85tek-10013258",
-        "filmwebId": "10013258",
-        "originalName": "The First Omen",
-        "addedAt": 1712561934210,
-        "addedAtISO": "2024-04-08T07:38:54.210Z",
-        "genres": [
-          "Horror"
-        ],
-        "imdbRating": "6.5",
-        "runtime": "119 min"
-      },
-      {
         "id": "tt0210945",
         "type": "movie",
         "name": "Tytani",
@@ -3626,29 +3537,6 @@
         ],
         "imdbRating": "7.8",
         "runtime": "113 min"
-      },
-      {
-        "id": "tt1979320",
-        "type": "movie",
-        "name": "Wyścig",
-        "poster": "https://images.metahub.space/poster/small/tt1979320/img",
-        "posterShape": "poster",
-        "background": "https://images.metahub.space/background/medium/tt1979320/img",
-        "description": "James Hunt and Niki Lauda, two extremely skilled Formula One racers, have an intense rivalry with each other. However, it is their enmity that pushes them to their limits.",
-        "releaseInfo": "2013",
-        "year": 2013,
-        "website": "https://www.filmweb.pl/film/Wy%C5%9Bcig-628262",
-        "filmwebId": "628262",
-        "originalName": "Rush",
-        "addedAt": 1712561911129,
-        "addedAtISO": "2024-04-08T07:38:31.129Z",
-        "genres": [
-          "Biography",
-          "Drama",
-          "Sport"
-        ],
-        "imdbRating": "8.1",
-        "runtime": "123 min"
       },
       {
         "id": "tt0081398",
@@ -3697,28 +3585,6 @@
         "runtime": "178 min"
       },
       {
-        "id": "tt10638522",
-        "type": "movie",
-        "name": "Mów do mnie!",
-        "poster": "https://images.metahub.space/poster/small/tt10638522/img",
-        "posterShape": "poster",
-        "background": "https://images.metahub.space/background/medium/tt10638522/img",
-        "description": "When a group of friends discover how to conjure spirits using an embalmed hand, they become hooked on the new thrill, until one of them goes too far and unleashes terrifying supernatural forces.",
-        "releaseInfo": "2022",
-        "year": 2022,
-        "website": "https://www.filmweb.pl/film/M%C3%B3w+do+mnie!-10026657",
-        "filmwebId": "10026657",
-        "originalName": "Talk to Me",
-        "addedAt": 1711141884387,
-        "addedAtISO": "2024-03-22T21:11:24.387Z",
-        "genres": [
-          "Horror",
-          "Thriller"
-        ],
-        "imdbRating": "7.1",
-        "runtime": "95 min"
-      },
-      {
         "id": "tt10640346",
         "type": "movie",
         "name": "Babilon",
@@ -3762,28 +3628,6 @@
         ],
         "imdbRating": "7.7",
         "runtime": "140 min"
-      },
-      {
-        "id": "tt7405458",
-        "type": "movie",
-        "name": "Mężczyzna imieniem Otto",
-        "poster": "https://images.metahub.space/poster/small/tt7405458/img",
-        "posterShape": "poster",
-        "background": "https://images.metahub.space/background/medium/tt7405458/img",
-        "description": "Otto is a grump who's given up on life following the loss of his wife and wants to end it all. When a young family moves in nearby, he meets his match in quick-witted Marisol, leading to a friendship that will turn his world around.",
-        "releaseInfo": "2022",
-        "year": 2022,
-        "website": "https://www.filmweb.pl/film/M%C4%99%C5%BCczyzna+imieniem+Otto-10021334",
-        "filmwebId": "10021334",
-        "originalName": "A Man Called Otto",
-        "addedAt": 1711141854583,
-        "addedAtISO": "2024-03-22T21:10:54.583Z",
-        "genres": [
-          "Comedy",
-          "Drama"
-        ],
-        "imdbRating": "7.5",
-        "runtime": "126 min"
       },
       {
         "id": "tt1016150",
@@ -3853,52 +3697,6 @@
         ],
         "imdbRating": "8.2",
         "runtime": "130 min"
-      },
-      {
-        "id": "tt14539740",
-        "type": "movie",
-        "name": "Godzilla i Kong: Nowe imperium",
-        "poster": "https://images.metahub.space/poster/small/tt14539740/img",
-        "posterShape": "poster",
-        "background": "https://images.metahub.space/background/medium/tt14539740/img",
-        "description": "Two ancient titans, Godzilla and Kong, clash in an epic battle as humans unravel their intertwined origins and connection to Skull Island's mysteries.",
-        "releaseInfo": "2024",
-        "year": 2024,
-        "website": "https://www.filmweb.pl/film/Godzilla+i+Kong%3A+Nowe+imperium-10017673",
-        "filmwebId": "10017673",
-        "originalName": "Godzilla x Kong: The New Empire",
-        "addedAt": 1709648119658,
-        "addedAtISO": "2024-03-05T14:15:19.658Z",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Fantasy"
-        ],
-        "imdbRating": "6.0",
-        "runtime": "115 min"
-      },
-      {
-        "id": "tt28066777",
-        "type": "movie",
-        "name": "Orion i ciemność",
-        "poster": "https://images.metahub.space/poster/small/tt28066777/img",
-        "posterShape": "poster",
-        "background": "https://images.metahub.space/background/medium/tt28066777/img",
-        "description": "A boy with an active imagination faces his fears on an unforgettable journey through the night with his new friend: a giant, smiling creature named Dark.",
-        "releaseInfo": "2024",
-        "year": 2024,
-        "website": "https://www.filmweb.pl/film/Orion+i+ciemno%C5%9B%C4%87-10037454",
-        "filmwebId": "10037454",
-        "originalName": "Orion and the Dark",
-        "addedAt": 1709326128889,
-        "addedAtISO": "2024-03-01T20:48:48.889Z",
-        "genres": [
-          "Animation",
-          "Adventure",
-          "Comedy"
-        ],
-        "imdbRating": "6.3",
-        "runtime": "90 min"
       },
       {
         "id": "tt14849194",
@@ -4124,51 +3922,6 @@
         "runtime": "93 min"
       },
       {
-        "id": "tt30852970",
-        "type": "movie",
-        "name": "Kochanka, stalkerka, zabójczyni",
-        "poster": "https://images.metahub.space/poster/small/tt30852970/img",
-        "posterShape": "poster",
-        "background": "https://images.metahub.space/background/medium/tt30852970/img",
-        "description": "In this twisting documentary, a mechanic tries online dating for the first time and meets a woman who takes romantic obsession to a deadly extreme.",
-        "releaseInfo": "2024",
-        "year": 2024,
-        "website": "https://www.filmweb.pl/film/Kochanka%2C+stalkerka%2C+zab%C3%B3jczyni-10048242",
-        "filmwebId": "10048242",
-        "originalName": "Lover, Stalker, Killer",
-        "addedAt": 1707747007235,
-        "addedAtISO": "2024-02-12T14:10:07.235Z",
-        "genres": [
-          "Documentary",
-          "Crime"
-        ],
-        "imdbRating": "7.0",
-        "runtime": "90 min"
-      },
-      {
-        "id": "tt7693316",
-        "type": "movie",
-        "name": "Towarzysze broni",
-        "poster": "https://images.metahub.space/poster/small/tt7693316/img",
-        "posterShape": "poster",
-        "background": "https://images.metahub.space/background/medium/tt7693316/img",
-        "description": "A pair of U.S. Navy fighter pilots risk their lives during the Korean War.",
-        "releaseInfo": "2022",
-        "year": 2022,
-        "website": "https://www.filmweb.pl/film/Towarzysze+broni-10013996",
-        "filmwebId": "10013996",
-        "originalName": "Devotion",
-        "addedAt": 1707677116740,
-        "addedAtISO": "2024-02-11T18:45:16.740Z",
-        "genres": [
-          "Action",
-          "Biography",
-          "Drama"
-        ],
-        "imdbRating": "6.6",
-        "runtime": "139 min"
-      },
-      {
         "id": "tt2713180",
         "type": "movie",
         "name": "Furia",
@@ -4190,29 +3943,6 @@
         ],
         "imdbRating": "7.6",
         "runtime": "135 min"
-      },
-      {
-        "id": "tt1160419",
-        "type": "movie",
-        "name": "Diuna",
-        "poster": "https://images.metahub.space/poster/small/tt1160419/img",
-        "posterShape": "poster",
-        "background": "https://images.metahub.space/background/medium/tt1160419/img",
-        "description": "Paul Atreides arrives on Arrakis after his father accepts the stewardship of the dangerous planet. However, chaos ensues after a betrayal as forces clash to control melange, a precious resource.",
-        "releaseInfo": "2021",
-        "year": 2021,
-        "website": "https://www.filmweb.pl/film/Diuna-469476",
-        "filmwebId": "469476",
-        "originalName": "Dune",
-        "addedAt": 1707471271315,
-        "addedAtISO": "2024-02-09T09:34:31.315Z",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Drama"
-        ],
-        "imdbRating": "8",
-        "runtime": "155 min"
       },
       {
         "id": "tt0386588",
@@ -4639,29 +4369,6 @@
         ],
         "imdbRating": "6.5",
         "runtime": "99 min"
-      },
-      {
-        "id": "tt11858890",
-        "type": "movie",
-        "name": "Twórca",
-        "poster": "https://images.metahub.space/poster/small/tt11858890/img",
-        "posterShape": "poster",
-        "background": "https://images.metahub.space/background/medium/tt11858890/img",
-        "description": "Against the backdrop of a war between humans and robots with artificial intelligence, a former soldier finds the robots' secret weapon to end the conflict, an AI in the form of a child.",
-        "releaseInfo": "2023",
-        "year": 2023,
-        "website": "https://www.filmweb.pl/film/Tw%C3%B3rca-10020414",
-        "filmwebId": "10020414",
-        "originalName": "The Creator",
-        "addedAt": 1706255787963,
-        "addedAtISO": "2024-01-26T07:56:27.963Z",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Drama"
-        ],
-        "imdbRating": "6.7",
-        "runtime": "134 min"
       },
       {
         "id": "tt0086250",
@@ -6178,8 +5885,8 @@
   },
   "stats": {
     "movie": {
-      "scraped": 215,
-      "matched": 215
+      "scraped": 202,
+      "matched": 202
     },
     "series": {
       "scraped": 60,
