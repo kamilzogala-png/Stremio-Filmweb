@@ -1,53 +1,8 @@
 {
   "username": "7owca7",
-  "updatedAt": "2026-03-10T16:15:32.681Z",
+  "updatedAt": "2026-03-10T17:08:43.556Z",
   "catalogs": {
     "movie": [
-      {
-        "id": "tt0133093",
-        "type": "movie",
-        "name": "Matrix",
-        "poster": "https://images.metahub.space/poster/small/tt0133093/img",
-        "posterShape": "poster",
-        "background": "https://images.metahub.space/background/medium/tt0133093/img",
-        "description": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.",
-        "releaseInfo": "1999",
-        "year": 1999,
-        "website": "https://www.filmweb.pl/film/Matrix-628",
-        "filmwebId": "628",
-        "originalName": "The Matrix",
-        "addedAt": 1773086197280,
-        "addedAtISO": "2026-03-09T19:56:37.280Z",
-        "genres": [
-          "Action",
-          "Sci-Fi"
-        ],
-        "imdbRating": "8.7",
-        "runtime": "136 min"
-      },
-      {
-        "id": "tt0499549",
-        "type": "movie",
-        "name": "Avatar",
-        "poster": "https://images.metahub.space/poster/small/tt0499549/img",
-        "posterShape": "poster",
-        "background": "https://images.metahub.space/background/medium/tt0499549/img",
-        "description": "A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
-        "releaseInfo": "2009",
-        "year": 2009,
-        "website": "https://www.filmweb.pl/film/Avatar-299113",
-        "filmwebId": "299113",
-        "originalName": "Avatar",
-        "addedAt": 1773086193752,
-        "addedAtISO": "2026-03-09T19:56:33.752Z",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Fantasy"
-        ],
-        "imdbRating": "7.9",
-        "runtime": "162 min"
-      },
       {
         "id": "tt1527793",
         "type": "movie",
@@ -110,7 +65,7 @@
           "Drama",
           "Comedy"
         ],
-        "imdbRating": "7.2",
+        "imdbRating": "7.0",
         "runtime": "110 min"
       },
       {
@@ -154,7 +109,7 @@
           "Romance",
           "Comedy"
         ],
-        "imdbRating": "7.6",
+        "imdbRating": "7.5",
         "runtime": "100 min"
       },
       {
@@ -177,52 +132,6 @@
           "Drama",
           "Crime"
         ]
-      },
-      {
-        "id": "tt2396566",
-        "type": "movie",
-        "name": "6 kroków",
-        "poster": "https://images.metahub.space/poster/small/tt2396566/img",
-        "posterShape": "poster",
-        "background": "https://images.metahub.space/background/medium/tt2396566/img",
-        "description": "Backup singers live in a world that lies just beyond the spotlight. Their voices bring harmony to the biggest bands in popular music, but we've had no idea who these singers are or what lives they lead, until now.",
-        "releaseInfo": "2013",
-        "year": 2013,
-        "website": "https://www.filmweb.pl/film/6+krok%C3%B3w-697664",
-        "filmwebId": "697664",
-        "originalName": "6 kroków",
-        "addedAt": 1768569653938,
-        "addedAtISO": "2026-01-16T13:20:53.938Z",
-        "genres": [
-          "Documentary",
-          "Biography",
-          "History"
-        ],
-        "imdbRating": "7.4",
-        "runtime": "89 min"
-      },
-      {
-        "id": "tt3531202",
-        "type": "movie",
-        "name": "Pilgrimage",
-        "poster": "https://images.metahub.space/poster/small/tt3531202/img",
-        "posterShape": "poster",
-        "background": "https://images.metahub.space/background/medium/tt3531202/img",
-        "description": "In 13th-century Ireland, a group of monks must escort a sacred relic across a landscape fraught with peril.",
-        "releaseInfo": "2017",
-        "year": 2017,
-        "website": "https://www.filmweb.pl/film/Pilgrimage-730103",
-        "filmwebId": "730103",
-        "originalName": "Pilgrimage",
-        "addedAt": 1768484444760,
-        "addedAtISO": "2026-01-15T13:40:44.760Z",
-        "genres": [
-          "Action",
-          "Drama",
-          "History"
-        ],
-        "imdbRating": "5.9",
-        "runtime": "96 min"
       },
       {
         "id": "tt27419466",
@@ -289,29 +198,6 @@
         ],
         "imdbRating": "6.7",
         "runtime": "105 min"
-      },
-      {
-        "id": "tt29344903",
-        "type": "movie",
-        "name": "Brzydka siostra",
-        "poster": "https://images.metahub.space/poster/small/tt29344903/img",
-        "posterShape": "poster",
-        "background": "https://images.metahub.space/background/medium/tt29344903/img",
-        "description": "Elvira battles against her gorgeous stepsister in a realm where beauty reigns supreme. She resorts to extreme measures to captivate the prince, amid a ruthless competition for physical perfection.",
-        "releaseInfo": "2025",
-        "year": 2025,
-        "website": "https://www.filmweb.pl/film/Brzydka+siostra-10068153",
-        "filmwebId": "10068153",
-        "originalName": "Den stygge stesøsteren",
-        "addedAt": 1765902559736,
-        "addedAtISO": "2025-12-16T16:29:19.736Z",
-        "genres": [
-          "Comedy",
-          "Drama",
-          "Horror"
-        ],
-        "imdbRating": "7",
-        "runtime": "109 min"
       },
       {
         "id": "tt0292506",
@@ -447,29 +333,6 @@
         "runtime": "102 min"
       },
       {
-        "id": "tt9603208",
-        "type": "movie",
-        "name": "Mission: Impossible - The Final Reckoning",
-        "poster": "https://images.metahub.space/poster/small/tt9603208/img",
-        "posterShape": "poster",
-        "background": "https://images.metahub.space/background/medium/tt9603208/img",
-        "description": "Hunt and the IMF pursue a dangerous AI called the Entity that's infiltrated global intelligence. With governments and a figure from his past in pursuit, Hunt races to stop it from forever changing the world.",
-        "releaseInfo": "2025",
-        "year": 2025,
-        "website": "https://www.filmweb.pl/film/Mission%3A+Impossible+-+The+Final+Reckoning-832339",
-        "filmwebId": "832339",
-        "originalName": "Mission: Impossible - The Final Reckoning",
-        "addedAt": 1756290260286,
-        "addedAtISO": "2025-08-27T10:24:20.286Z",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Thriller"
-        ],
-        "imdbRating": "7.2",
-        "runtime": "170 min"
-      },
-      {
         "id": "tt14205554",
         "type": "movie",
         "name": "K-popowe łowczynie demonów",
@@ -584,29 +447,6 @@
         "runtime": "98 min"
       },
       {
-        "id": "tt31176520",
-        "type": "movie",
-        "name": "Eddington",
-        "poster": "https://images.metahub.space/poster/small/tt31176520/img",
-        "posterShape": "poster",
-        "background": "https://images.metahub.space/background/medium/tt31176520/img",
-        "description": "In May of 2020, a standoff between a small-town sheriff and mayor sparks a powder keg as neighbor is pitted against neighbor in Eddington, New Mexico.",
-        "releaseInfo": "2025",
-        "year": 2025,
-        "website": "https://www.filmweb.pl/film/Eddington-10047992",
-        "filmwebId": "10047992",
-        "originalName": "Eddington",
-        "addedAt": 1753118894892,
-        "addedAtISO": "2025-07-21T17:28:14.892Z",
-        "genres": [
-          "Comedy",
-          "Drama",
-          "Western"
-        ],
-        "imdbRating": "6.6",
-        "runtime": "148 min"
-      },
-      {
         "id": "tt3460252",
         "type": "movie",
         "name": "Nienawistna ósemka",
@@ -674,29 +514,6 @@
         ],
         "imdbRating": "7.3",
         "runtime": "140 min"
-      },
-      {
-        "id": "tt13357520",
-        "type": "movie",
-        "name": "Sojusznicy",
-        "poster": "https://images.metahub.space/poster/small/tt13357520/img",
-        "posterShape": "poster",
-        "background": "https://images.metahub.space/background/medium/tt13357520/img",
-        "description": "When the U.K. Prime Minister and U.S. President become the targets of a foreign adversary, they are forced to rely on each other to thwart a global conspiracy.",
-        "releaseInfo": "2025",
-        "year": 2025,
-        "website": "https://www.filmweb.pl/film/Sojusznicy-10079855",
-        "filmwebId": "10079855",
-        "originalName": "Heads of State",
-        "addedAt": 1750767058129,
-        "addedAtISO": "2025-06-24T12:10:58.129Z",
-        "genres": [
-          "Action",
-          "Comedy",
-          "Thriller"
-        ],
-        "imdbRating": "6.4",
-        "runtime": "117 min"
       },
       {
         "id": "tt8836988",
@@ -814,27 +631,6 @@
         "runtime": "108 min"
       },
       {
-        "id": "tt26927452",
-        "type": "movie",
-        "name": "Hurry Up Tomorrow",
-        "poster": "https://images.metahub.space/poster/small/tt26927452/img",
-        "posterShape": "poster",
-        "background": "https://images.metahub.space/background/medium/tt26927452/img",
-        "description": "An insomniac musician encounters a mysterious stranger, leading to a journey that challenges everything he knows about himself.",
-        "releaseInfo": "2025",
-        "year": 2025,
-        "website": "https://www.filmweb.pl/film/Hurry+Up+Tomorrow-10068848",
-        "filmwebId": "10068848",
-        "originalName": "Hurry Up Tomorrow",
-        "addedAt": 1746372141776,
-        "addedAtISO": "2025-05-04T15:22:21.776Z",
-        "genres": [
-          "Thriller"
-        ],
-        "imdbRating": "4.3",
-        "runtime": "105 min"
-      },
-      {
         "id": "tt0433035",
         "type": "movie",
         "name": "Giganci ze stali",
@@ -903,29 +699,6 @@
         "runtime": "124 min"
       },
       {
-        "id": "tt10323676",
-        "type": "movie",
-        "name": "Najemnik",
-        "poster": "https://images.metahub.space/poster/small/tt10323676/img",
-        "posterShape": "poster",
-        "background": "https://images.metahub.space/background/medium/tt10323676/img",
-        "description": "A discharged U.S. Army Special Operations Forces sergeant, James Harper, risks everything for his family when he joins a private contracting organization.",
-        "releaseInfo": "2022",
-        "year": 2022,
-        "website": "https://www.filmweb.pl/film/Najemnik-10000792",
-        "filmwebId": "10000792",
-        "originalName": "The Contractor",
-        "addedAt": 1744209044586,
-        "addedAtISO": "2025-04-09T14:30:44.586Z",
-        "genres": [
-          "Action",
-          "Drama",
-          "Thriller"
-        ],
-        "imdbRating": "5.8",
-        "runtime": "103 min"
-      },
-      {
         "id": "tt1033575",
         "type": "movie",
         "name": "Spadkobiercy",
@@ -946,29 +719,6 @@
         ],
         "imdbRating": "7.3",
         "runtime": "115 min"
-      },
-      {
-        "id": "tt27218960",
-        "type": "movie",
-        "name": "Y2K",
-        "poster": "https://images.metahub.space/poster/small/tt27218960/img",
-        "posterShape": "poster",
-        "background": "https://images.metahub.space/background/medium/tt27218960/img",
-        "description": "Two high-school nobodies make the decision to crash a Y2K party. The night becomes even crazier than they could have ever dreamed when the clock strikes midnight.",
-        "releaseInfo": "2024",
-        "year": 2024,
-        "website": "https://www.filmweb.pl/film/Y2K-10049616",
-        "filmwebId": "10049616",
-        "originalName": "Y2K",
-        "addedAt": 1742381165631,
-        "addedAtISO": "2025-03-19T10:46:05.631Z",
-        "genres": [
-          "Comedy",
-          "Horror",
-          "Sci-Fi"
-        ],
-        "imdbRating": "4.7",
-        "runtime": "91 min"
       },
       {
         "id": "tt0765429",
@@ -1038,29 +788,6 @@
         ],
         "imdbRating": "7.4",
         "runtime": "120 min"
-      },
-      {
-        "id": "tt14123284",
-        "type": "movie",
-        "name": "Chaos",
-        "poster": "https://images.metahub.space/poster/small/tt14123284/img",
-        "posterShape": "poster",
-        "background": "https://images.metahub.space/background/medium/tt14123284/img",
-        "description": "After a drug deal gone wrong, a bruised detective must fight his way through the criminal underworld to rescue a politician's estranged son, unraveling a deep web of corruption and conspiracy that ensnares his entire city.",
-        "releaseInfo": "2025",
-        "year": 2025,
-        "website": "https://www.filmweb.pl/film/Chaos-869777",
-        "filmwebId": "869777",
-        "originalName": "Havoc",
-        "addedAt": 1740727699817,
-        "addedAtISO": "2025-02-28T07:28:19.817Z",
-        "genres": [
-          "Action",
-          "Crime",
-          "Drama"
-        ],
-        "imdbRating": "5.6",
-        "runtime": "107 min"
       },
       {
         "id": "tt5715874",
@@ -1282,29 +1009,6 @@
         "runtime": "150 min"
       },
       {
-        "id": "tt10993078",
-        "type": "movie",
-        "name": "Dotyk śmierci",
-        "poster": "https://images.metahub.space/poster/small/tt10993078/img",
-        "posterShape": "poster",
-        "background": "https://images.metahub.space/background/medium/tt10993078/img",
-        "description": "Inspired by the true events of a serial killer that may still be out there today.",
-        "releaseInfo": "2024",
-        "year": 2024,
-        "website": "https://www.filmweb.pl/film/Dotyk+%C5%9Bmierci-10053095",
-        "filmwebId": "10053095",
-        "originalName": "Boneyard",
-        "addedAt": 1735831613597,
-        "addedAtISO": "2025-01-02T15:26:53.597Z",
-        "genres": [
-          "Action",
-          "Crime",
-          "Drama"
-        ],
-        "imdbRating": "4.1",
-        "runtime": "96 min"
-      },
-      {
         "id": "tt0477348",
         "type": "movie",
         "name": "To nie jest kraj dla starych ludzi",
@@ -1326,50 +1030,6 @@
         ],
         "imdbRating": "8.2",
         "runtime": "122 min"
-      },
-      {
-        "id": "tt21375602",
-        "type": "movie",
-        "name": "Love Me",
-        "poster": "https://images.metahub.space/poster/small/tt21375602/img",
-        "posterShape": "poster",
-        "background": "https://images.metahub.space/background/medium/tt21375602/img",
-        "description": "A postapocalyptic romance in which a buoy and a satellite meet online and fall in love after the end of human civilization.",
-        "releaseInfo": "2024",
-        "year": 2024,
-        "website": "https://www.filmweb.pl/film/Love+Me-10045527",
-        "filmwebId": "10045527",
-        "originalName": "Love Me",
-        "addedAt": 1735729728819,
-        "addedAtISO": "2025-01-01T11:08:48.819Z",
-        "genres": [
-          "Drama",
-          "Romance",
-          "Sci-Fi"
-        ],
-        "imdbRating": "5.1",
-        "runtime": "92 min"
-      },
-      {
-        "id": "tt0790628",
-        "type": "movie",
-        "name": "Niewiarygodny Burt Wonderstone",
-        "poster": "https://images.metahub.space/poster/small/tt0790628/img",
-        "posterShape": "poster",
-        "background": "https://images.metahub.space/background/medium/tt0790628/img",
-        "description": "A veteran Vegas magician tries to revive his career after his longtime partner quits, he gets fired from his casino act, and an edgy new \"street magician\" steals his thunder.",
-        "releaseInfo": "2013",
-        "year": 2013,
-        "website": "https://www.filmweb.pl/film/Niewiarygodny+Burt+Wonderstone-323196",
-        "filmwebId": "323196",
-        "originalName": "The Incredible Burt Wonderstone",
-        "addedAt": 1734625640588,
-        "addedAtISO": "2024-12-19T16:27:20.588Z",
-        "genres": [
-          "Comedy"
-        ],
-        "imdbRating": "5.9",
-        "runtime": "100 min"
       },
       {
         "id": "tt0388473",
@@ -1441,29 +1101,6 @@
         "runtime": "115 min"
       },
       {
-        "id": "tt4959750",
-        "type": "movie",
-        "name": "1992",
-        "poster": "https://images.metahub.space/poster/small/tt4959750/img",
-        "posterShape": "poster",
-        "background": "https://images.metahub.space/background/medium/tt4959750/img",
-        "description": "A factory worker must protect his son during the 1992 L.A. uprising after the Rodney King verdict.",
-        "releaseInfo": "2022",
-        "year": 2022,
-        "website": "https://www.filmweb.pl/film/1992-876608",
-        "filmwebId": "876608",
-        "originalName": "1992",
-        "addedAt": 1733391396375,
-        "addedAtISO": "2024-12-05T09:36:36.375Z",
-        "genres": [
-          "Action",
-          "Drama",
-          "Thriller"
-        ],
-        "imdbRating": "5.7",
-        "runtime": "96 min"
-      },
-      {
         "id": "tt5478534",
         "type": "movie",
         "name": "San Andreas 2",
@@ -1522,29 +1159,6 @@
         ],
         "imdbRating": "7.4",
         "runtime": "157 min"
-      },
-      {
-        "id": "tt23558280",
-        "type": "movie",
-        "name": "Strefa",
-        "poster": "https://images.metahub.space/poster/small/tt23558280/img",
-        "posterShape": "poster",
-        "background": "https://images.metahub.space/background/medium/tt23558280/img",
-        "description": "A single father and two women venture from the safety of their homes to face monstrous creatures to save the life of a young boy.",
-        "releaseInfo": "2024",
-        "year": 2024,
-        "website": "https://www.filmweb.pl/film/Strefa-10061685",
-        "filmwebId": "10061685",
-        "originalName": "Elevation",
-        "addedAt": 1731920184358,
-        "addedAtISO": "2024-11-18T08:56:24.358Z",
-        "genres": [
-          "Action",
-          "Horror",
-          "Mystery"
-        ],
-        "imdbRating": "5.6",
-        "runtime": "91 min"
       },
       {
         "id": "tt0258463",
@@ -1704,29 +1318,6 @@
         ],
         "imdbRating": "8.2",
         "runtime": "132 min"
-      },
-      {
-        "id": "tt10651230",
-        "type": "movie",
-        "name": "Chłopi",
-        "poster": "https://images.metahub.space/poster/small/tt10651230/img",
-        "posterShape": "poster",
-        "background": "https://images.metahub.space/background/medium/tt10651230/img",
-        "description": "Jagna is a young woman determined to forge her own path in a late 19th century Polish village - a hotbed of gossip and on-going feuds, held together, rich and poor, by adherence to colorful traditions and deep-rooted patriarchy.",
-        "releaseInfo": "2023",
-        "year": 2023,
-        "website": "https://www.filmweb.pl/film/Ch%C5%82opi-857962",
-        "filmwebId": "857962",
-        "originalName": "Chłopi",
-        "addedAt": 1731837055631,
-        "addedAtISO": "2024-11-17T09:50:55.631Z",
-        "genres": [
-          "Animation",
-          "Drama",
-          "History"
-        ],
-        "imdbRating": "7.6",
-        "runtime": "115 min"
       },
       {
         "id": "tt0093058",
@@ -2021,28 +1612,6 @@
         "runtime": "83 min"
       },
       {
-        "id": "tt22695402",
-        "type": "movie",
-        "name": "Głodni",
-        "poster": "https://images.metahub.space/poster/small/tt22695402/img",
-        "posterShape": "poster",
-        "background": "https://images.metahub.space/background/medium/tt22695402/img",
-        "description": "A woman running her family's noodle restaurant receives an invitation to join the fine-dining industry under the tutelage of an infamous chef.",
-        "releaseInfo": "2023",
-        "year": 2023,
-        "website": "https://www.filmweb.pl/film/G%C5%82odni-10032359",
-        "filmwebId": "10032359",
-        "originalName": "Khon Hiu Game Krahai",
-        "addedAt": 1731753705154,
-        "addedAtISO": "2024-11-16T10:41:45.154Z",
-        "genres": [
-          "Drama",
-          "Thriller"
-        ],
-        "imdbRating": "6.6",
-        "runtime": "145 min"
-      },
-      {
         "id": "tt0119008",
         "type": "movie",
         "name": "Donnie Brasco",
@@ -2064,29 +1633,6 @@
         ],
         "imdbRating": "7.7",
         "runtime": "127 min"
-      },
-      {
-        "id": "tt30057084",
-        "type": "movie",
-        "name": "Babygirl",
-        "poster": "https://images.metahub.space/poster/small/tt30057084/img",
-        "posterShape": "poster",
-        "background": "https://images.metahub.space/background/medium/tt30057084/img",
-        "description": "A high-powered CEO puts her career and family on the line when she begins a torrid affair with her much-younger intern.",
-        "releaseInfo": "2024",
-        "year": 2024,
-        "website": "https://www.filmweb.pl/film/Babygirl-10044212",
-        "filmwebId": "10044212",
-        "originalName": "Babygirl",
-        "addedAt": 1731429414321,
-        "addedAtISO": "2024-11-12T16:36:54.321Z",
-        "genres": [
-          "Drama",
-          "Romance",
-          "Thriller"
-        ],
-        "imdbRating": "5.8",
-        "runtime": "115 min"
       },
       {
         "id": "tt1321510",
@@ -2424,28 +1970,6 @@
         "runtime": "92 min"
       },
       {
-        "id": "tt32244931",
-        "type": "movie",
-        "name": "Bokser",
-        "poster": "https://images.metahub.space/poster/small/tt32244931/img",
-        "posterShape": "poster",
-        "background": "https://images.metahub.space/background/medium/tt32244931/img",
-        "description": "Eryk Kulm Jr. leaves communist Poland to become a boxer but struggles as an immigrant. He agrees to participate in a rigged fight that alters his life's trajectory.",
-        "releaseInfo": "2024",
-        "year": 2024,
-        "website": "https://www.filmweb.pl/film/Bokser-10017699",
-        "filmwebId": "10017699",
-        "originalName": "Bokser",
-        "addedAt": 1726217496762,
-        "addedAtISO": "2024-09-13T08:51:36.762Z",
-        "genres": [
-          "Drama",
-          "Sport"
-        ],
-        "imdbRating": "6.4",
-        "runtime": "150 min"
-      },
-      {
         "id": "tt15574124",
         "type": "movie",
         "name": "Peaky Blinders: Nieśmiertelny",
@@ -2490,28 +2014,6 @@
         "runtime": "121 min"
       },
       {
-        "id": "tt8110232",
-        "type": "movie",
-        "name": "Wszyscy święci New Jersey",
-        "poster": "https://images.metahub.space/poster/small/tt8110232/img",
-        "posterShape": "poster",
-        "background": "https://images.metahub.space/background/medium/tt8110232/img",
-        "description": "As rival gangsters begin to rise up and challenge the all-powerful DiMeo crime family's hold over the increasingly race-torn Newark, a young Tony Soprano is influenced by his uncle to become a all-powerful mob boss.",
-        "releaseInfo": "2021",
-        "year": 2021,
-        "website": "https://www.filmweb.pl/film/Wszyscy+%C5%9Bwi%C4%99ci+New+Jersey-815424",
-        "filmwebId": "815424",
-        "originalName": "The Many Saints of Newark",
-        "addedAt": 1724603534349,
-        "addedAtISO": "2024-08-25T16:32:14.349Z",
-        "genres": [
-          "Crime",
-          "Drama"
-        ],
-        "imdbRating": "6.3",
-        "runtime": "120 min"
-      },
-      {
         "id": "tt22408160",
         "type": "movie",
         "name": "Rodzaje życzliwości",
@@ -2533,51 +2035,6 @@
         ],
         "imdbRating": "6.5",
         "runtime": "164 min"
-      },
-      {
-        "id": "tt3235888",
-        "type": "movie",
-        "name": "Coś za mną chodzi",
-        "poster": "https://images.metahub.space/poster/small/tt3235888/img",
-        "posterShape": "poster",
-        "background": "https://images.metahub.space/background/medium/tt3235888/img",
-        "description": "A young woman is followed by an unknown supernatural force after a sexual encounter.",
-        "releaseInfo": "2014",
-        "year": 2014,
-        "website": "https://www.filmweb.pl/film/Co%C5%9B+za+mn%C4%85+chodzi-714528",
-        "filmwebId": "714528",
-        "originalName": "It Follows",
-        "addedAt": 1724147120269,
-        "addedAtISO": "2024-08-20T09:45:20.269Z",
-        "genres": [
-          "Horror",
-          "Mystery",
-          "Thriller"
-        ],
-        "imdbRating": "6.8",
-        "runtime": "101 min"
-      },
-      {
-        "id": "tt3121860",
-        "type": "movie",
-        "name": "Poprzednie życie",
-        "poster": "https://images.metahub.space/poster/small/tt3121860/img",
-        "posterShape": "poster",
-        "background": "https://images.metahub.space/background/medium/tt3121860/img",
-        "description": "When four friends go camping on the South Downs, they are quite literally tortured by their past.",
-        "releaseInfo": "2014",
-        "year": 2015,
-        "website": "https://www.filmweb.pl/film/Poprzednie+%C5%BCycie-684242",
-        "filmwebId": "684242",
-        "originalName": "Backtrack",
-        "addedAt": 1724133376943,
-        "addedAtISO": "2024-08-20T05:56:16.943Z",
-        "genres": [
-          "Horror",
-          "Thriller"
-        ],
-        "imdbRating": "2.7",
-        "runtime": "97 min"
       },
       {
         "id": "tt6199572",
@@ -2624,28 +2081,6 @@
         ],
         "imdbRating": "6.6",
         "runtime": "119 min"
-      },
-      {
-        "id": "tt26940324",
-        "type": "movie",
-        "name": "Loteria!",
-        "poster": "https://images.metahub.space/poster/small/tt26940324/img",
-        "posterShape": "poster",
-        "background": "https://images.metahub.space/background/medium/tt26940324/img",
-        "description": "In the near future, a 'Grand Lottery' has been newly established in California - the catch: kill the winner before sundown to legally claim their multi-billion dollar jackpot.",
-        "releaseInfo": "2024",
-        "year": 2024,
-        "website": "https://www.filmweb.pl/film/Loteria!-10056094",
-        "filmwebId": "10056094",
-        "originalName": "Jackpot!",
-        "addedAt": 1724013526793,
-        "addedAtISO": "2024-08-18T20:38:46.793Z",
-        "genres": [
-          "Action",
-          "Comedy"
-        ],
-        "imdbRating": "5.8",
-        "runtime": "107 min"
       },
       {
         "id": "tt11003218",
@@ -2827,29 +2262,6 @@
         ],
         "imdbRating": "7.6",
         "runtime": "100 min"
-      },
-      {
-        "id": "tt30321146",
-        "type": "movie",
-        "name": "In a Violent Nature",
-        "poster": "https://images.metahub.space/poster/small/tt30321146/img",
-        "posterShape": "poster",
-        "background": "https://images.metahub.space/background/medium/tt30321146/img",
-        "description": "When a locket is removed from a collapsed fire tower in the woods that entombs the rotting corpse of Johnny, a vengeful spirit spurred on by a horrific 70-year old crime, his body is resurrected and becomes hellbent on retrieving it.",
-        "releaseInfo": "2024",
-        "year": 2024,
-        "website": "https://www.filmweb.pl/film/In+a+Violent+Nature-10046453",
-        "filmwebId": "10046453",
-        "originalName": "In a Violent Nature",
-        "addedAt": 1722329863719,
-        "addedAtISO": "2024-07-30T08:57:43.719Z",
-        "genres": [
-          "Drama",
-          "Horror",
-          "Thriller"
-        ],
-        "imdbRating": "5.6",
-        "runtime": "94 min"
       },
       {
         "id": "tt27131358",
@@ -3118,29 +2530,6 @@
           "Romance"
         ],
         "imdbRating": "6.6"
-      },
-      {
-        "id": "tt24169886",
-        "type": "movie",
-        "name": "Podżegacze",
-        "poster": "https://images.metahub.space/poster/small/tt24169886/img",
-        "posterShape": "poster",
-        "background": "https://images.metahub.space/background/medium/tt24169886/img",
-        "description": "Follows two robbers who must go on the run with the help of one of their therapists after a theft doesn't go as planned.",
-        "releaseInfo": "2024",
-        "year": 2024,
-        "website": "https://www.filmweb.pl/film/Pod%C5%BCegacze-10033705",
-        "filmwebId": "10033705",
-        "originalName": "The Instigators",
-        "addedAt": 1718303703286,
-        "addedAtISO": "2024-06-13T18:35:03.286Z",
-        "genres": [
-          "Action",
-          "Comedy",
-          "Crime"
-        ],
-        "imdbRating": "6.2",
-        "runtime": "102 min"
       },
       {
         "id": "tt11315808",
@@ -3906,29 +3295,6 @@
         "runtime": "89 min"
       },
       {
-        "id": "tt8080204",
-        "type": "movie",
-        "name": "Hipnoza",
-        "poster": "https://images.metahub.space/poster/small/tt8080204/img",
-        "posterShape": "poster",
-        "background": "https://images.metahub.space/background/medium/tt8080204/img",
-        "description": "A detective investigates a mystery involving his missing daughter and a secret government program.",
-        "releaseInfo": "2023",
-        "year": 2023,
-        "website": "https://www.filmweb.pl/film/Hipnoza-10019588",
-        "filmwebId": "10019588",
-        "originalName": "Hypnotic",
-        "addedAt": 1708076287039,
-        "addedAtISO": "2024-02-16T09:38:07.039Z",
-        "genres": [
-          "Action",
-          "Drama",
-          "Mystery"
-        ],
-        "imdbRating": "5.5",
-        "runtime": "93 min"
-      },
-      {
         "id": "tt2713180",
         "type": "movie",
         "name": "Furia",
@@ -3997,29 +3363,6 @@
         "runtime": "113 min"
       },
       {
-        "id": "tt8503618",
-        "type": "movie",
-        "name": "Hamilton",
-        "poster": "https://images.metahub.space/poster/small/tt8503618/img",
-        "posterShape": "poster",
-        "background": "https://images.metahub.space/background/medium/tt8503618/img",
-        "description": "The real life of one of America's foremost founding fathers and first Secretary of the Treasury, Alexander Hamilton. Captured live on Broadway from the Richard Rodgers Theater with the original Broadway cast.",
-        "releaseInfo": "2020",
-        "year": 2020,
-        "website": "https://www.filmweb.pl/film/Hamilton-849941",
-        "filmwebId": "849941",
-        "originalName": "Hamilton",
-        "addedAt": 1707127671519,
-        "addedAtISO": "2024-02-05T10:07:51.519Z",
-        "genres": [
-          "Biography",
-          "Drama",
-          "History"
-        ],
-        "imdbRating": "8.3",
-        "runtime": "160 min"
-      },
-      {
         "id": "tt1152836",
         "type": "movie",
         "name": "Wrogowie publiczni",
@@ -4063,29 +3406,6 @@
         ],
         "imdbRating": "8.2",
         "runtime": "179 min"
-      },
-      {
-        "id": "tt2390361",
-        "type": "movie",
-        "name": "Ani słowa więcej",
-        "poster": "https://images.metahub.space/poster/small/tt2390361/img",
-        "posterShape": "poster",
-        "background": "https://images.metahub.space/background/medium/tt2390361/img",
-        "description": "A divorced woman who decides to pursue the man she's interested in learns he's her new friend's ex-husband.",
-        "releaseInfo": "2013",
-        "year": 2013,
-        "website": "https://www.filmweb.pl/film/Ani+s%C5%82owa+wi%C4%99cej-661927",
-        "filmwebId": "661927",
-        "originalName": "Enough Said",
-        "addedAt": 1706895555220,
-        "addedAtISO": "2024-02-02T17:39:15.220Z",
-        "genres": [
-          "Comedy",
-          "Drama",
-          "Romance"
-        ],
-        "imdbRating": "7.0",
-        "runtime": "93 min"
       },
       {
         "id": "tt1764234",
@@ -4603,29 +3923,6 @@
         "imdbRating": "6.9"
       },
       {
-        "id": "tt21066182",
-        "type": "series",
-        "name": "Wonder Man",
-        "poster": "https://images.metahub.space/poster/small/tt21066182/img",
-        "posterShape": "regular",
-        "background": "https://images.metahub.space/background/medium/tt21066182/img",
-        "description": "Small-time actor Simon Williams struggles to reckon with his personal life while hiding his super-powers as he tries to land his dream role. Meanwhile, a shady government agent leverages a new friendship in order to save his own job.",
-        "releaseInfo": "2026",
-        "year": 2026,
-        "website": "https://www.filmweb.pl/serial/Wonder+Man-10019018",
-        "filmwebId": "10019018",
-        "originalName": "Wonder Man",
-        "addedAt": 1769613502578,
-        "addedAtISO": "2026-01-28T15:18:22.578Z",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Comedy"
-        ],
-        "imdbRating": "7.5",
-        "runtime": "31 min"
-      },
-      {
         "id": "tt27578232",
         "type": "series",
         "name": "Kiedy ślub?",
@@ -4739,28 +4036,6 @@
         "runtime": "40 min"
       },
       {
-        "id": "tt31510819",
-        "type": "series",
-        "name": "Strefa gangsterów",
-        "poster": "https://images.metahub.space/poster/small/tt31510819/img",
-        "posterShape": "regular",
-        "background": "https://images.metahub.space/background/medium/tt31510819/img",
-        "description": "Power is up for grabs as two warring crime families clash in a battle that threatens to topple empires. In the crossfire stands Harry Da Souza, a street-smart 'fixer' who knows too well where loyalties lie when opposing forces col...",
-        "releaseInfo": "2025–",
-        "year": 2025,
-        "website": "https://www.filmweb.pl/serial/Strefa+gangster%C3%B3w-10074840",
-        "filmwebId": "10074840",
-        "originalName": "MobLand",
-        "addedAt": 1743404906010,
-        "addedAtISO": "2025-03-31T07:08:26.010Z",
-        "genres": [
-          "Crime",
-          "Drama"
-        ],
-        "imdbRating": "8.3",
-        "runtime": "47 min"
-      },
-      {
         "id": "tt21874900",
         "type": "series",
         "name": "Tysiąc ciosów",
@@ -4872,29 +4147,6 @@
         ],
         "imdbRating": "7.5",
         "runtime": "43 min"
-      },
-      {
-        "id": "tt10986410",
-        "type": "series",
-        "name": "Ted Lasso",
-        "poster": "https://images.metahub.space/poster/small/tt10986410/img",
-        "posterShape": "regular",
-        "background": "https://images.metahub.space/background/medium/tt10986410/img",
-        "description": "American college football coach Ted Lasso heads to London to manage AFC Richmond, a struggling English Premier League soccer team.",
-        "releaseInfo": "2020–",
-        "year": 2020,
-        "website": "https://www.filmweb.pl/serial/Ted+Lasso-854751",
-        "filmwebId": "854751",
-        "originalName": "Ted Lasso",
-        "addedAt": 1736799682626,
-        "addedAtISO": "2025-01-13T20:21:22.626Z",
-        "genres": [
-          "Comedy",
-          "Drama",
-          "Sport"
-        ],
-        "imdbRating": "8.8",
-        "runtime": "42 min"
       },
       {
         "id": "tt0185906",
@@ -5056,29 +4308,6 @@
         "runtime": "24 min"
       },
       {
-        "id": "tt4574334",
-        "type": "series",
-        "name": "Stranger Things",
-        "poster": "https://images.metahub.space/poster/small/tt4574334/img",
-        "posterShape": "regular",
-        "background": "https://images.metahub.space/background/medium/tt4574334/img",
-        "description": "In 1980s Indiana, a group of young friends witness supernatural forces and secret government exploits. As they search for answers, the children unravel a series of extraordinary mysteries.",
-        "releaseInfo": "2016–2025",
-        "year": 2016,
-        "website": "https://www.filmweb.pl/serial/Stranger+Things-750359",
-        "filmwebId": "750359",
-        "originalName": "Stranger Things",
-        "addedAt": 1725792770559,
-        "addedAtISO": "2024-09-08T10:52:50.559Z",
-        "genres": [
-          "Drama",
-          "Fantasy",
-          "Horror"
-        ],
-        "imdbRating": "8.6",
-        "runtime": "65 min"
-      },
-      {
         "id": "tt2802850",
         "type": "series",
         "name": "Fargo",
@@ -5100,29 +4329,6 @@
         ],
         "imdbRating": "8.8",
         "runtime": "52 min"
-      },
-      {
-        "id": "tt8550732",
-        "type": "series",
-        "name": "Kaos",
-        "poster": "https://images.metahub.space/poster/small/tt8550732/img",
-        "posterShape": "regular",
-        "background": "https://images.metahub.space/background/medium/tt8550732/img",
-        "description": "As discord reigns on Mount Olympus and almighty Zeus spirals into paranoia, three mortals are destined to reshape the future of humankind.",
-        "releaseInfo": "2024",
-        "year": 2024,
-        "website": "https://www.filmweb.pl/serial/Kaos-810065",
-        "filmwebId": "810065",
-        "originalName": "Kaos",
-        "addedAt": 1725103028309,
-        "addedAtISO": "2024-08-31T11:17:08.309Z",
-        "genres": [
-          "Comedy",
-          "Drama",
-          "Fantasy"
-        ],
-        "imdbRating": "7.4",
-        "runtime": "50 min"
       },
       {
         "id": "tt0979432",
@@ -5147,74 +4353,6 @@
         "runtime": "56 min"
       },
       {
-        "id": "tt11691774",
-        "type": "series",
-        "name": "Zbrodnie po sąsiedzku",
-        "poster": "https://images.metahub.space/poster/small/tt11691774/img",
-        "posterShape": "regular",
-        "background": "https://images.metahub.space/background/medium/tt11691774/img",
-        "description": "Charles, Oliver and Mabel, three eccentric neighbors, find purpose and chaos in solving murders that hit close to home through their true-crime podcast, turning their New York apartment building into a playground of mystery and mi...",
-        "releaseInfo": "2021–",
-        "year": 2021,
-        "website": "https://www.filmweb.pl/serial/Zbrodnie+po+s%C4%85siedzku-876029",
-        "filmwebId": "876029",
-        "originalName": "Only Murders in the Building",
-        "addedAt": 1724678384216,
-        "addedAtISO": "2024-08-26T13:19:44.216Z",
-        "genres": [
-          "Comedy",
-          "Crime",
-          "Drama"
-        ],
-        "imdbRating": "8.0",
-        "runtime": "35 min"
-      },
-      {
-        "id": "tt0141842",
-        "type": "series",
-        "name": "Rodzina Soprano",
-        "poster": "https://images.metahub.space/poster/small/tt0141842/img",
-        "posterShape": "regular",
-        "background": "https://images.metahub.space/background/medium/tt0141842/img",
-        "description": "New Jersey mob boss Tony Soprano deals with personal and professional issues in his home and business life that affect his mental state, leading him to seek professional psychiatric counseling.",
-        "releaseInfo": "1999–2007",
-        "year": 1999,
-        "website": "https://www.filmweb.pl/serial/Rodzina+Soprano-35405",
-        "filmwebId": "35405",
-        "originalName": "The Sopranos",
-        "addedAt": 1724603489578,
-        "addedAtISO": "2024-08-25T16:31:29.578Z",
-        "genres": [
-          "Crime",
-          "Drama"
-        ],
-        "imdbRating": "9.2",
-        "runtime": "54 min"
-      },
-      {
-        "id": "tt33204697",
-        "type": "series",
-        "name": "Ukryty poziom",
-        "poster": "https://images.metahub.space/poster/small/tt33204697/img",
-        "posterShape": "regular",
-        "background": "https://images.metahub.space/background/medium/tt33204697/img",
-        "description": "Original stories set within the worlds of iconic video games are featured in this animated anthology series.",
-        "releaseInfo": "2024–",
-        "year": 2024,
-        "website": "https://www.filmweb.pl/serial/Ukryty+poziom-10059154",
-        "filmwebId": "10059154",
-        "originalName": "Secret Level",
-        "addedAt": 1724229723686,
-        "addedAtISO": "2024-08-21T08:42:03.686Z",
-        "genres": [
-          "Animation",
-          "Action",
-          "Adventure"
-        ],
-        "imdbRating": "7.3",
-        "runtime": "15 min"
-      },
-      {
         "id": "tt3647998",
         "type": "series",
         "name": "Tabu",
@@ -5236,29 +4374,6 @@
         ],
         "imdbRating": "8.3",
         "runtime": "57 min"
-      },
-      {
-        "id": "tt11198330",
-        "type": "series",
-        "name": "Ród smoka",
-        "poster": "https://images.metahub.space/poster/small/tt11198330/img",
-        "posterShape": "regular",
-        "background": "https://images.metahub.space/background/medium/tt11198330/img",
-        "description": "An internal succession war within House Targaryen at the height of its power, 172 years before the birth of Daenerys Targaryen.",
-        "releaseInfo": "2022–",
-        "year": 2022,
-        "website": "https://www.filmweb.pl/serial/R%C3%B3d+smoka-842583",
-        "filmwebId": "842583",
-        "originalName": "House of the Dragon",
-        "addedAt": 1722623264076,
-        "addedAtISO": "2024-08-02T18:27:44.076Z",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Drama"
-        ],
-        "imdbRating": "8.3",
-        "runtime": "63 min"
       },
       {
         "id": "tt10569934",
@@ -5329,27 +4444,6 @@
         "runtime": "25 min"
       },
       {
-        "id": "tt32974132",
-        "type": "series",
-        "name": "Prosta sprawa",
-        "poster": "https://live.metahub.space/poster/small/tt32974132/img",
-        "posterShape": "regular",
-        "background": "https://live.metahub.space/background/medium/tt32974132/img",
-        "description": "The heroes fight in the seemingly idyllic setting of the Karkonosze Mountains, against which the international drug trade takes place. Who will support the nameless avenger and who will stand behind the demonic boss of the local mafia? It's only a seemingly simple matter.",
-        "releaseInfo": "2024–",
-        "year": 2024,
-        "website": "https://www.filmweb.pl/serial/Prosta+sprawa-10039211",
-        "filmwebId": "10039211",
-        "originalName": "Prosta sprawa",
-        "addedAt": 1720021162894,
-        "addedAtISO": "2024-07-03T15:39:22.894Z",
-        "genres": [
-          "Action & Adventure",
-          "Crime"
-        ],
-        "imdbRating": "7.3"
-      },
-      {
         "id": "tt19854762",
         "type": "series",
         "name": "W powietrzu",
@@ -5395,29 +4489,6 @@
         "runtime": "56 min"
       },
       {
-        "id": "tt13623632",
-        "type": "series",
-        "name": "Obcy: Ziemia",
-        "poster": "https://images.metahub.space/poster/small/tt13623632/img",
-        "posterShape": "regular",
-        "background": "https://images.metahub.space/background/medium/tt13623632/img",
-        "description": "When a mysterious space vessel crash-lands on Earth, a young woman and a ragtag group of tactical soldiers make a fateful discovery that puts them face-to-face with the planet's greatest threat.",
-        "releaseInfo": "2025–",
-        "year": 2025,
-        "website": "https://www.filmweb.pl/serial/Obcy%3A+Ziemia-866838",
-        "filmwebId": "866838",
-        "originalName": "Alien: Earth",
-        "addedAt": 1717759053535,
-        "addedAtISO": "2024-06-07T11:17:33.535Z",
-        "genres": [
-          "Horror",
-          "Sci-Fi",
-          "Thriller"
-        ],
-        "imdbRating": "7.1",
-        "runtime": "56 min"
-      },
-      {
         "id": "tt16418808",
         "type": "series",
         "name": "Sugar",
@@ -5439,28 +4510,6 @@
         ],
         "imdbRating": "7.4",
         "runtime": "36 min"
-      },
-      {
-        "id": "tt19734104",
-        "type": "series",
-        "name": "Eksplodujące kotki",
-        "poster": "https://images.metahub.space/poster/small/tt19734104/img",
-        "posterShape": "regular",
-        "background": "https://images.metahub.space/background/medium/tt19734104/img",
-        "description": "An eternal conflict reaches epic proportions when both God and the Devil are sent to Earth in the bodies of chunky house cats.",
-        "releaseInfo": "2024–",
-        "year": 2024,
-        "website": "https://www.filmweb.pl/serial/Eksploduj%C4%85ce+kotki-10012015",
-        "filmwebId": "10012015",
-        "originalName": "Exploding Kittens",
-        "addedAt": 1715332532921,
-        "addedAtISO": "2024-05-10T09:15:32.921Z",
-        "genres": [
-          "Animation",
-          "Comedy"
-        ],
-        "imdbRating": "6.8",
-        "runtime": "26 min"
       },
       {
         "id": "tt0903747",
@@ -5509,28 +4558,6 @@
         "runtime": "59 min"
       },
       {
-        "id": "tt15435876",
-        "type": "series",
-        "name": "Pingwin",
-        "poster": "https://images.metahub.space/poster/small/tt15435876/img",
-        "posterShape": "regular",
-        "background": "https://images.metahub.space/background/medium/tt15435876/img",
-        "description": "Following the events of The Batman (2022), Oz Cobb, a.k.a. the Penguin, makes a play to seize the reins of the crime world in Gotham.",
-        "releaseInfo": "2024",
-        "year": 2024,
-        "website": "https://www.filmweb.pl/serial/Pingwin-10010262",
-        "filmwebId": "10010262",
-        "originalName": "The Penguin",
-        "addedAt": 1711141827401,
-        "addedAtISO": "2024-03-22T21:10:27.401Z",
-        "genres": [
-          "Crime",
-          "Drama"
-        ],
-        "imdbRating": "8.6",
-        "runtime": "57 min"
-      },
-      {
         "id": "tt4236770",
         "type": "series",
         "name": "Yellowstone",
@@ -5551,29 +4578,6 @@
         ],
         "imdbRating": "8.6",
         "runtime": "51 min"
-      },
-      {
-        "id": "tt12637874",
-        "type": "series",
-        "name": "Fallout",
-        "poster": "https://images.metahub.space/poster/small/tt12637874/img",
-        "posterShape": "regular",
-        "background": "https://images.metahub.space/background/medium/tt12637874/img",
-        "description": "In a future, post-apocalyptic Los Angeles brought about by nuclear decimation, citizens must live in underground bunkers to protect themselves from radiation, mutants and bandits.",
-        "releaseInfo": "2024–",
-        "year": 2024,
-        "website": "https://www.filmweb.pl/serial/Fallout-867454",
-        "filmwebId": "867454",
-        "originalName": "Fallout",
-        "addedAt": 1709825793613,
-        "addedAtISO": "2024-03-07T15:36:33.613Z",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Drama"
-        ],
-        "imdbRating": "8.3",
-        "runtime": "56 min"
       },
       {
         "id": "tt1210820",
@@ -5599,75 +4603,6 @@
         "runtime": "55 min"
       },
       {
-        "id": "tt0247827",
-        "type": "series",
-        "name": "X-Men: Ewolucja",
-        "poster": "https://images.metahub.space/poster/small/tt0247827/img",
-        "posterShape": "regular",
-        "background": "https://images.metahub.space/background/medium/tt0247827/img",
-        "description": "This rendition of X-Men features Cyclops, Jean Grey, Rogue, Nightcrawler, Shadowcat and Spike as teenagers as they fight for a world that fears and hates them.",
-        "releaseInfo": "2000–2003",
-        "year": 2000,
-        "website": "https://www.filmweb.pl/serial/X-Men%3A+Ewolucja-95058",
-        "filmwebId": "95058",
-        "originalName": "X-Men: Evolution",
-        "addedAt": 1708772111739,
-        "addedAtISO": "2024-02-24T10:55:11.739Z",
-        "genres": [
-          "Animation",
-          "Action",
-          "Adventure"
-        ],
-        "imdbRating": "7.8",
-        "runtime": "1 min"
-      },
-      {
-        "id": "tt18923754",
-        "type": "series",
-        "name": "Daredevil: Odrodzenie",
-        "poster": "https://images.metahub.space/poster/small/tt18923754/img",
-        "posterShape": "regular",
-        "background": "https://images.metahub.space/background/medium/tt18923754/img",
-        "description": "Matt Murdock finds himself on a collision course with Wilson Fisk when their past identities begin to emerge.",
-        "releaseInfo": "2025–",
-        "year": 2025,
-        "website": "https://www.filmweb.pl/serial/Daredevil%3A+Odrodzenie-10016659",
-        "filmwebId": "10016659",
-        "originalName": "Daredevil: Born Again",
-        "addedAt": 1708079315216,
-        "addedAtISO": "2024-02-16T10:28:35.216Z",
-        "genres": [
-          "Action",
-          "Crime",
-          "Drama"
-        ],
-        "imdbRating": "8.0",
-        "runtime": "48 min"
-      },
-      {
-        "id": "tt13623126",
-        "type": "series",
-        "name": "Ironheart",
-        "poster": "https://images.metahub.space/poster/small/tt13623126/img",
-        "posterShape": "regular",
-        "background": "https://images.metahub.space/background/medium/tt13623126/img",
-        "description": "Genius teenage inventor Riri Williams creates the most advanced suit of armor since Iron Man.",
-        "releaseInfo": "2025",
-        "year": 2025,
-        "website": "https://www.filmweb.pl/serial/Ironheart-866828",
-        "filmwebId": "866828",
-        "originalName": "Ironheart",
-        "addedAt": 1708079312515,
-        "addedAtISO": "2024-02-16T10:28:32.515Z",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Fantasy"
-        ],
-        "imdbRating": "4.5",
-        "runtime": "48 min"
-      },
-      {
         "id": "tt26737616",
         "type": "series",
         "name": "Pluto",
@@ -5689,52 +4624,6 @@
         ],
         "imdbRating": "8.1",
         "runtime": "62 min"
-      },
-      {
-        "id": "tt11280740",
-        "type": "series",
-        "name": "Rozdzielenie",
-        "poster": "https://images.metahub.space/poster/small/tt11280740/img",
-        "posterShape": "regular",
-        "background": "https://images.metahub.space/background/medium/tt11280740/img",
-        "description": "Mark leads a team of office workers whose memories have been surgically divided between their work and personal lives. When a mysterious colleague appears outside of work, it begins a journey to discover the truth about their jobs.",
-        "releaseInfo": "2022–",
-        "year": 2022,
-        "website": "https://www.filmweb.pl/serial/Rozdzielenie-878161",
-        "filmwebId": "878161",
-        "originalName": "Severance",
-        "addedAt": 1706639358695,
-        "addedAtISO": "2024-01-30T18:29:18.695Z",
-        "genres": [
-          "Drama",
-          "Mystery",
-          "Sci-Fi"
-        ],
-        "imdbRating": "8.6",
-        "runtime": "49 min"
-      },
-      {
-        "id": "tt16027014",
-        "type": "series",
-        "name": "Marvel Zombi",
-        "poster": "https://images.metahub.space/poster/small/tt16027014/img",
-        "posterShape": "regular",
-        "background": "https://images.metahub.space/background/medium/tt16027014/img",
-        "description": "After the Avengers are overtaken by a zombie plague, a group of survivors discover the key to bringing an end to the super-powered undead, racing across a dystopian landscape and risking their lives to save their world.",
-        "releaseInfo": "2025",
-        "year": 2025,
-        "website": "https://www.filmweb.pl/serial/Marvel+Zombi-10016630",
-        "filmwebId": "10016630",
-        "originalName": "Marvel Zombies",
-        "addedAt": 1706619887209,
-        "addedAtISO": "2024-01-30T13:04:47.209Z",
-        "genres": [
-          "Animation",
-          "Action",
-          "Adventure"
-        ],
-        "imdbRating": "7.0",
-        "runtime": "31 min"
       },
       {
         "id": "tt16027074",
@@ -5844,29 +4733,6 @@
         "runtime": "61 min"
       },
       {
-        "id": "tt14417718",
-        "type": "series",
-        "name": "W tłumie",
-        "poster": "https://images.metahub.space/poster/small/tt14417718/img",
-        "posterShape": "regular",
-        "background": "https://images.metahub.space/background/medium/tt14417718/img",
-        "description": "In Manhattan in the summer of 1979, a young man is arrested for a shocking crime, and an unlikely investigator must solve the mystery behind it before the true criminal strikes again.",
-        "releaseInfo": "2023",
-        "year": 2023,
-        "website": "https://www.filmweb.pl/serial/W+t%C5%82umie-872817",
-        "filmwebId": "872817",
-        "originalName": "The Crowded Room",
-        "addedAt": 1706346056683,
-        "addedAtISO": "2024-01-27T09:00:56.683Z",
-        "genres": [
-          "Biography",
-          "Crime",
-          "Drama"
-        ],
-        "imdbRating": "7.7",
-        "runtime": "46 min"
-      },
-      {
         "id": "tt8398600",
         "type": "series",
         "name": "After Life",
@@ -5892,12 +4758,12 @@
   },
   "stats": {
     "movie": {
-      "scraped": 202,
-      "matched": 202
+      "scraped": 172,
+      "matched": 172
     },
     "series": {
-      "scraped": 60,
-      "matched": 59
+      "scraped": 40,
+      "matched": 39
     }
   }
 }
