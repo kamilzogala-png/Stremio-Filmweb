@@ -1,6 +1,6 @@
 {
   "username": "7owca7",
-  "updatedAt": "2026-03-10T07:55:16.945Z",
+  "updatedAt": "2026-03-10T09:03:09.623Z",
   "catalogs": {
     "movie": [
       {
@@ -78,7 +78,7 @@
         "poster": "https://live.metahub.space/poster/small/tt32093575/img",
         "posterShape": "poster",
         "background": "https://live.metahub.space/background/medium/tt32093575/img",
-        "description": "Twenty-six years after outrunning a suspiciously familiar masked killer, the Core Four are back in the killer's crosshairs and no horror movie IP is safe.",
+        "description": "The sixth installment in the franchise. Plot TBA.",
         "releaseInfo": "2026",
         "year": 2026,
         "website": "https://www.filmweb.pl/film/Straszny+film-10084281",
@@ -110,7 +110,7 @@
           "Drama",
           "Comedy"
         ],
-        "imdbRating": "7.0",
+        "imdbRating": "7.1",
         "runtime": "110 min"
       },
       {
@@ -271,17 +271,24 @@
         "id": "tt4357198",
         "type": "movie",
         "name": "Przepis na morderstwo",
-        "poster": "https://fwcdn.pl/fpo/68/62/10046862/8233517.10.webp",
+        "poster": "https://images.metahub.space/poster/small/tt4357198/img",
         "posterShape": "poster",
-        "background": "https://fwcdn.pl/fpo/68/62/10046862/8233517.10.webp",
-        "description": "How to Make a Killing � 2026 � Added 2026-01-01",
+        "background": "https://images.metahub.space/background/medium/tt4357198/img",
+        "description": "Disowned at birth by his obscenely wealthy family, blue-collar Becket Redfellow will stop at nothing to reclaim his inheritance, no matter how many relatives stand in his way.",
         "releaseInfo": "2026",
         "year": 2026,
         "website": "https://www.filmweb.pl/film/Przepis+na+morderstwo-10046862",
         "filmwebId": "10046862",
         "originalName": "How to Make a Killing",
         "addedAt": 1767298114284,
-        "addedAtISO": "2026-01-01T20:08:34.284Z"
+        "addedAtISO": "2026-01-01T20:08:34.284Z",
+        "genres": [
+          "Comedy",
+          "Drama",
+          "Thriller"
+        ],
+        "imdbRating": "6.7",
+        "runtime": "105 min"
       },
       {
         "id": "tt29344903",
