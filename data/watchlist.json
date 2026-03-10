@@ -1,6 +1,6 @@
 {
   "username": "7owca7",
-  "updatedAt": "2026-03-09T23:42:59.615Z",
+  "updatedAt": "2026-03-10T02:51:42.899Z",
   "catalogs": {
     "movie": [
       {
@@ -65,7 +65,7 @@
           "Drama",
           "Comedy"
         ],
-        "imdbRating": "7.2",
+        "imdbRating": "7.1",
         "runtime": "110 min"
       },
       {
@@ -132,7 +132,7 @@
           "Romance",
           "Comedy"
         ],
-        "imdbRating": "7.6",
+        "imdbRating": "7.5",
         "runtime": "100 min"
       },
       {
