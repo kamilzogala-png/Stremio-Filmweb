@@ -1,6 +1,6 @@
 {
   "username": "7owca7",
-  "updatedAt": "2026-03-11T18:05:11.661Z",
+  "updatedAt": "2026-03-11T19:11:40.883Z",
   "catalogs": {
     "movie": [
       {
@@ -65,7 +65,7 @@
           "Drama",
           "Comedy"
         ],
-        "imdbRating": "7.1",
+        "imdbRating": "7.0",
         "runtime": "110 min"
       },
       {
@@ -4037,28 +4037,6 @@
         "runtime": "49 min"
       },
       {
-        "id": "tt31449991",
-        "type": "series",
-        "name": "Chad Powers",
-        "poster": "https://images.metahub.space/poster/small/tt31449991/img",
-        "posterShape": "regular",
-        "background": "https://images.metahub.space/background/medium/tt31449991/img",
-        "description": "A disgraced college quarterback named Russ Holliday disguises himself as Chad Powers and walks onto a struggling southern football team to revive his football career.",
-        "releaseInfo": "2025–",
-        "year": 2025,
-        "website": "https://www.filmweb.pl/serial/Chad+Powers-10059276",
-        "filmwebId": "10059276",
-        "originalName": "Chad Powers",
-        "addedAt": 1741029202314,
-        "addedAtISO": "2025-03-03T19:13:22.314Z",
-        "genres": [
-          "Comedy",
-          "Sport"
-        ],
-        "imdbRating": "7.5",
-        "runtime": "34 min"
-      },
-      {
         "id": "tt10574236",
         "type": "series",
         "name": "Stacja Jedenasta",
@@ -4261,29 +4239,6 @@
         ],
         "imdbRating": "8.3",
         "runtime": "30 min"
-      },
-      {
-        "id": "tt26545355",
-        "type": "series",
-        "name": "Koszmarne Komando",
-        "poster": "https://images.metahub.space/poster/small/tt26545355/img",
-        "posterShape": "regular",
-        "background": "https://images.metahub.space/background/medium/tt26545355/img",
-        "description": "A group of nonhuman criminals comprised of an anthropomorphic weasel, a robot, the bride of Frankenstein, a radioactive skeleton, and their human leader are tasked with stopping an evil sorceress.",
-        "releaseInfo": "2024–",
-        "year": 2024,
-        "website": "https://www.filmweb.pl/serial/Koszmarne+Komando-10030483",
-        "filmwebId": "10030483",
-        "originalName": "Creature Commandos",
-        "addedAt": 1726212975218,
-        "addedAtISO": "2024-09-13T07:36:15.218Z",
-        "genres": [
-          "Animation",
-          "Action",
-          "Adventure"
-        ],
-        "imdbRating": "7.8",
-        "runtime": "24 min"
       },
       {
         "id": "tt2802850",
@@ -4604,52 +4559,6 @@
         "runtime": "62 min"
       },
       {
-        "id": "tt16027074",
-        "type": "series",
-        "name": "Spider-Man: przyjazny pająk z sąsiedztwa",
-        "poster": "https://images.metahub.space/poster/small/tt16027074/img",
-        "posterShape": "regular",
-        "background": "https://images.metahub.space/background/medium/tt16027074/img",
-        "description": "The animated series follows Peter Parker on his way to becoming Spider-Man in the MCU, with a journey unlike we've ever seen and a style that celebrates the character's early comic book roots.",
-        "releaseInfo": "2025–",
-        "year": 2025,
-        "website": "https://www.filmweb.pl/serial/Spider-Man%3A+przyjazny+paj%C4%85k+z+s%C4%85siedztwa-10004391",
-        "filmwebId": "10004391",
-        "originalName": "Your Friendly Neighborhood Spider-Man",
-        "addedAt": 1706619883659,
-        "addedAtISO": "2024-01-30T13:04:43.659Z",
-        "genres": [
-          "Animation",
-          "Action",
-          "Adventure"
-        ],
-        "imdbRating": "7.5",
-        "runtime": "28 min"
-      },
-      {
-        "id": "tt15571732",
-        "type": "series",
-        "name": "To zawsze Agatha",
-        "poster": "https://images.metahub.space/poster/small/tt15571732/img",
-        "posterShape": "regular",
-        "background": "https://images.metahub.space/background/medium/tt15571732/img",
-        "description": "A spell-bound Agatha Harkness regains freedom thanks to a teen's help. Intrigued by his plea, she embarks on the Witches' Road trials to reclaim her powers and discover the teen's motivations.",
-        "releaseInfo": "2024",
-        "year": 2024,
-        "website": "https://www.filmweb.pl/serial/To+zawsze+Agatha-10004354",
-        "filmwebId": "10004354",
-        "originalName": "Agatha All Along",
-        "addedAt": 1706619879398,
-        "addedAtISO": "2024-01-30T13:04:39.398Z",
-        "genres": [
-          "Action",
-          "Adventure",
-          "Comedy"
-        ],
-        "imdbRating": "7.2",
-        "runtime": "40 min"
-      },
-      {
         "id": "filmweb:7owca7:series:866827",
         "type": "series",
         "name": "Armor Wars",
@@ -4740,8 +4649,8 @@
       "matched": 171
     },
     "series": {
-      "scraped": 40,
-      "matched": 39
+      "scraped": 36,
+      "matched": 35
     }
   }
 }
