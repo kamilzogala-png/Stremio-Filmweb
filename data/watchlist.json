@@ -1,6 +1,6 @@
 {
   "username": "7owca7",
-  "updatedAt": "2026-03-11T04:55:06.330Z",
+  "updatedAt": "2026-03-11T06:04:22.128Z",
   "catalogs": {
     "movie": [
       {
@@ -89,28 +89,6 @@
         ],
         "imdbRating": "6.5",
         "runtime": "99 min"
-      },
-      {
-        "id": "tt32306991",
-        "type": "movie",
-        "name": "Solo Mio",
-        "poster": "https://live.metahub.space/poster/small/tt32306991/img",
-        "posterShape": "poster",
-        "background": "https://live.metahub.space/background/medium/tt32306991/img",
-        "description": "After Matt's dreams of a picturesque Italian wedding are shattered when his fiancée leaves him at the altar, he embarks on his planned honeymoon across Italy alone, immersing himself in the country's vibrant culture, food, and beauty, meeting Gia along the way.",
-        "releaseInfo": "2026",
-        "year": 2026,
-        "website": "https://www.filmweb.pl/film/Solo+Mio-10107507",
-        "filmwebId": "10107507",
-        "originalName": "Solo Mio",
-        "addedAt": 1770297861877,
-        "addedAtISO": "2026-02-05T13:24:21.877Z",
-        "genres": [
-          "Romance",
-          "Comedy"
-        ],
-        "imdbRating": "7.5",
-        "runtime": "100 min"
       },
       {
         "id": "tt19850008",
@@ -4758,8 +4736,8 @@
   },
   "stats": {
     "movie": {
-      "scraped": 172,
-      "matched": 172
+      "scraped": 171,
+      "matched": 171
     },
     "series": {
       "scraped": 40,
