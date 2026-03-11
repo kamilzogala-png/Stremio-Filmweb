@@ -1,8 +1,31 @@
 {
   "username": "7owca7",
-  "updatedAt": "2026-03-11T19:11:40.883Z",
+  "updatedAt": "2026-03-11T19:53:14.885Z",
   "catalogs": {
     "movie": [
+      {
+        "id": "tt7693316",
+        "type": "movie",
+        "name": "Towarzysze broni",
+        "poster": "https://images.metahub.space/poster/small/tt7693316/img",
+        "posterShape": "poster",
+        "background": "https://images.metahub.space/background/medium/tt7693316/img",
+        "description": "A pair of U.S. Navy fighter pilots risk their lives during the Korean War.",
+        "releaseInfo": "2022",
+        "year": 2022,
+        "website": "https://www.filmweb.pl/film/Towarzysze+broni-10013996",
+        "filmwebId": "10013996",
+        "originalName": "Devotion",
+        "addedAt": 1773233097202,
+        "addedAtISO": "2026-03-11T12:44:57.202Z",
+        "genres": [
+          "Action",
+          "Biography",
+          "Drama"
+        ],
+        "imdbRating": "6.6",
+        "runtime": "139 min"
+      },
       {
         "id": "tt1527793",
         "type": "movie",
@@ -33,7 +56,7 @@
         "poster": "https://live.metahub.space/poster/small/tt32093575/img",
         "posterShape": "poster",
         "background": "https://live.metahub.space/background/medium/tt32093575/img",
-        "description": "The sixth installment in the franchise. Plot TBA.",
+        "description": "Twenty-six years after outrunning a suspiciously familiar masked killer, the Core Four are back in the killer's crosshairs and no horror movie IP is safe.",
         "releaseInfo": "2026",
         "year": 2026,
         "website": "https://www.filmweb.pl/film/Straszny+film-10084281",
@@ -65,7 +88,7 @@
           "Drama",
           "Comedy"
         ],
-        "imdbRating": "7.0",
+        "imdbRating": "7.2",
         "runtime": "110 min"
       },
       {
@@ -4645,8 +4668,8 @@
   },
   "stats": {
     "movie": {
-      "scraped": 171,
-      "matched": 171
+      "scraped": 172,
+      "matched": 172
     },
     "series": {
       "scraped": 36,
