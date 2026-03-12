@@ -1,6 +1,6 @@
 {
   "username": "7owca7",
-  "updatedAt": "2026-03-12T19:12:33.033Z",
+  "updatedAt": "2026-03-12T19:54:46.454Z",
   "catalogs": {
     "movie": [
       {
@@ -88,7 +88,7 @@
           "Drama",
           "Comedy"
         ],
-        "imdbRating": "7.0",
+        "imdbRating": "7.2",
         "runtime": "110 min"
       },
       {
@@ -3858,6 +3858,27 @@
     ],
     "series": [
       {
+        "id": "tt2575988",
+        "type": "series",
+        "name": "Dolina Krzemowa",
+        "poster": "https://images.metahub.space/poster/small/tt2575988/img",
+        "posterShape": "regular",
+        "background": "https://images.metahub.space/background/medium/tt2575988/img",
+        "description": "Follows the struggle of Richard Hendricks, a Silicon Valley engineer trying to build his own company called Pied Piper.",
+        "releaseInfo": "2014–2019",
+        "year": 2014,
+        "website": "https://www.filmweb.pl/serial/Dolina+Krzemowa-684792",
+        "filmwebId": "684792",
+        "originalName": "Silicon Valley",
+        "addedAt": 1773321554066,
+        "addedAtISO": "2026-03-12T13:19:14.066Z",
+        "genres": [
+          "Comedy"
+        ],
+        "imdbRating": "8.5",
+        "runtime": "29 min"
+      },
+      {
         "id": "tt2879552",
         "type": "series",
         "name": "22.11.63",
@@ -4672,8 +4693,8 @@
       "matched": 172
     },
     "series": {
-      "scraped": 36,
-      "matched": 35
+      "scraped": 37,
+      "matched": 36
     }
   }
 }
