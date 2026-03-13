@@ -1,6 +1,6 @@
 {
   "username": "7owca7",
-  "updatedAt": "2026-03-13T21:52:50.250Z",
+  "updatedAt": "2026-03-13T22:46:51.221Z",
   "catalogs": {
     "movie": [
       {
@@ -2536,17 +2536,24 @@
         "id": "tt11315808",
         "type": "movie",
         "name": "Joker: Folie à Deux",
-        "poster": "https://fwcdn.pl/fpo/45/39/10014539/8147208.10.webp",
+        "poster": "https://images.metahub.space/poster/small/tt11315808/img",
         "posterShape": "poster",
-        "background": "https://fwcdn.pl/fpo/45/39/10014539/8147208.10.webp",
-        "description": "2024 � Added 2024-06-12",
+        "background": "https://images.metahub.space/background/medium/tt11315808/img",
+        "description": "Struggling with his dual identity, failed comedian Arthur Fleck meets the love of his life, Harley Quinn, while incarcerated at Arkham State Hospital.",
         "releaseInfo": "2024",
         "year": 2024,
         "website": "https://www.filmweb.pl/film/Joker%3A+Folie+%C3%A0+Deux-10014539",
         "filmwebId": "10014539",
         "originalName": "Joker: Folie à Deux",
         "addedAt": 1718193206777,
-        "addedAtISO": "2024-06-12T11:53:26.777Z"
+        "addedAtISO": "2024-06-12T11:53:26.777Z",
+        "genres": [
+          "Drama",
+          "Musical",
+          "Thriller"
+        ],
+        "imdbRating": "5.2",
+        "runtime": "138 min"
       },
       {
         "id": "tt14138650",
