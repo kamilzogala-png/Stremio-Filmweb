@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "sync:watchlist": "node scripts/sync-watchlist.js"
+    "sync:watchlist": "node scripts/sync-watchlist.js",
+    "build:static": "node scripts/build-static.js"
   },
   "engines": {
     "node": ">=18"

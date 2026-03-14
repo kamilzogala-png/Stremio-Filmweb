@@ -15,6 +15,26 @@ This version is built for one Filmweb profile and syncs that profile automatical
 - `scripts/sync-watchlist.js` scrapes Filmweb and updates `data/watchlist.json`.
 - `.github/workflows/sync-watchlist.yml` runs the sync every 6 hours and on manual trigger.
 
+## Recommended hosting: GitHub Pages (no server)
+
+This repo can publish a fully static addon:
+
+- GitHub Actions syncs Filmweb data every hour
+- it builds static addon JSON into `static/`
+- it deploys `static/` to GitHub Pages
+
+Install URL (GitHub Pages):
+
+```text
+https://<GITHUB_USERNAME>.github.io/<REPO_NAME>/manifest.json
+```
+
+For your repo:
+
+```text
+https://kamilzogala-png.github.io/Stremio-Filmweb/manifest.json
+```
+
 ## Local run
 
 ```bash
@@ -38,7 +58,7 @@ http://127.0.0.1:7000/manifest.json
 6. Wait for it to finish.
 7. Check that `data/watchlist.json` now contains movies and series.
 
-After that, the workflow will run every 6 hours.
+After that, the workflow will run every hour.
 
 ## Hosting
 
