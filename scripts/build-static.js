@@ -3,6 +3,7 @@ const path = require('path');
 
 const DATA_PATH = path.join(__dirname, '..', 'data', 'watchlist.json');
 const OUT_DIR = path.join(__dirname, '..', 'static');
+const PAGE_SIZE = 100;
 
 function main() {
   const store = JSON.parse(fs.readFileSync(DATA_PATH, 'utf8'));
@@ -57,22 +58,26 @@ function buildManifest(username, updatedAt) {
       {
         type: 'movie',
         id: 'filmweb-watchlist-movie',
-        name: 'Filmweb Watchlist Movies'
+        name: 'Filmweb Watchlist Movies',
+        extra: [{ name: 'skip', isRequired: false }]
       },
       {
         type: 'series',
         id: 'filmweb-watchlist-series',
-        name: 'Filmweb Watchlist Series'
+        name: 'Filmweb Watchlist Series',
+        extra: [{ name: 'skip', isRequired: false }]
       },
       {
         type: 'movie',
         id: 'filmweb-premieres-movie',
-        name: 'Filmweb Premiere Watchlist Movies'
+        name: 'Filmweb Premiere Watchlist Movies',
+        extra: [{ name: 'skip', isRequired: false }]
       },
       {
         type: 'series',
         id: 'filmweb-premieres-series',
-        name: 'Filmweb Premiere Watchlist Series'
+        name: 'Filmweb Premiere Watchlist Series',
+        extra: [{ name: 'skip', isRequired: false }]
       }
     ],
     behaviorHints: {
@@ -84,8 +89,17 @@ function buildManifest(username, updatedAt) {
 
 function writeCatalog(type, id, items) {
   const safeItems = items.map(toStremioMeta).filter(Boolean);
-  const outPath = path.join(OUT_DIR, 'catalog', type, `${id}.json`);
-  writeJson(outPath, { metas: safeItems });
+
+  // Base (skip=0)
+  writeJson(path.join(OUT_DIR, 'catalog', type, `${id}.json`), {
+    metas: safeItems.slice(0, PAGE_SIZE)
+  });
+
+  // Additional pages: /catalog/:type/:id/skip=100.json
+  for (let skip = PAGE_SIZE; skip < safeItems.length; skip += PAGE_SIZE) {
+    const page = safeItems.slice(skip, skip + PAGE_SIZE);
+    writeJson(path.join(OUT_DIR, 'catalog', type, id, `skip=${skip}.json`), { metas: page });
+  }
 }
 
 function toStremioMeta(item) {
