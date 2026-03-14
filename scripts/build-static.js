@@ -44,14 +44,10 @@ function main() {
 }
 
 function buildManifest(username, updatedAt) {
-  // Stremio expects semver-like version. ISO timestamps contain ":" which breaks parsing.
-  const buildId = String(updatedAt || '')
-    .replace(/[^0-9]/g, '')
-    .slice(0, 14); // YYYYMMDDHHMMSS
-
   return {
     id: 'com.fgame.filmweb.watchlist.static',
-    version: buildId ? `0.5.0+${buildId}` : '0.5.0',
+    // Keep it strict semver without build metadata to avoid client parser issues/caching quirks.
+    version: '0.5.1',
     name: 'Filmweb Watchlist (Static)',
     description: `Static catalogs synced from Filmweb for ${username}. Last sync: ${updatedAt}`,
     resources: ['catalog'],
