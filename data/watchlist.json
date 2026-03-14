@@ -1,6 +1,6 @@
 {
   "username": "7owca7",
-  "updatedAt": "2026-03-14T10:49:01.693Z",
+  "updatedAt": "2026-03-14T11:36:53.243Z",
   "catalogs": {
     "movie": [
       {
@@ -56,7 +56,7 @@
         "poster": "https://live.metahub.space/poster/small/tt32093575/img",
         "posterShape": "poster",
         "background": "https://live.metahub.space/background/medium/tt32093575/img",
-        "description": "The sixth installment in the franchise. Plot TBA.",
+        "description": "Twenty-six years after outrunning a suspiciously familiar masked killer, the Core Four are back in the killer's crosshairs and no horror movie IP is safe.",
         "releaseInfo": "2026",
         "year": 2026,
         "website": "https://www.filmweb.pl/film/Straszny+film-10084281",
@@ -88,7 +88,7 @@
           "Drama",
           "Comedy"
         ],
-        "imdbRating": "7.1",
+        "imdbRating": "6.9",
         "runtime": "110 min"
       },
       {
