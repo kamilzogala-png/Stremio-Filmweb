@@ -3,7 +3,7 @@ const path = require('path');
 
 const DATA_PATH = path.join(__dirname, '..', 'data', 'watchlist.json');
 const OUT_DIR = path.join(__dirname, '..', 'static');
-const PAGE_SIZE = 100;
+const PAGE_SIZE = 500;
 
 function main() {
   const store = JSON.parse(fs.readFileSync(DATA_PATH, 'utf8'));
